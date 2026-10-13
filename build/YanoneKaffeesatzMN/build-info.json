@@ -1,0 +1,539 @@
+{
+ "family": "Yanone Kaffeesatz MN",
+ "fonts": [
+  {
+   "file": "YanoneKaffeesatzMN[wght].ttf",
+   "source": "sources/yanonekaffeesatz/YanoneKaffeesatz[wght].ttf",
+   "variable": true,
+   "slant": 0.0,
+   "masters": [
+    {},
+    {
+     "wght": 1.0
+    }
+   ],
+   "added": "Ө ө Ү ү",
+   "glyphs": {
+    "uni04E8": {
+     "kind": "simple",
+     "metrics_base": "uni041E",
+     "components": [],
+     "tracks": [
+      "uni041E",
+      [
+       [
+        4,
+        0
+       ],
+       [
+        5,
+        1
+       ],
+       [
+        6,
+        2
+       ],
+       [
+        7,
+        3
+       ],
+       [
+        8,
+        4
+       ],
+       [
+        9,
+        5
+       ],
+       [
+        10,
+        6
+       ],
+       [
+        11,
+        7
+       ],
+       [
+        12,
+        8
+       ],
+       [
+        13,
+        9
+       ],
+       [
+        14,
+        10
+       ],
+       [
+        15,
+        11
+       ],
+       [
+        16,
+        12
+       ],
+       [
+        17,
+        13
+       ],
+       [
+        18,
+        14
+       ],
+       [
+        19,
+        15
+       ],
+       [
+        20,
+        16
+       ],
+       [
+        21,
+        17
+       ],
+       [
+        22,
+        18
+       ],
+       [
+        23,
+        19
+       ],
+       [
+        24,
+        20
+       ],
+       [
+        25,
+        21
+       ],
+       [
+        26,
+        22
+       ],
+       [
+        27,
+        23
+       ],
+       [
+        28,
+        24
+       ],
+       [
+        29,
+        25
+       ],
+       [
+        30,
+        26
+       ],
+       [
+        31,
+        27
+       ],
+       [
+        32,
+        28
+       ],
+       [
+        33,
+        29
+       ],
+       [
+        34,
+        30
+       ],
+       [
+        35,
+        31
+       ],
+       [
+        36,
+        32
+       ],
+       [
+        37,
+        33
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "bar_thickness": 24.0,
+       "bar_center": 350.0,
+       "bar_x": [
+        60,
+        406
+       ]
+      },
+      "wght=+1": {
+       "bar_thickness": 105.0,
+       "bar_center": 350.0,
+       "bar_x": [
+        84,
+        327
+       ]
+      }
+     }
+    },
+    "uni04E9": {
+     "kind": "simple",
+     "metrics_base": "uni043E",
+     "components": [],
+     "tracks": [
+      "uni043E",
+      [
+       [
+        4,
+        0
+       ],
+       [
+        5,
+        1
+       ],
+       [
+        6,
+        2
+       ],
+       [
+        7,
+        3
+       ],
+       [
+        8,
+        4
+       ],
+       [
+        9,
+        5
+       ],
+       [
+        10,
+        6
+       ],
+       [
+        11,
+        7
+       ],
+       [
+        12,
+        8
+       ],
+       [
+        13,
+        9
+       ],
+       [
+        14,
+        10
+       ],
+       [
+        15,
+        11
+       ],
+       [
+        16,
+        12
+       ],
+       [
+        17,
+        13
+       ],
+       [
+        18,
+        14
+       ],
+       [
+        19,
+        15
+       ],
+       [
+        20,
+        16
+       ],
+       [
+        21,
+        17
+       ],
+       [
+        22,
+        18
+       ],
+       [
+        23,
+        19
+       ],
+       [
+        24,
+        20
+       ],
+       [
+        25,
+        21
+       ],
+       [
+        26,
+        22
+       ],
+       [
+        27,
+        23
+       ],
+       [
+        28,
+        24
+       ],
+       [
+        29,
+        25
+       ],
+       [
+        30,
+        26
+       ],
+       [
+        31,
+        27
+       ],
+       [
+        32,
+        28
+       ],
+       [
+        33,
+        29
+       ],
+       [
+        34,
+        30
+       ],
+       [
+        35,
+        31
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "bar_thickness": 24.0,
+       "bar_center": 250.0,
+       "bar_x": [
+        52,
+        349
+       ]
+      },
+      "wght=+1": {
+       "bar_thickness": 95.0,
+       "bar_center": 250.0,
+       "bar_x": [
+        82,
+        280
+       ]
+      }
+     }
+    },
+    "uni04AE": {
+     "kind": "composite",
+     "metrics_base": "Y",
+     "components": [
+      "Y"
+     ],
+     "tracks": null,
+     "measurements": {}
+    },
+    "uni04AF": {
+     "kind": "simple",
+     "metrics_base": "v",
+     "components": [],
+     "tracks": [
+      "v",
+      [
+       [
+        11,
+        4
+       ],
+       [
+        12,
+        5
+       ],
+       [
+        13,
+        6
+       ],
+       [
+        14,
+        7
+       ],
+       [
+        15,
+        8
+       ],
+       [
+        16,
+        9
+       ],
+       [
+        17,
+        10
+       ],
+       [
+        18,
+        11
+       ],
+       [
+        19,
+        12
+       ],
+       [
+        20,
+        13
+       ],
+       [
+        21,
+        14
+       ],
+       [
+        22,
+        15
+       ],
+       [
+        23,
+        16
+       ],
+       [
+        24,
+        17
+       ],
+       [
+        25,
+        18
+       ],
+       [
+        26,
+        19
+       ],
+       [
+        27,
+        20
+       ],
+       [
+        28,
+        21
+       ],
+       [
+        29,
+        22
+       ],
+       [
+        30,
+        23
+       ],
+       [
+        31,
+        24
+       ],
+       [
+        32,
+        25
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "mode": "edges",
+       "stem": 24.0,
+       "p_stem": 24.0,
+       "widened": false,
+       "stem_x": [
+        176,
+        200
+       ],
+       "join_y": 10.9,
+       "descender": -197.0,
+       "split_y": -78.8
+      },
+      "wght=+1": {
+       "mode": "edges",
+       "stem": 112.0,
+       "p_stem": 112.0,
+       "widened": false,
+       "stem_x": [
+        108,
+        220
+       ],
+       "join_y": -17.3,
+       "descender": -197.0,
+       "split_y": -78.8
+      }
+     }
+    }
+   },
+   "alts": {},
+   "kern": {
+    "uni04E8": {
+     "mode": "clone",
+     "base": "uni041E",
+     "lookalike": null
+    },
+    "uni04E9": {
+     "mode": "clone",
+     "base": "uni043E",
+     "lookalike": null
+    },
+    "uni04AE": {
+     "mode": "lookalike",
+     "base": "uni0423",
+     "lookalike": {
+      "latin_twin": "Y",
+      "mode": "auto",
+      "map": {
+       "А": "A",
+       "О": "O",
+       "Ө": "O",
+       "С": "C",
+       "а": "a",
+       "е": "e",
+       "о": "o",
+       "ө": "o",
+       "с": "c",
+       "р": "p",
+       "х": "x",
+       "ү": "v",
+       "н": "n",
+       "г": "r",
+       "й": "u",
+       "и": "u",
+       "«": "«",
+       "»": "»",
+       "-": "-",
+       ".": ".",
+       ",": ","
+      }
+     }
+    },
+    "uni04AF": {
+     "mode": "clone",
+     "base": "uni0443",
+     "lookalike": null
+    }
+   },
+   "kern_like": {},
+   "anchors": {
+    "uni04E8": "uni041E",
+    "uni04E9": "uni043E",
+    "uni04AE": "Y",
+    "uni04AF": "v"
+   },
+   "statics": [
+    "YanoneKaffeesatzMN-ExtraLight.ttf",
+    "YanoneKaffeesatzMN-Light.ttf",
+    "YanoneKaffeesatzMN-Regular.ttf",
+    "YanoneKaffeesatzMN-Medium.ttf",
+    "YanoneKaffeesatzMN-SemiBold.ttf",
+    "YanoneKaffeesatzMN-Bold.ttf"
+   ]
+  }
+ ]
+}

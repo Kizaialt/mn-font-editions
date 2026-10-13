@@ -1,0 +1,605 @@
+{
+ "family": "Wix Madefor Text MN",
+ "fonts": [
+  {
+   "file": "WixMadeforTextMN[wght].ttf",
+   "source": "sources/wixmadefortext/WixMadeforText[wght].ttf",
+   "variable": true,
+   "slant": 0.0,
+   "masters": [
+    {},
+    {
+     "wght": 1.0
+    }
+   ],
+   "added": "Ө ө Ү ү ₮",
+   "glyphs": {
+    "uni04E8": {
+     "kind": "simple",
+     "metrics_base": "uni041E",
+     "components": [],
+     "tracks": [
+      "uni041E",
+      [
+       [
+        4,
+        0
+       ],
+       [
+        5,
+        1
+       ],
+       [
+        6,
+        2
+       ],
+       [
+        7,
+        3
+       ],
+       [
+        8,
+        4
+       ],
+       [
+        9,
+        5
+       ],
+       [
+        10,
+        6
+       ],
+       [
+        11,
+        7
+       ],
+       [
+        12,
+        8
+       ],
+       [
+        13,
+        9
+       ],
+       [
+        14,
+        10
+       ],
+       [
+        15,
+        11
+       ],
+       [
+        16,
+        12
+       ],
+       [
+        17,
+        13
+       ],
+       [
+        18,
+        14
+       ],
+       [
+        19,
+        15
+       ],
+       [
+        20,
+        16
+       ],
+       [
+        21,
+        17
+       ],
+       [
+        22,
+        18
+       ],
+       [
+        23,
+        19
+       ],
+       [
+        24,
+        20
+       ],
+       [
+        25,
+        21
+       ],
+       [
+        26,
+        22
+       ],
+       [
+        27,
+        23
+       ],
+       [
+        28,
+        24
+       ],
+       [
+        29,
+        25
+       ],
+       [
+        30,
+        26
+       ],
+       [
+        31,
+        27
+       ],
+       [
+        32,
+        28
+       ],
+       [
+        33,
+        29
+       ],
+       [
+        34,
+        30
+       ],
+       [
+        35,
+        31
+       ],
+       [
+        36,
+        32
+       ],
+       [
+        37,
+        33
+       ],
+       [
+        38,
+        34
+       ],
+       [
+        39,
+        35
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "bar_thickness": 71.0,
+       "bar_center": 357.5,
+       "bar_x": [
+        107,
+        722
+       ]
+      },
+      "wght=+1": {
+       "bar_thickness": 142.0,
+       "bar_center": 357.5,
+       "bar_x": [
+        138,
+        689
+       ]
+      }
+     }
+    },
+    "uni04E9": {
+     "kind": "simple",
+     "metrics_base": "uni043E",
+     "components": [],
+     "tracks": [
+      "uni043E",
+      [
+       [
+        4,
+        0
+       ],
+       [
+        5,
+        1
+       ],
+       [
+        6,
+        2
+       ],
+       [
+        7,
+        3
+       ],
+       [
+        8,
+        4
+       ],
+       [
+        9,
+        5
+       ],
+       [
+        10,
+        6
+       ],
+       [
+        11,
+        7
+       ],
+       [
+        12,
+        8
+       ],
+       [
+        13,
+        9
+       ],
+       [
+        14,
+        10
+       ],
+       [
+        15,
+        11
+       ],
+       [
+        16,
+        12
+       ],
+       [
+        17,
+        13
+       ],
+       [
+        18,
+        14
+       ],
+       [
+        19,
+        15
+       ],
+       [
+        20,
+        16
+       ],
+       [
+        21,
+        17
+       ],
+       [
+        22,
+        18
+       ],
+       [
+        23,
+        19
+       ],
+       [
+        24,
+        20
+       ],
+       [
+        25,
+        21
+       ],
+       [
+        26,
+        22
+       ],
+       [
+        27,
+        23
+       ],
+       [
+        28,
+        24
+       ],
+       [
+        29,
+        25
+       ],
+       [
+        30,
+        26
+       ],
+       [
+        31,
+        27
+       ],
+       [
+        32,
+        28
+       ],
+       [
+        33,
+        29
+       ],
+       [
+        34,
+        30
+       ],
+       [
+        35,
+        31
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "bar_thickness": 65.0,
+       "bar_center": 246.0,
+       "bar_x": [
+        95,
+        506
+       ]
+      },
+      "wght=+1": {
+       "bar_thickness": 122.7,
+       "bar_center": 255.0,
+       "bar_x": [
+        127,
+        500
+       ]
+      }
+     }
+    },
+    "uni04AE": {
+     "kind": "composite",
+     "metrics_base": "Y",
+     "components": [
+      "Y"
+     ],
+     "tracks": null,
+     "measurements": {}
+    },
+    "uni04AF": {
+     "kind": "simple",
+     "metrics_base": "v",
+     "components": [],
+     "tracks": [
+      "v",
+      [
+       [
+        6,
+        2
+       ],
+       [
+        7,
+        3
+       ],
+       [
+        8,
+        4
+       ],
+       [
+        9,
+        5
+       ],
+       [
+        10,
+        6
+       ],
+       [
+        11,
+        7
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "mode": "edges",
+       "stem": 77.0,
+       "p_stem": 77.0,
+       "widened": false,
+       "stem_x": [
+        230,
+        308
+       ],
+       "join_y": 1.2,
+       "descender": -194.0,
+       "split_y": -77.6
+      },
+      "wght=+1": {
+       "mode": "edges",
+       "stem": 163.0,
+       "p_stem": 163.0,
+       "widened": false,
+       "stem_x": [
+        220,
+        383
+       ],
+       "join_y": 7.5,
+       "descender": -194.0,
+       "split_y": -77.6
+      }
+     }
+    },
+    "uni20AE": {
+     "kind": "simple",
+     "metrics_base": "T",
+     "components": [],
+     "tracks": [
+      "T",
+      [
+       [
+        0,
+        0
+       ],
+       [
+        1,
+        1
+       ],
+       [
+        2,
+        2
+       ],
+       [
+        3,
+        3
+       ],
+       [
+        4,
+        4
+       ],
+       [
+        5,
+        5
+       ],
+       [
+        6,
+        6
+       ],
+       [
+        7,
+        7
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "mode": "solver",
+       "T_stem": [
+        260,
+        340
+       ],
+       "T_crossbar": [
+        644,
+        715
+       ],
+       "stroke_thickness": 71.0,
+       "thickness_ratio": 1.0,
+       "stroke_vertical": 75.6,
+       "rise": 118.2,
+       "angle": 20,
+       "stroke_x": [
+        138,
+        462
+       ],
+       "protrusion": 122.4,
+       "lower_centre_y": 190.6,
+       "upper_centre_y": 416.0,
+       "gaps": [
+        93.7,
+        149.9,
+        131.1
+       ]
+      },
+      "wght=+1": {
+       "mode": "heavy rule",
+       "T_stem": [
+        230,
+        395
+       ],
+       "T_crossbar": [
+        572,
+        715
+       ],
+       "stroke_thickness": 111.5,
+       "thickness_ratio": 0.78,
+       "stroke_vertical": 118.7,
+       "rise": 128.0,
+       "angle": 20,
+       "stroke_x": [
+        137,
+        488
+       ],
+       "protrusion": 93.3,
+       "lower_centre_y": 166.4,
+       "upper_centre_y": 368.8,
+       "gaps": [
+        43.1,
+        83.7,
+        79.9
+       ],
+       "family_gaps": {
+        "yen": 44.0,
+        "e": 92.2
+       },
+       "min_internal_gap": 52.8
+      }
+     }
+    }
+   },
+   "alts": {},
+   "kern": {
+    "uni04E8": {
+     "mode": "clone",
+     "base": "uni041E",
+     "lookalike": null
+    },
+    "uni04E9": {
+     "mode": "clone",
+     "base": "uni043E",
+     "lookalike": null
+    },
+    "uni04AE": {
+     "mode": "lookalike",
+     "base": "uni0423",
+     "lookalike": {
+      "latin_twin": "Y",
+      "mode": "auto",
+      "map": {
+       "А": "A",
+       "О": "O",
+       "Ө": "O",
+       "С": "C",
+       "а": "a",
+       "е": "e",
+       "о": "o",
+       "ө": "o",
+       "с": "c",
+       "р": "p",
+       "х": "x",
+       "ү": "v",
+       "н": "n",
+       "г": "r",
+       "й": "u",
+       "и": "u",
+       "«": "«",
+       "»": "»",
+       "-": "-",
+       ".": ".",
+       ",": ","
+      }
+     }
+    },
+    "uni04AF": {
+     "mode": "clone",
+     "base": "uni0443",
+     "lookalike": null
+    }
+   },
+   "kern_like": {
+    "uni20AE": {
+     "glyph": "T",
+     "capped": {
+      "four": [
+       [
+        {},
+        -40
+       ],
+       [
+        {
+         "wght": 1.0
+        },
+        -50
+       ]
+      ]
+     }
+    }
+   },
+   "anchors": {
+    "uni04E8": "uni041E",
+    "uni04E9": "uni043E",
+    "uni04AE": "Y",
+    "uni04AF": "v"
+   },
+   "statics": [
+    "WixMadeforTextMN-Regular.ttf",
+    "WixMadeforTextMN-Medium.ttf",
+    "WixMadeforTextMN-SemiBold.ttf",
+    "WixMadeforTextMN-Bold.ttf",
+    "WixMadeforTextMN-ExtraBold.ttf"
+   ]
+  }
+ ]
+}

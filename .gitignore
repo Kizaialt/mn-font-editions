@@ -1,0 +1,12 @@
+sources/
+logs-*.txt
+RESUME.md
+__pycache__/
+*.pyc
+release/
+proofs/*
+!proofs/batch1-contact-1.png
+!proofs/batch1-contact-2.png
+!proofs/batch2-contact.png
+!proofs/unbounded-v2-pairs.png
+!proofs/unbounded-v2-words.png

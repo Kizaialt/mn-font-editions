@@ -1,0 +1,64 @@
+source: sources/martianmono/MartianMono[wdth,wght].ttf (v1.000, 567 glyphs, variable)
+masters (normalized): default, wght=-1, wght=+1, wdth=-1, wght=-1,wdth=-1, wght=+1,wdth=-1
+uni04E8 (U+04E8): 'uni041E' + bar from uni041D crossbar: thickness 108.0, centre y=400.0, x 118..632 (default)
+    uni04E8 @ default: {'bar_thickness': 108.0, 'bar_center': 400.0, 'bar_x': (118, 632)}
+    uni04E8 @ {'wght': -1.0}: {'bar_thickness': 38.0, 'bar_center': 400.0, 'bar_x': (111, 639)}
+    uni04E8 @ {'wght': 1.0}: {'bar_thickness': 180.0, 'bar_center': 400.0, 'bar_x': (127, 623)}
+    uni04E8 @ {'wdth': -1.0}: {'bar_thickness': 106.0, 'bar_center': 400.0, 'bar_x': (113, 487)}
+    uni04E8 @ {'wdth': -1.0, 'wght': -1.0}: {'bar_thickness': 38.0, 'bar_center': 400.0, 'bar_x': (111, 489)}
+    uni04E8 @ {'wdth': -1.0, 'wght': 1.0}: {'bar_thickness': 176.0, 'bar_center': 400.0, 'bar_x': (116, 484)}
+uni04E9 (U+04E9): 'uni043E' + bar from uni043D crossbar: thickness 104.0, centre y=300.0, x 136..614 (default)
+    uni04E9 @ default: {'bar_thickness': 104.0, 'bar_center': 300.0, 'bar_x': (136, 614)}
+    uni04E9 @ {'wght': -1.0}: {'bar_thickness': 36.0, 'bar_center': 294.0, 'bar_x': (131, 619)}
+    uni04E9 @ {'wght': 1.0}: {'bar_thickness': 154.5, 'bar_center': 310.0, 'bar_x': (140, 610)}
+    uni04E9 @ {'wdth': -1.0}: {'bar_thickness': 102.0, 'bar_center': 300.0, 'bar_x': (129, 471)}
+    uni04E9 @ {'wdth': -1.0, 'wght': -1.0}: {'bar_thickness': 34.0, 'bar_center': 294.0, 'bar_x': (124, 476)}
+    uni04E9 @ {'wdth': -1.0, 'wght': 1.0}: {'bar_thickness': 154.0, 'bar_center': 310.0, 'bar_x': (131, 469)}
+uni04AE (U+04AE): composite of 'Y' (offset 0,0)
+uni04AF (U+04AF): 'v' outline with a straight stem and 'uni0440''s terminal: stem width 133.3 ('uni0440' 110.0, deslanted), down to y=-200.0; outer arm edges extended to meet a stem of 'uni0440''s width at y=-50.0; stem widened where the join would sit deeper than 0.25 x descender
+    uni04AF @ default: {'mode': 'edges', 'stem': 133.3, 'p_stem': 110.0, 'widened': True, 'stem_x': (308, 442), 'join_y': -50.0, 'descender': -200.0, 'split_y': -80.0}
+    uni04AF @ {'wght': -1.0}: {'mode': 'edges', 'stem': 40.0, 'p_stem': 40.0, 'widened': False, 'stem_x': (355, 395), 'join_y': -34.2, 'descender': -200.0, 'split_y': -80.0}
+    uni04AF @ {'wght': 1.0}: {'mode': 'edges', 'stem': 272.3, 'p_stem': 180.0, 'widened': True, 'stem_x': (239, 511), 'join_y': -50.0, 'descender': -200.0, 'split_y': -80.0}
+    uni04AF @ {'wdth': -1.0}: {'mode': 'edges', 'stem': 139.8, 'p_stem': 110.0, 'widened': True, 'stem_x': (230, 370), 'join_y': -50.0, 'descender': -200.0, 'split_y': -80.0}
+    uni04AF @ {'wdth': -1.0, 'wght': -1.0}: {'mode': 'edges', 'stem': 40.0, 'p_stem': 40.0, 'widened': False, 'stem_x': (280, 320), 'join_y': -34.6, 'descender': -200.0, 'split_y': -80.0}
+    uni04AF @ {'wdth': -1.0, 'wght': 1.0}: {'mode': 'edges', 'stem': 263.4, 'p_stem': 180.0, 'widened': True, 'stem_x': (168, 432), 'join_y': -50.0, 'descender': -200.0, 'split_y': -80.0}
+uni20AE (U+20AE): 'T' outline + two parallel strokes (vertical end cuts) centred on the stem: perpendicular thickness 84.2 (= 0.78 x crossbar 108), angle 20 deg, x 180..570 (62% of the crossbar), centre lines cross the stem axis at y=208.5 and y=446.4; white gaps baseline/between/crossbar = (92.6, 148.2, 129.7) (default)
+uni20AE (U+20AE): heaviest master (wght=+1, heavy rule): thickness 137.0 (0.761 x crossbar), 20 deg, x 166..584 (protrudes 114.9 past the stem), gaps (32.4, 72.0, 72.0); family internal gaps {'yen': 60.0, 'e': 110.0} -> rule minimum 72.0
+    uni20AE @ default: {'mode': 'solver', 'T_stem': (318, 432), 'T_crossbar': (692, 800), 'stroke_thickness': 84.2, 'thickness_ratio': 0.78, 'stroke_vertical': 89.6, 'rise': 142.2, 'angle': 20, 'stroke_x': (180, 570), 'protrusion': 138.3, 'lower_centre_y': 208.5, 'upper_centre_y': 446.4, 'gaps': (92.6, 148.2, 129.7)}
+    uni20AE @ {'wght': -1.0}: {'mode': 'solver', 'T_stem': (354, 396), 'T_crossbar': (762, 800), 'stroke_thickness': 38.0, 'thickness_ratio': 1.0, 'stroke_vertical': 40.4, 'rise': 128.6, 'angle': 20, 'stroke_x': (198, 552), 'protrusion': 155.7, 'lower_centre_y': 222.7, 'upper_centre_y': 484.1, 'gaps': (138.1, 221.0, 193.4)}
+    uni20AE @ {'wght': 1.0}: {'mode': 'heavy rule', 'T_stem': (281, 469), 'T_crossbar': (620, 800), 'stroke_thickness': 137.0, 'thickness_ratio': 0.761, 'stroke_vertical': 145.8, 'rise': 152.1, 'angle': 20, 'stroke_x': (166, 584), 'protrusion': 114.9, 'lower_centre_y': 181.3, 'upper_centre_y': 399.1, 'gaps': (32.4, 72.0, 72.0), 'family_gaps': {'yen': 60.0, 'e': 110.0}, 'min_internal_gap': 72.0}
+    uni20AE @ {'wdth': -1.0}: {'mode': 'solver', 'T_stem': (243, 357), 'T_crossbar': (694, 800), 'stroke_thickness': 82.7, 'thickness_ratio': 0.78, 'stroke_vertical': 88.0, 'rise': 112.8, 'angle': 20, 'stroke_x': (145, 455), 'protrusion': 98.0, 'lower_centre_y': 201.7, 'upper_centre_y': 451.8, 'gaps': (101.3, 162.1, 141.8)}
+    uni20AE @ {'wdth': -1.0, 'wght': -1.0}: {'mode': 'solver', 'T_stem': (279, 321), 'T_crossbar': (762, 800), 'stroke_thickness': 38.0, 'thickness_ratio': 1.0, 'stroke_vertical': 40.4, 'rise': 94.8, 'angle': 20, 'stroke_x': (170, 430), 'protrusion': 109.2, 'lower_centre_y': 214.2, 'upper_centre_y': 489.2, 'gaps': (146.6, 234.5, 205.2)}
+    uni20AE @ {'wdth': -1.0, 'wght': 1.0}: {'mode': 'solver', 'T_stem': (206, 394), 'T_crossbar': (624, 800), 'stroke_thickness': 137.3, 'thickness_ratio': 0.78, 'stroke_vertical': 146.1, 'rise': 125.5, 'angle': 20, 'stroke_x': (128, 472), 'protrusion': 78.4, 'lower_centre_y': 187.4, 'upper_centre_y': 416.0, 'gaps': (51.6, 82.5, 72.2)}
+kern: uni04AE: Latin/Cyrillic kerning shared = False (0/0 look-alike pairs kern alike ()); mode auto
+kern: uni04E8 as 1st glyph cloned from uni041E (0 pair records/class rows)
+kern: uni04E9 as 1st glyph cloned from uni043E (0 pair records/class rows)
+kern: uni04AE as 1st glyph cloned from uni0423 (0 pair records/class rows)
+kern: uni04AF as 1st glyph cloned from uni0443 (0 pair records/class rows)
+kern: uni04E8 as 2nd glyph cloned from uni041E (0 pair records/classes)
+kern: uni04E9 as 2nd glyph cloned from uni043E (0 pair records/classes)
+kern: uni04AE as 2nd glyph cloned from uni0423 (0 pair records/classes)
+kern: uni04AF as 2nd glyph cloned from uni0443 (0 pair records/classes)
+mark: uni04E8 base anchors cloned from uni041E (1 subtables)
+mark: uni04E9 base anchors cloned from uni043E (1 subtables)
+mark: uni04AE base anchors cloned from Y (1 subtables)
+mark: uni04AF base anchors cloned from v (0 subtables)
+GSUB context: uni04E8 added beside uni041E in lookups ['24:Back', '24:Look', '2:Back']
+GSUB context: uni04AE added beside uni0423 in lookups ['24:Back', '24:Look', '2:Back']
+name 0: 'Copyright 2020 The Martian Mono Project Authors (https://github.com/evilmartians/mono)' -> 'Copyright 2020 The Martian Mono Project Authors (https://github.com/evilmartians/mono). Mongolian additions (Ө ө Ү ү ₮) 2026, Font Shuugch project.'
+name 1: 'Martian Mono SemiExpanded' -> 'Martian Mono MN SemiExpanded'
+name 3: '1.000;NONE;MartianMono-SemiExpandedRegular' -> '1.000;MN0.1;NONE;MartianMonoMN-SemiExpandedRegular'
+name 4: 'Martian Mono SemiExpanded Regular' -> 'Martian Mono MN SemiExpanded Regular'
+name 5: 'Version 1.000' -> 'Version 1.000;MN 0.1'
+name 6: 'MartianMono-SemiExpandedRegular' -> 'MartianMonoMN-SemiExpandedRegular'
+name 16: 'Martian Mono' -> 'Martian Mono MN'
+name 25: 'MartianMono' -> 'MartianMonoMN'
+saved build\MartianMonoMN\MartianMonoMN[wdth,wght].ttf
+static Thin {'wght': 100.0, 'wdth': 100.0} -> build\MartianMonoMN\static\MartianMonoMN-Thin.ttf (names: 'Martian Mono MN Thin' / 'Regular' / 'Martian Mono MN Thin'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static ExtraLight {'wght': 200.0, 'wdth': 100.0} -> build\MartianMonoMN\static\MartianMonoMN-ExtraLight.ttf (names: 'Martian Mono MN ExtraLight' / 'Regular' / 'Martian Mono MN ExtraLight'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static Light {'wght': 300.0, 'wdth': 100.0} -> build\MartianMonoMN\static\MartianMonoMN-Light.ttf (names: 'Martian Mono MN Light' / 'Regular' / 'Martian Mono MN Light'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static Regular {'wght': 400.0, 'wdth': 100.0} -> build\MartianMonoMN\static\MartianMonoMN-Regular.ttf (names: 'Martian Mono MN' / 'Regular' / 'Martian Mono MN Regular'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static Medium {'wght': 500.0, 'wdth': 100.0} -> build\MartianMonoMN\static\MartianMonoMN-Medium.ttf (names: 'Martian Mono MN Medium' / 'Regular' / 'Martian Mono MN Medium'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static SemiBold {'wght': 600.0, 'wdth': 100.0} -> build\MartianMonoMN\static\MartianMonoMN-SemiBold.ttf (names: 'Martian Mono MN SemiBold' / 'Regular' / 'Martian Mono MN SemiBold'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static Bold {'wght': 700.0, 'wdth': 100.0} -> build\MartianMonoMN\static\MartianMonoMN-Bold.ttf (names: 'Martian Mono MN' / 'Bold' / 'Martian Mono MN Bold'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static ExtraBold {'wght': 800.0, 'wdth': 100.0} -> build\MartianMonoMN\static\MartianMonoMN-ExtraBold.ttf (names: 'Martian Mono MN ExtraBold' / 'Regular' / 'Martian Mono MN ExtraBold'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])

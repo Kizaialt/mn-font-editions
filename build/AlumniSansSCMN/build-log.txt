@@ -1,0 +1,101 @@
+source: sources/alumnisanssc/AlumniSansSC[wght].ttf (v1.018, 1000 glyphs, variable)
+masters (normalized): default, wght=+1
+uni04E8 (U+04E8): 'uni041E' + bar from uni041D crossbar: thickness 20.0, centre y=293.5, x 78..330 (default)
+    uni04E8 @ default: {'bar_thickness': 20.0, 'bar_center': 293.5, 'bar_x': (78, 330)}
+    uni04E8 @ {'wght': 1.0}: {'bar_thickness': 117.0, 'bar_center': 294.0, 'bar_x': (98, 298)}
+uni04E9 (U+04E9): 'uni043E' + bar from uni043D crossbar: thickness 20.0, centre y=248.0, x 61..279 (default)
+    uni04E9 @ default: {'bar_thickness': 20.0, 'bar_center': 248.0, 'bar_x': (61, 279)}
+    uni04E9 @ {'wght': 1.0}: {'bar_thickness': 117.0, 'bar_center': 248.0, 'bar_x': (98, 288)}
+uni04AE (U+04AE): composite of 'Y' (offset 0,0)
+uni04AF (U+04AF): 'v' outline with a straight stem and 'uni0440''s terminal: stem width 23.0 ('uni0440' 23.0, deslanted), down to y=-116.0; outer arm edges extended to meet a stem of 'uni0440''s width at y=-8.3; stem widened where the join would sit deeper than 0.25 x descender
+    uni04AF @ default: {'mode': 'edges', 'stem': 23.0, 'p_stem': 23.0, 'widened': False, 'stem_x': (143, 166), 'join_y': -8.3, 'descender': -116.0, 'split_y': -46.4}
+    uni04AF @ {'wght': 1.0}: {'mode': 'edges', 'stem': 175.5, 'p_stem': 156.0, 'widened': True, 'stem_x': (110, 285), 'join_y': -29.0, 'descender': -116.0, 'split_y': -46.4}
+uni20AE (U+20AE): 'T' outline + two parallel strokes (vertical end cuts) centred on the stem: perpendicular thickness 19.0 (= 1.00 x crossbar 19), angle 20 deg, x 56..202 (62% of the crossbar), centre lines cross the stem axis at y=156.4 and y=367.8; white gaps baseline/between/crossbar = (119.5, 191.2, 167.3) (default)
+uni20AE (U+20AE): heaviest master (wght=+1, heavy rule): thickness 86.6 (0.78 x crossbar), 20 deg, x 13..332 (protrudes 80.1 past the stem), gaps (39.4, 72.5, 67.6); family internal gaps {'Euro': 28.0, 'e': 113.0} -> rule minimum 33.6
+    uni20AE @ default: {'mode': 'solver', 'T_stem': (117, 141), 'T_crossbar': (572, 591), 'stroke_thickness': 19.0, 'thickness_ratio': 1.0, 'stroke_vertical': 20.2, 'rise': 53.5, 'angle': 20, 'stroke_x': (56, 202), 'protrusion': 61.5, 'lower_centre_y': 156.4, 'upper_centre_y': 367.8, 'gaps': (119.5, 191.2, 167.3)}
+    uni20AE @ {'wght': 1.0}: {'mode': 'heavy rule', 'T_stem': (93, 252), 'T_crossbar': (480, 591), 'stroke_thickness': 86.6, 'thickness_ratio': 0.78, 'stroke_vertical': 92.1, 'rise': 116.2, 'angle': 20, 'stroke_x': (13, 332), 'protrusion': 80.1, 'lower_centre_y': 143.6, 'upper_centre_y': 308.2, 'gaps': (39.4, 72.5, 67.6), 'family_gaps': {'Euro': 28.0, 'e': 113.0}, 'min_internal_gap': 33.6}
+kern: uni04AE: Latin/Cyrillic kerning shared = False (1/8 look-alike pairs kern alike (Y+A -25 vs Y+uni0410 0; A+Y -25 vs uni0410+Y 0; Y+O -18 vs Y+uni041E 0)); mode auto
+kern: uni04E8 as 1st glyph cloned from uni041E (1 pair records/class rows)
+kern: uni04E9 as 1st glyph cloned from uni043E (0 pair records/class rows)
+kern: uni04AE as 1st glyph cloned from uni0423 (0 pair records/class rows)
+kern: uni04AF as 1st glyph cloned from uni0443 (0 pair records/class rows)
+kern: uni04E8 as 2nd glyph cloned from uni041E (2 pair records/classes)
+kern: uni04E9 as 2nd glyph cloned from uni043E (0 pair records/classes)
+kern: uni04AE as 2nd glyph cloned from uni0423 (0 pair records/classes)
+kern: uni04AF as 2nd glyph cloned from uni0443 (0 pair records/classes)
+kern: uni04AE look-alike pairs from Y: 14 explicit pairs in a new first subtable of lookup 0
+mark: uni04E8 base anchors cloned from uni041E (5 subtables)
+mark: uni04E9 base anchors cloned from uni043E (5 subtables)
+mark: uni04AE base anchors cloned from Y (2 subtables)
+mark: uni04AF base anchors cloned from v (0 subtables)
+GSUB context: uni04E8 added beside uni041E in lookups ['5:Back']
+GSUB context: uni04AE added beside uni0423 in lookups ['5:Back']
+name 0: 'Copyright 2015 The Alumni Sans Project Authors (https://github.com/googlefonts/alumni)' -> 'Copyright 2015 The Alumni Sans Project Authors (https://github.com/googlefonts/alumni). Mongolian additions (Ө ө Ү ү ₮) 2026, Font Shuugch project.'
+name 1: 'Alumni Sans SC Thin' -> 'Alumni Sans SC MN Thin'
+name 3: '1.018;GOOG;AlumniSansSC-Thin' -> '1.018;MN0.1;GOOG;AlumniSansSCMN-Thin'
+name 4: 'Alumni Sans SC Thin' -> 'Alumni Sans SC MN Thin'
+name 5: 'Version 1.018' -> 'Version 1.018;MN 0.1'
+name 6: 'AlumniSansSC-Thin' -> 'AlumniSansSCMN-Thin'
+name 16: 'Alumni Sans SC' -> 'Alumni Sans SC MN'
+name 25: 'AlumniSansSC' -> 'AlumniSansSCMN'
+saved build\AlumniSansSCMN\AlumniSansSCMN[wght].ttf
+static Thin {'wght': 100.0} -> build\AlumniSansSCMN\static\AlumniSansSCMN-Thin.ttf (names: 'Alumni Sans SC MN Thin' / 'Regular' / 'Alumni Sans SC MN Thin'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static ExtraLight {'wght': 200.0} -> build\AlumniSansSCMN\static\AlumniSansSCMN-ExtraLight.ttf (names: 'Alumni Sans SC MN ExtraLight' / 'Regular' / 'Alumni Sans SC MN ExtraLight'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static Light {'wght': 300.0} -> build\AlumniSansSCMN\static\AlumniSansSCMN-Light.ttf (names: 'Alumni Sans SC MN Light' / 'Regular' / 'Alumni Sans SC MN Light'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static Regular {'wght': 400.0} -> build\AlumniSansSCMN\static\AlumniSansSCMN-Regular.ttf (names: 'Alumni Sans SC MN' / 'Regular' / 'Alumni Sans SC MN Regular'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static Medium {'wght': 500.0} -> build\AlumniSansSCMN\static\AlumniSansSCMN-Medium.ttf (names: 'Alumni Sans SC MN Medium' / 'Regular' / 'Alumni Sans SC MN Medium'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static SemiBold {'wght': 600.0} -> build\AlumniSansSCMN\static\AlumniSansSCMN-SemiBold.ttf (names: 'Alumni Sans SC MN SemiBold' / 'Regular' / 'Alumni Sans SC MN SemiBold'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static Bold {'wght': 700.0} -> build\AlumniSansSCMN\static\AlumniSansSCMN-Bold.ttf (names: 'Alumni Sans SC MN' / 'Bold' / 'Alumni Sans SC MN Bold'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static ExtraBold {'wght': 800.0} -> build\AlumniSansSCMN\static\AlumniSansSCMN-ExtraBold.ttf (names: 'Alumni Sans SC MN ExtraBold' / 'Regular' / 'Alumni Sans SC MN ExtraBold'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static Black {'wght': 900.0} -> build\AlumniSansSCMN\static\AlumniSansSCMN-Black.ttf (names: 'Alumni Sans SC MN Black' / 'Regular' / 'Alumni Sans SC MN Black'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+source: sources/alumnisanssc/AlumniSansSC-Italic[wght].ttf (v1.016, 1003 glyphs, variable)
+italic: post.italicAngle -8.0 deg -> tan 0.1405; measured on I 0.1421; using 0.1405
+masters (normalized): default, wght=+1
+uni04E8 (U+04E8): 'uni041E' + bar from uni041D crossbar: thickness 20.0, centre y=293.5, x 85..337 (default)
+    uni04E8 @ default: {'bar_thickness': 20.0, 'bar_center': 293.5, 'bar_x': (85, 337)}
+    uni04E8 @ {'wght': 1.0}: {'bar_thickness': 117.0, 'bar_center': 294.0, 'bar_x': (105, 314)}
+uni04E9 (U+04E9): 'uni043E' + bar from uni043D crossbar: thickness 20.0, centre y=248.0, x 61..279 (default)
+    uni04E9 @ default: {'bar_thickness': 20.0, 'bar_center': 248.0, 'bar_x': (61, 279)}
+    uni04E9 @ {'wght': 1.0}: {'bar_thickness': 110.2, 'bar_center': 247.5, 'bar_x': (98, 288)}
+uni04AE (U+04AE): composite of 'Y' (offset 0,0)
+uni04AF (U+04AF): 'v' outline with a straight stem and 'uni0440''s terminal: stem width 26.0 ('uni0440' 23.1, deslanted), down to y=-116.0; stem hangs straight down from the v's own bottom corners (curved arms); italic slant 8.0 deg
+    uni04AF @ default: {'mode': 'drop', 'stem': 26.0, 'p_stem': 23.1, 'widened': False, 'stem_x': (68, 94), 'join_y': 0.0, 'descender': -116.0, 'split_y': -46.4}
+    uni04AF @ {'wght': 1.0}: {'mode': 'drop', 'stem': 150.0, 'p_stem': 155.9, 'widened': False, 'stem_x': (48, 198), 'join_y': 0.0, 'descender': -116.0, 'split_y': -46.4}
+uni20AE (U+20AE): 'T' outline + two parallel strokes (vertical end cuts) centred on the stem: perpendicular thickness 19.0 (= 1.00 x crossbar 19), angle 20 deg, x 21..168 (62% of the crossbar), centre lines cross the stem axis at y=156.4 and y=367.8; white gaps baseline/between/crossbar = (119.5, 191.2, 167.3) (default)
+uni20AE (U+20AE): heaviest master (wght=+1, heavy rule): thickness 86.6 (0.78 x crossbar), 20 deg, x -22..297 (protrudes 80.3 past the stem), gaps (39.4, 72.4, 67.6); family internal gaps {'Euro': 28.0, 'e': 117.8} -> rule minimum 33.6
+    uni20AE @ default: {'mode': 'solver', 'T_stem': (82, 106), 'T_crossbar': (572, 591), 'stroke_thickness': 19.0, 'thickness_ratio': 1.0, 'stroke_vertical': 20.2, 'rise': 53.6, 'angle': 20, 'stroke_x': (21, 168), 'protrusion': 61.6, 'lower_centre_y': 156.4, 'upper_centre_y': 367.8, 'gaps': (119.5, 191.2, 167.3)}
+    uni20AE @ {'wght': 1.0}: {'mode': 'heavy rule', 'T_stem': (58, 217), 'T_crossbar': (480, 591), 'stroke_thickness': 86.6, 'thickness_ratio': 0.78, 'stroke_vertical': 92.1, 'rise': 116.3, 'angle': 20, 'stroke_x': (-22, 297), 'protrusion': 80.3, 'lower_centre_y': 143.6, 'upper_centre_y': 308.2, 'gaps': (39.4, 72.4, 67.6), 'family_gaps': {'Euro': 28.0, 'e': 117.8}, 'min_internal_gap': 33.6}
+kern: uni04AE: Latin/Cyrillic kerning shared = False (1/9 look-alike pairs kern alike (Y+A -30 vs Y+uni0410 0; A+Y -10 vs uni0410+Y 0; Y+O -18 vs Y+uni041E 0)); mode auto
+kern: uni04E8 as 1st glyph cloned from uni041E (0 pair records/class rows)
+kern: uni04E9 as 1st glyph cloned from uni043E (0 pair records/class rows)
+kern: uni04AE as 1st glyph cloned from uni0423 (0 pair records/class rows)
+kern: uni04AF as 1st glyph cloned from uni0443 (0 pair records/class rows)
+kern: uni04E8 as 2nd glyph cloned from uni041E (0 pair records/classes)
+kern: uni04E9 as 2nd glyph cloned from uni043E (0 pair records/classes)
+kern: uni04AE as 2nd glyph cloned from uni0423 (0 pair records/classes)
+kern: uni04AF as 2nd glyph cloned from uni0443 (0 pair records/classes)
+kern: uni04AE look-alike pairs from Y: 14 explicit pairs in a new first subtable of lookup 0
+mark: uni04E8 base anchors cloned from uni041E (5 subtables)
+mark: uni04E9 base anchors cloned from uni043E (5 subtables)
+mark: uni04AE base anchors cloned from Y (2 subtables)
+mark: uni04AF base anchors cloned from v (0 subtables)
+GSUB context: uni04E8 added beside uni041E in lookups ['5:Back']
+GSUB context: uni04AE added beside uni0423 in lookups ['5:Back']
+name 0: 'Copyright 2015 The Alumni Sans Project Authors (https://github.com/googlefonts/alumni)' -> 'Copyright 2015 The Alumni Sans Project Authors (https://github.com/googlefonts/alumni). Mongolian additions (Ө ө Ү ү ₮) 2026, Font Shuugch project.'
+name 1: 'Alumni Sans SC Thin' -> 'Alumni Sans SC MN Thin'
+name 3: '1.016;GOOG;AlumniSansSC-ThinItalic' -> '1.016;MN0.1;GOOG;AlumniSansSCMN-ThinItalic'
+name 4: 'Alumni Sans SC Thin Italic' -> 'Alumni Sans SC MN Thin Italic'
+name 5: 'Version 1.016' -> 'Version 1.016;MN 0.1'
+name 6: 'AlumniSansSC-ThinItalic' -> 'AlumniSansSCMN-ThinItalic'
+name 16: 'Alumni Sans SC' -> 'Alumni Sans SC MN'
+name 25: 'AlumniSansSCItalic' -> 'AlumniSansSCMNItalic'
+saved build\AlumniSansSCMN\AlumniSansSCMN-Italic[wght].ttf
+static Thin Italic {'wght': 100.0} -> build\AlumniSansSCMN\static\AlumniSansSCMN-ThinItalic.ttf (names: 'Alumni Sans SC MN Thin' / 'Italic' / 'Alumni Sans SC MN Thin Italic'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static ExtraLight Italic {'wght': 200.0} -> build\AlumniSansSCMN\static\AlumniSansSCMN-ExtraLightItalic.ttf (names: 'Alumni Sans SC MN ExtraLight' / 'Italic' / 'Alumni Sans SC MN ExtraLight Italic'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static Light Italic {'wght': 300.0} -> build\AlumniSansSCMN\static\AlumniSansSCMN-LightItalic.ttf (names: 'Alumni Sans SC MN Light' / 'Italic' / 'Alumni Sans SC MN Light Italic'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static Italic {'wght': 400.0} -> build\AlumniSansSCMN\static\AlumniSansSCMN-Italic.ttf (names: 'Alumni Sans SC MN' / 'Italic' / 'Alumni Sans SC MN Italic'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static Medium Italic {'wght': 500.0} -> build\AlumniSansSCMN\static\AlumniSansSCMN-MediumItalic.ttf (names: 'Alumni Sans SC MN Medium' / 'Italic' / 'Alumni Sans SC MN Medium Italic'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static SemiBold Italic {'wght': 600.0} -> build\AlumniSansSCMN\static\AlumniSansSCMN-SemiBoldItalic.ttf (names: 'Alumni Sans SC MN SemiBold' / 'Italic' / 'Alumni Sans SC MN SemiBold Italic'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static Bold Italic {'wght': 700.0} -> build\AlumniSansSCMN\static\AlumniSansSCMN-BoldItalic.ttf (names: 'Alumni Sans SC MN' / 'Bold Italic' / 'Alumni Sans SC MN Bold Italic'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static ExtraBold Italic {'wght': 800.0} -> build\AlumniSansSCMN\static\AlumniSansSCMN-ExtraBoldItalic.ttf (names: 'Alumni Sans SC MN ExtraBold' / 'Italic' / 'Alumni Sans SC MN ExtraBold Italic'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static Black Italic {'wght': 900.0} -> build\AlumniSansSCMN\static\AlumniSansSCMN-BlackItalic.ttf (names: 'Alumni Sans SC MN Black' / 'Italic' / 'Alumni Sans SC MN Black Italic'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])

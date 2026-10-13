@@ -1,0 +1,44 @@
+source: sources/wixmadefordisplay/WixMadeforDisplay[wght].ttf (v3.100, 726 glyphs, variable)
+masters (normalized): default, wght=+1
+uni04E8 (U+04E8): 'uni041E' + bar from uni041D crossbar: thickness 69.0, centre y=357.5, x 96..756 (default)
+    uni04E8 @ default: {'bar_thickness': 69.0, 'bar_center': 357.5, 'bar_x': (96, 756)}
+    uni04E8 @ {'wght': 1.0}: {'bar_thickness': 144.0, 'bar_center': 357.5, 'bar_x': (141, 731)}
+uni04E9 (U+04E9): 'uni043E' + bar from uni043D crossbar: thickness 63.0, centre y=246.0, x 87..527 (default)
+    uni04E9 @ default: {'bar_thickness': 63.0, 'bar_center': 246.0, 'bar_x': (87, 527)}
+    uni04E9 @ {'wght': 1.0}: {'bar_thickness': 120.9, 'bar_center': 255.0, 'bar_x': (125, 525)}
+uni04AE (U+04AE): composite of 'Y' (offset 0,0)
+uni04AF (U+04AF): 'v' outline with a straight stem and 'uni0440''s terminal: stem width 74.0 ('uni0440' 74.0, deslanted), down to y=-194.0; outer arm edges extended to meet a stem of 'uni0440''s width at y=1.2
+    uni04AF @ default: {'mode': 'edges', 'stem': 74.0, 'p_stem': 74.0, 'widened': False, 'stem_x': (232, 306), 'join_y': 1.2, 'descender': -194.0, 'split_y': -77.6}
+    uni04AF @ {'wght': 1.0}: {'mode': 'edges', 'stem': 169.0, 'p_stem': 169.0, 'widened': False, 'stem_x': (228, 397), 'join_y': 7.1, 'descender': -194.0, 'split_y': -77.6}
+uni20AE (U+20AE): 'T' outline + two parallel strokes (vertical end cuts) centred on the stem: perpendicular thickness 69.0 (= 1.00 x crossbar 69), angle 20 deg, x 141..484 (62% of the crossbar), centre lines cross the stem axis at y=192.7 and y=415.9; white gaps baseline/between/crossbar = (93.6, 149.7, 131.0) (default)
+uni20AE (U+20AE): heaviest master (wght=+1, heavy rule): thickness 113.1 (0.78 x crossbar), 20 deg, x 144..518 (protrudes 100.6 past the stem), gaps (39.8, 78.4, 75.2); family internal gaps {'yen': 44.0, 'e': 88.8} -> rule minimum 52.8
+    uni20AE @ default: {'mode': 'solver', 'T_stem': (274, 351), 'T_crossbar': (646, 715), 'stroke_thickness': 69.0, 'thickness_ratio': 1.0, 'stroke_vertical': 73.4, 'rise': 124.8, 'angle': 20, 'stroke_x': (141, 484), 'protrusion': 132.9, 'lower_centre_y': 192.7, 'upper_centre_y': 415.9, 'gaps': (93.6, 149.7, 131.0)}
+    uni20AE @ {'wght': 1.0}: {'mode': 'heavy rule', 'T_stem': (245, 417), 'T_crossbar': (570, 715), 'stroke_thickness': 113.1, 'thickness_ratio': 0.78, 'stroke_vertical': 120.4, 'rise': 135.8, 'angle': 20, 'stroke_x': (144, 518), 'protrusion': 100.6, 'lower_centre_y': 167.9, 'upper_centre_y': 366.7, 'gaps': (39.8, 78.4, 75.2), 'family_gaps': {'yen': 44.0, 'e': 88.8}, 'min_internal_gap': 52.8}
+kern: uni04AE: Latin/Cyrillic kerning shared = False (0/16 look-alike pairs kern alike (Y+A -120 vs Y+uni0410 0; A+Y -120 vs uni0410+Y 0; Y+O -60 vs Y+uni041E 0)); mode auto
+kern: uni04E8 as 1st glyph cloned from uni041E (1 pair records/class rows)
+kern: uni04E9 as 1st glyph cloned from uni043E (2 pair records/class rows)
+kern: uni04AE as 1st glyph cloned from uni0423 (2 pair records/class rows)
+kern: uni04AF as 1st glyph cloned from uni0443 (1 pair records/class rows)
+kern: uni04E8 as 2nd glyph cloned from uni041E (2 pair records/classes)
+kern: uni04E9 as 2nd glyph cloned from uni043E (2 pair records/classes)
+kern: uni04AE as 2nd glyph cloned from uni0423 (2 pair records/classes)
+kern: uni04AF as 2nd glyph cloned from uni0443 (3 pair records/classes)
+kern: uni04AE look-alike pairs from Y: 35 explicit pairs in a new first subtable of lookup 0
+kern: uni20AE+four capped: T+four -> per-master values [-40, -60]
+kern: uni20AE digit/punctuation pairs from T: 61 explicit pairs in a new first subtable of lookup 0
+mark: uni04E8 base anchors cloned from uni041E (0 subtables)
+mark: uni04E9 base anchors cloned from uni043E (0 subtables)
+mark: uni04AE base anchors cloned from Y (1 subtables)
+mark: uni04AF base anchors cloned from v (0 subtables)
+name 0: 'Copyright 2021 The Wix Madefor Project Authors (https://github.com/wix/wixmadefor/)' -> 'Copyright 2021 The Wix Madefor Project Authors (https://github.com/wix/wixmadefor/). Mongolian additions (Ө ө Ү ү ₮) 2026, Font Shuugch project.'
+name 1: 'Wix Madefor Display' -> 'Wix Madefor Display MN'
+name 3: '3.100;DAMA;WixMadeforDisplay-Regular' -> '3.100;MN0.1;DAMA;WixMadeforDisplayMN-Regular'
+name 4: 'Wix Madefor Display Regular' -> 'Wix Madefor Display MN Regular'
+name 5: 'Version 3.100' -> 'Version 3.100;MN 0.1'
+name 6: 'WixMadeforDisplay-Regular' -> 'WixMadeforDisplayMN-Regular'
+saved build\WixMadeforDisplayMN\WixMadeforDisplayMN[wght].ttf
+static Regular {'wght': 400.0} -> build\WixMadeforDisplayMN\static\WixMadeforDisplayMN-Regular.ttf (names: 'Wix Madefor Display MN' / 'Regular' / 'Wix Madefor Display MN Regular'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static Medium {'wght': 500.0} -> build\WixMadeforDisplayMN\static\WixMadeforDisplayMN-Medium.ttf (names: 'Wix Madefor Display MN Medium' / 'Regular' / 'Wix Madefor Display MN Medium'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static SemiBold {'wght': 600.0} -> build\WixMadeforDisplayMN\static\WixMadeforDisplayMN-SemiBold.ttf (names: 'Wix Madefor Display MN SemiBold' / 'Regular' / 'Wix Madefor Display MN SemiBold'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static Bold {'wght': 700.0} -> build\WixMadeforDisplayMN\static\WixMadeforDisplayMN-Bold.ttf (names: 'Wix Madefor Display MN' / 'Bold' / 'Wix Madefor Display MN Bold'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static ExtraBold {'wght': 800.0} -> build\WixMadeforDisplayMN\static\WixMadeforDisplayMN-ExtraBold.ttf (names: 'Wix Madefor Display MN ExtraBold' / 'Regular' / 'Wix Madefor Display MN ExtraBold'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])

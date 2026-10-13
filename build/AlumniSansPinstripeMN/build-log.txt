@@ -1,0 +1,69 @@
+source: sources/alumnisanspinstripe/AlumniSansPinstripe-Regular.ttf (v1.010, 789 glyphs, static)
+masters (normalized): default
+uni04E8 (U+04E8): 'uni041E' + bar from uni041D crossbar: thickness 16.0, centre y=293.5, x 75..340 (default)
+    uni04E8 @ default: {'bar_thickness': 16.0, 'bar_center': 293.5, 'bar_x': (75, 340)}
+uni04E9 (U+04E9): 'uni043E' + bar from uni043D crossbar: thickness 16.0, centre y=248.0, x 67..295 (default)
+    uni04E9 @ default: {'bar_thickness': 16.0, 'bar_center': 248.0, 'bar_x': (67, 295)}
+uni04AE (U+04AE): composite of 'Y' (offset 0,0)
+uni04AF (U+04AF): 'v' outline with a straight stem and 'uni0440''s terminal: stem width 16.0 ('uni0440' 16.0, deslanted), down to y=-116.0; outer arm edges extended to meet a stem of 'uni0440''s width at y=-4.1
+    uni04AF @ default: {'mode': 'edges', 'stem': 16.0, 'p_stem': 16.0, 'widened': False, 'stem_x': (140, 156), 'join_y': -4.1, 'descender': -116.0, 'split_y': -46.4}
+uni20AE (U+20AE): 'T' outline + two parallel strokes (vertical end cuts) centred on the stem: perpendicular thickness 16.0 (= 1.00 x crossbar 16), angle 20 deg, x 56..204 (62% of the crossbar), centre lines cross the stem axis at y=157.2 and y=369.1; white gaps baseline/between/crossbar = (121.8, 194.8, 170.5) (default)
+    uni20AE @ default: {'mode': 'solver', 'T_stem': (122, 138), 'T_crossbar': (575, 591), 'stroke_thickness': 16.0, 'thickness_ratio': 1.0, 'stroke_vertical': 17.0, 'rise': 53.9, 'angle': 20, 'stroke_x': (56, 204), 'protrusion': 66.1, 'lower_centre_y': 157.2, 'upper_centre_y': 369.1, 'gaps': (121.8, 194.8, 170.5)}
+kern: uni04AE: Latin/Cyrillic kerning shared = True (25/25 look-alike pairs kern alike ()); mode auto
+kern: uni04E8 as 1st glyph cloned from uni041E (1 pair records/class rows)
+kern: uni04E9 as 1st glyph cloned from uni043E (2 pair records/class rows)
+kern: uni04AE as 1st glyph cloned from Y (7 pair records/class rows)
+kern: uni04AF as 1st glyph cloned from uni0443 (5 pair records/class rows)
+kern: uni04E8 as 2nd glyph cloned from uni041E (1 pair records/classes)
+kern: uni04E9 as 2nd glyph cloned from uni043E (2 pair records/classes)
+kern: uni04AE as 2nd glyph cloned from Y (7 pair records/classes)
+kern: uni04AF as 2nd glyph cloned from uni0443 (4 pair records/classes)
+kern: uni20AE digit/punctuation pairs from T: 46 explicit pairs in a new first subtable of lookup 0
+mark: uni04E8 base anchors cloned from uni041E (1 subtables)
+mark: uni04E9 base anchors cloned from uni043E (1 subtables)
+mark: uni04AE base anchors cloned from Y (1 subtables)
+mark: uni04AF base anchors cloned from v (0 subtables)
+GSUB context: uni04E8 added beside uni041E in lookups ['2:Back']
+GSUB context: uni04AE added beside uni0423 in lookups ['2:Back']
+name 0: 'Copyright 2014 The Alumni Sans Pinstripe Project Authors (https://github.com/googlefonts/alumni-sans-pinstripe)' -> 'Copyright 2014 The Alumni Sans Pinstripe Project Authors (https://github.com/googlefonts/alumni-sans-pinstripe). Mongolian additions (Ө ө Ү ү ₮) 2026, Font Shuugch project.'
+name 1: 'Alumni Sans Pinstripe' -> 'Alumni Sans Pinstripe MN'
+name 3: '1.010;GOOG;AlumniSansPinstripe-Regular' -> '1.010;MN0.1;GOOG;AlumniSansPinstripeMN-Regular'
+name 4: 'Alumni Sans Pinstripe Regular' -> 'Alumni Sans Pinstripe MN Regular'
+name 5: 'Version 1.010; ttfautohint (v1.8.4.7-5d5b)' -> 'Version 1.010;MN 0.1'
+name 6: 'AlumniSansPinstripe-Regular' -> 'AlumniSansPinstripeMN-Regular'
+saved build\AlumniSansPinstripeMN\AlumniSansPinstripeMN-Regular.ttf
+source: sources/alumnisanspinstripe/AlumniSansPinstripe-Italic.ttf (v1.010, 788 glyphs, static)
+italic: post.italicAngle -8.0 deg -> tan 0.1405; measured on I 0.1421; using 0.1405
+masters (normalized): default
+uni04E8 (U+04E8): 'uni041E' + bar from uni041D crossbar: thickness 16.0, centre y=293.5, x 82..347 (default)
+    uni04E8 @ default: {'bar_thickness': 16.0, 'bar_center': 293.5, 'bar_x': (82, 347)}
+uni04E9 (U+04E9): 'uni043E' + bar from uni043D crossbar: thickness 16.0, centre y=248.0, x 67..295 (default)
+    uni04E9 @ default: {'bar_thickness': 16.0, 'bar_center': 248.0, 'bar_x': (67, 295)}
+uni04AE (U+04AE): composite of 'Y' (offset 0,0)
+uni04AF (U+04AF): 'v' outline with a straight stem and 'uni0440''s terminal: stem width 17.0 ('uni0440' 16.2, deslanted), down to y=-116.0; stem hangs straight down from the v's own bottom corners (curved arms); italic slant 8.0 deg
+    uni04AF @ default: {'mode': 'drop', 'stem': 17.0, 'p_stem': 16.2, 'widened': False, 'stem_x': (106, 123), 'join_y': 0.0, 'descender': -116.0, 'split_y': -46.4}
+uni20AE (U+20AE): 'T' outline + two parallel strokes (vertical end cuts) centred on the stem: perpendicular thickness 16.0 (= 1.00 x crossbar 16), angle 20 deg, x 22..170 (62% of the crossbar), centre lines cross the stem axis at y=157.3 and y=369.0; white gaps baseline/between/crossbar = (121.7, 194.7, 170.4) (default)
+    uni20AE @ default: {'mode': 'solver', 'T_stem': (88, 104), 'T_crossbar': (575, 591), 'stroke_thickness': 16.0, 'thickness_ratio': 1.0, 'stroke_vertical': 17.0, 'rise': 54.1, 'angle': 20, 'stroke_x': (22, 170), 'protrusion': 66.3, 'lower_centre_y': 157.3, 'upper_centre_y': 369.0, 'gaps': (121.7, 194.7, 170.4)}
+kern: uni04AE: Latin/Cyrillic kerning shared = True (24/25 look-alike pairs kern alike (Y+a -20 vs Y+uni0430 -15)); mode auto
+kern: uni04E8 as 1st glyph cloned from uni041E (1 pair records/class rows)
+kern: uni04E9 as 1st glyph cloned from uni043E (2 pair records/class rows)
+kern: uni04AE as 1st glyph cloned from Y (7 pair records/class rows)
+kern: uni04AF as 1st glyph cloned from uni0443 (5 pair records/class rows)
+kern: uni04E8 as 2nd glyph cloned from uni041E (1 pair records/classes)
+kern: uni04E9 as 2nd glyph cloned from uni043E (2 pair records/classes)
+kern: uni04AE as 2nd glyph cloned from Y (7 pair records/classes)
+kern: uni04AF as 2nd glyph cloned from uni0443 (4 pair records/classes)
+kern: uni20AE digit/punctuation pairs from T: 46 explicit pairs in a new first subtable of lookup 0
+mark: uni04E8 base anchors cloned from uni041E (1 subtables)
+mark: uni04E9 base anchors cloned from uni043E (1 subtables)
+mark: uni04AE base anchors cloned from Y (1 subtables)
+mark: uni04AF base anchors cloned from v (0 subtables)
+GSUB context: uni04E8 added beside uni041E in lookups ['2:Back']
+GSUB context: uni04AE added beside uni0423 in lookups ['2:Back']
+name 0: 'Copyright 2014 The Alumni Sans Pinstripe Project Authors (https://github.com/googlefonts/alumni-sans-pinstripe)' -> 'Copyright 2014 The Alumni Sans Pinstripe Project Authors (https://github.com/googlefonts/alumni-sans-pinstripe). Mongolian additions (Ө ө Ү ү ₮) 2026, Font Shuugch project.'
+name 1: 'Alumni Sans Pinstripe' -> 'Alumni Sans Pinstripe MN'
+name 3: '1.010;GOOG;AlumniSansPinstripe-Italic' -> '1.010;MN0.1;GOOG;AlumniSansPinstripeMN-Italic'
+name 4: 'Alumni Sans Pinstripe Italic' -> 'Alumni Sans Pinstripe MN Italic'
+name 5: 'Version 1.010; ttfautohint (v1.8.4.7-5d5b)' -> 'Version 1.010;MN 0.1'
+name 6: 'AlumniSansPinstripe-Italic' -> 'AlumniSansPinstripeMN-Italic'
+saved build\AlumniSansPinstripeMN\AlumniSansPinstripeMN-Italic.ttf

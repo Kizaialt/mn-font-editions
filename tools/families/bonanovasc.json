@@ -1,0 +1,144 @@
+{
+  "_comment": "Batch 1 (2026-10-13). Same pipeline and review rules as Unbounded MN. Glyph references '@X' resolve through each font's cmap.",
+  "family_id": "bonanovasc",
+  "license": "sources/bonanovasc/OFL.txt",
+  "upstream": "https://github.com/kosmynkab/Bona-Nova",
+  "out_dir": "build/BonaNovaSCMN",
+  "family_name": "Bona Nova SC",
+  "new_family_name": "Bona Nova SC MN",
+  "version_suffix": "MN 0.1",
+  "copyright_append": "Mongolian additions ({added}) 2026, Font Shuugch project.",
+  "license_note": "OFL.txt declares no Reserved Font Name, so the name may be reused; the edition is still renamed 'Bona Nova SC MN' so it never clashes with the original. Regular and Bold only: the Italic is not built (its v is a rounded cursive form with no straight arm edges). This family shows all lowercase as small caps by default (ccmp -> .sc), so the lowercase ө and ү are built directly as small-cap forms: ө = barred small-cap o (uni043E.sc + bar from uni043D.sc), ү = composite of the Latin small-cap y.sc; kerning and anchors come from the matching small-cap glyphs. Capital Ө and Ү are the normal capitals.",
+  "italic_note": "The Italic is not included: its v is a rounded cursive form with a single bottom point and no straight arm edges, so the pipeline's straight-stem ү (v + the font's own р stem) cannot be built from it without redesigning the letter.",
+  "statics": false,
+  "fonts": [
+    {
+      "source": "sources/bonanovasc/BonaNovaSC-Regular.ttf",
+      "out_file": "BonaNovaSCMN-Regular.ttf"
+    },
+    {
+      "source": "sources/bonanovasc/BonaNovaSC-Bold.ttf",
+      "out_file": "BonaNovaSCMN-Bold.ttf"
+    }
+  ],
+  "glyphs": {
+    "uni04E8": {
+      "unicode": "04E8",
+      "build": {
+        "method": "barred_o",
+        "base": "@О",
+        "bar_ref": "@Н",
+        "prefer_component": [
+          "@Ɵ",
+          "@Θ"
+        ]
+      },
+      "otl_base": "@О"
+    },
+    "uni04E9": {
+      "unicode": "04E9",
+      "build": {
+        "method": "barred_o",
+        "base": "uni043E.sc",
+        "bar_ref": "uni043D.sc",
+        "prefer_component": []
+      },
+      "otl_base": "uni043E.sc",
+      "verify_as": "о"
+    },
+    "uni04AE": {
+      "unicode": "04AE",
+      "build": {
+        "method": "component",
+        "base": "@Y"
+      },
+      "otl_base": "@У",
+      "anchor_base": "@Y",
+      "kern_lookalike": {
+        "latin_twin": "@Y",
+        "mode": "auto",
+        "map": {
+          "А": "A",
+          "О": "O",
+          "Ө": "O",
+          "С": "C",
+          "а": "a",
+          "е": "e",
+          "о": "o",
+          "ө": "o",
+          "с": "c",
+          "р": "p",
+          "х": "x",
+          "ү": "v",
+          "н": "n",
+          "г": "r",
+          "й": "u",
+          "и": "u",
+          "«": "«",
+          "»": "»",
+          "-": "-",
+          ".": ".",
+          ",": ","
+        }
+      }
+    },
+    "uni04AF": {
+      "unicode": "04AF",
+      "build": {
+        "method": "component",
+        "base": "y.sc"
+      },
+      "otl_base": "uni0443.sc",
+      "anchor_base": "y.sc",
+      "verify_as": "у"
+    },
+    "uni20AE": {
+      "unicode": "20AE",
+      "build": {
+        "method": "tugrik",
+        "base": "@T",
+        "angle_deg": 20,
+        "angle_min_deg": 15,
+        "span": 0.62,
+        "thickness_ratio": 0.78,
+        "thickness_min_ratio": 0.58,
+        "whitespace_ratio": 0.8,
+        "whitespace_split": [
+          0.25,
+          0.4,
+          0.35
+        ],
+        "min_protrusion": 0.55,
+        "heavy_gap_factor": 1.2,
+        "bottom_gap_ratio": 0.45,
+        "heavy_gap_refs": [
+          {
+            "glyph": "@₸",
+            "x": 0.2
+          },
+          {
+            "glyph": "@€",
+            "x": 0.1
+          },
+          {
+            "glyph": "@¥",
+            "x": 0.3
+          },
+          {
+            "glyph": "@e",
+            "x": 0.5
+          }
+        ]
+      },
+      "kern_like": {
+        "glyph": "@T",
+        "caps": {
+          "@4": {
+            "ratio": 0.5
+          }
+        }
+      }
+    }
+  },
+  "sc_note": "Bona Nova SC shows ALL lowercase (Latin, Cyrillic, digits) as small caps by default (ccmp -> .sc glyphs). The lowercase letters ө and ү are therefore built directly as small-cap forms: ө = barred small-cap o (uni043E.sc + bar measured from uni043D.sc), ү = composite of the Latin small-cap y.sc; kerning and mark anchors come from the matching small-cap glyphs. Capital Ө and Ү are unchanged."
+}

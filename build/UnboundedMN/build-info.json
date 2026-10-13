@@ -1,0 +1,358 @@
+{
+ "family": "Unbounded MN",
+ "fonts": [
+  {
+   "file": "UnboundedMN[wght].ttf",
+   "source": "sources/unbounded/Unbounded[wght].ttf",
+   "variable": true,
+   "slant": 0.0,
+   "masters": [
+    {},
+    {
+     "wght": -1.0
+    },
+    {
+     "wght": 1.0
+    }
+   ],
+   "added": "Ө ө Ү ү ₮",
+   "glyphs": {
+    "uni04E8": {
+     "kind": "composite",
+     "metrics_base": "uni019F",
+     "components": [
+      "uni019F"
+     ],
+     "tracks": null,
+     "measurements": {}
+    },
+    "uni04E9": {
+     "kind": "composite",
+     "metrics_base": "uni0275",
+     "components": [
+      "uni0275"
+     ],
+     "tracks": null,
+     "measurements": {}
+    },
+    "uni04AE": {
+     "kind": "composite",
+     "metrics_base": "Y",
+     "components": [
+      "Y"
+     ],
+     "tracks": null,
+     "measurements": {}
+    },
+    "uni04AF": {
+     "kind": "simple",
+     "metrics_base": "v",
+     "components": [],
+     "tracks": [
+      "v",
+      [
+       [
+        0,
+        0
+       ],
+       [
+        1,
+        1
+       ],
+       [
+        2,
+        2
+       ],
+       [
+        3,
+        3
+       ],
+       [
+        8,
+        6
+       ],
+       [
+        9,
+        7
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "stem": 130.0,
+       "stem_x": [
+        292,
+        422
+       ],
+       "join_y": -16.4,
+       "descender": -165.0,
+       "v_bottom_width": 146.0
+      },
+      "wght=-1": {
+       "stem": 54.0,
+       "stem_x": [
+        303,
+        357
+       ],
+       "join_y": -3.9,
+       "descender": -165.0,
+       "v_bottom_width": 58.0
+      },
+      "wght=+1": {
+       "stem": 254.0,
+       "stem_x": [
+        276,
+        530
+       ],
+       "join_y": -39.7,
+       "descender": -165.0,
+       "v_bottom_width": 290.0
+      }
+     }
+    },
+    "uni20AE": {
+     "kind": "simple",
+     "metrics_base": "T",
+     "components": [],
+     "tracks": [
+      "T",
+      [
+       [
+        0,
+        0
+       ],
+       [
+        1,
+        1
+       ],
+       [
+        2,
+        2
+       ],
+       [
+        3,
+        3
+       ],
+       [
+        4,
+        4
+       ],
+       [
+        5,
+        5
+       ],
+       [
+        6,
+        6
+       ],
+       [
+        7,
+        7
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "mode": "solver",
+       "T_stem": [
+        326,
+        458
+       ],
+       "T_crossbar": [
+        634,
+        750
+       ],
+       "stroke_thickness": 90.5,
+       "thickness_ratio": 0.78,
+       "stroke_vertical": 96.3,
+       "rise": 169.7,
+       "angle": 20,
+       "stroke_x": [
+        159,
+        625
+       ],
+       "protrusion": 167.1,
+       "lower_centre_y": 200.9,
+       "upper_centre_y": 405.9,
+       "gaps": [
+        67.9,
+        108.7,
+        95.1
+       ]
+      },
+      "wght=-1": {
+       "mode": "solver",
+       "T_stem": [
+        347,
+        403
+       ],
+       "T_crossbar": [
+        700,
+        750
+       ],
+       "stroke_thickness": 50.0,
+       "thickness_ratio": 1.0,
+       "stroke_vertical": 53.2,
+       "rise": 163.4,
+       "angle": 20,
+       "stroke_x": [
+        151,
+        599
+       ],
+       "protrusion": 196.4,
+       "lower_centre_y": 215.8,
+       "upper_centre_y": 441.1,
+       "gaps": [
+        107.6,
+        172.1,
+        150.6
+       ]
+      },
+      "wght=+1": {
+       "mode": "override",
+       "T_stem": [
+        291,
+        549
+       ],
+       "T_crossbar": [
+        520,
+        750
+       ],
+       "stroke_thickness": 120,
+       "thickness_ratio": 0.522,
+       "stroke_vertical": 124.2,
+       "rise": 144.7,
+       "angle": 15,
+       "stroke_x": [
+        150,
+        690
+       ],
+       "protrusion": 141.0,
+       "lower_centre_y": 158.5,
+       "upper_centre_y": 334.7,
+       "gaps": [
+        24,
+        52,
+        50.8
+       ],
+       "family_gaps": {
+        "uni20B8": 41.0,
+        "Euro": 42.0,
+        "yen": 40.0,
+        "e": 42.2
+       },
+       "min_internal_gap": 48.0
+      }
+     }
+    }
+   },
+   "alts": {
+    "uni04E9.BRACKET.varAlt01": "uni04E9"
+   },
+   "kern": {
+    "uni04E8": {
+     "mode": "clone",
+     "base": "uni041E",
+     "lookalike": null
+    },
+    "uni04E9": {
+     "mode": "clone",
+     "base": "uni043E",
+     "lookalike": null
+    },
+    "uni04AE": {
+     "mode": "lookalike",
+     "base": "uni0423",
+     "lookalike": {
+      "_comment": "Unbounded keeps Latin and Cyrillic kerning separate (A+Y=-152, А+Y=0), so Ү takes Latin Y's value with each partner's Latin look-alike; partners without one keep the cloned У values (otl_base). keep_fallback: pairs the 2026-10-13 review asked to leave on the У values.",
+      "latin_twin": "Y",
+      "mode": "auto",
+      "map": {
+       "А": "A",
+       "О": "O",
+       "Ө": "O",
+       "С": "C",
+       "а": "a",
+       "е": "e",
+       "о": "o",
+       "ө": "o",
+       "с": "c",
+       "р": "p",
+       "х": "x",
+       "ү": "v",
+       "н": "n",
+       "г": "r",
+       "й": "u",
+       "и": "u",
+       "«": "«",
+       "»": "»",
+       "-": "-",
+       ".": ".",
+       ",": ","
+      },
+      "keep_fallback": {
+       "as_left": [
+        "А",
+        ".",
+        ","
+       ],
+       "as_right": []
+      }
+     }
+    },
+    "uni04AF": {
+     "mode": "clone",
+     "base": "uni0443",
+     "lookalike": null
+    },
+    "uni04E9.BRACKET.varAlt01": {
+     "mode": "clone",
+     "base": "uni043E",
+     "lookalike": null
+    }
+   },
+   "kern_like": {
+    "uni20AE": {
+     "glyph": "T",
+     "capped": {
+      "four": [
+       [
+        {},
+        -60
+       ],
+       [
+        {
+         "wght": -1.0
+        },
+        -98
+       ],
+       [
+        {
+         "wght": 1.0
+        },
+        -40
+       ]
+      ]
+     }
+    }
+   },
+   "anchors": {
+    "uni04E8": "uni041E",
+    "uni04E9": "uni043E",
+    "uni04AE": "Y",
+    "uni04AF": "v",
+    "uni04E9.BRACKET.varAlt01": "uni043E"
+   },
+   "statics": [
+    "UnboundedMN-ExtraLight.ttf",
+    "UnboundedMN-Light.ttf",
+    "UnboundedMN-Regular.ttf",
+    "UnboundedMN-Medium.ttf",
+    "UnboundedMN-SemiBold.ttf",
+    "UnboundedMN-Bold.ttf",
+    "UnboundedMN-ExtraBold.ttf",
+    "UnboundedMN-Black.ttf"
+   ]
+  }
+ ]
+}

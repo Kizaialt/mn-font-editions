@@ -1,0 +1,944 @@
+{
+ "family": "Bona Nova SC MN",
+ "fonts": [
+  {
+   "file": "BonaNovaSCMN-Regular.ttf",
+   "source": "sources/bonanovasc/BonaNovaSC-Regular.ttf",
+   "variable": false,
+   "slant": 0.0,
+   "masters": [
+    {}
+   ],
+   "added": "Ө ө Ү ү ₮",
+   "glyphs": {
+    "uni04E8": {
+     "kind": "simple",
+     "metrics_base": "uni041E",
+     "components": [],
+     "tracks": [
+      "uni041E",
+      [
+       [
+        4,
+        0
+       ],
+       [
+        5,
+        1
+       ],
+       [
+        6,
+        2
+       ],
+       [
+        7,
+        3
+       ],
+       [
+        8,
+        4
+       ],
+       [
+        9,
+        5
+       ],
+       [
+        10,
+        6
+       ],
+       [
+        11,
+        7
+       ],
+       [
+        12,
+        8
+       ],
+       [
+        13,
+        9
+       ],
+       [
+        14,
+        10
+       ],
+       [
+        15,
+        11
+       ],
+       [
+        16,
+        12
+       ],
+       [
+        17,
+        13
+       ],
+       [
+        18,
+        14
+       ],
+       [
+        19,
+        15
+       ],
+       [
+        20,
+        16
+       ],
+       [
+        21,
+        17
+       ],
+       [
+        22,
+        18
+       ],
+       [
+        23,
+        19
+       ],
+       [
+        24,
+        20
+       ],
+       [
+        25,
+        21
+       ],
+       [
+        26,
+        22
+       ],
+       [
+        27,
+        23
+       ],
+       [
+        28,
+        24
+       ],
+       [
+        29,
+        25
+       ],
+       [
+        30,
+        26
+       ],
+       [
+        31,
+        27
+       ],
+       [
+        32,
+        28
+       ],
+       [
+        33,
+        29
+       ],
+       [
+        34,
+        30
+       ],
+       [
+        35,
+        31
+       ],
+       [
+        36,
+        32
+       ],
+       [
+        37,
+        33
+       ],
+       [
+        38,
+        34
+       ],
+       [
+        39,
+        35
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "bar_thickness": 36.0,
+       "bar_center": 332.5,
+       "bar_x": [
+        109,
+        681
+       ]
+      }
+     }
+    },
+    "uni04E9": {
+     "kind": "simple",
+     "metrics_base": "uni043E.sc",
+     "components": [],
+     "tracks": [
+      "uni043E.sc",
+      [
+       [
+        4,
+        0
+       ],
+       [
+        5,
+        1
+       ],
+       [
+        6,
+        2
+       ],
+       [
+        7,
+        3
+       ],
+       [
+        8,
+        4
+       ],
+       [
+        9,
+        5
+       ],
+       [
+        10,
+        6
+       ],
+       [
+        11,
+        7
+       ],
+       [
+        12,
+        8
+       ],
+       [
+        13,
+        9
+       ],
+       [
+        14,
+        10
+       ],
+       [
+        15,
+        11
+       ],
+       [
+        16,
+        12
+       ],
+       [
+        17,
+        13
+       ],
+       [
+        18,
+        14
+       ],
+       [
+        19,
+        15
+       ],
+       [
+        20,
+        16
+       ],
+       [
+        21,
+        17
+       ],
+       [
+        22,
+        18
+       ],
+       [
+        23,
+        19
+       ],
+       [
+        24,
+        20
+       ],
+       [
+        25,
+        21
+       ],
+       [
+        26,
+        22
+       ],
+       [
+        27,
+        23
+       ],
+       [
+        28,
+        24
+       ],
+       [
+        29,
+        25
+       ],
+       [
+        30,
+        26
+       ],
+       [
+        31,
+        27
+       ],
+       [
+        32,
+        28
+       ],
+       [
+        33,
+        29
+       ],
+       [
+        34,
+        30
+       ],
+       [
+        35,
+        31
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "bar_thickness": 36.0,
+       "bar_center": 262.5,
+       "bar_x": [
+        97,
+        554
+       ]
+      }
+     }
+    },
+    "uni04AE": {
+     "kind": "composite",
+     "metrics_base": "Y",
+     "components": [
+      "Y"
+     ],
+     "tracks": null,
+     "measurements": {}
+    },
+    "uni04AF": {
+     "kind": "composite",
+     "metrics_base": "y.sc",
+     "components": [
+      "y.sc"
+     ],
+     "tracks": null,
+     "measurements": {}
+    },
+    "uni20AE": {
+     "kind": "simple",
+     "metrics_base": "T",
+     "components": [],
+     "tracks": [
+      "T",
+      [
+       [
+        0,
+        0
+       ],
+       [
+        1,
+        1
+       ],
+       [
+        2,
+        2
+       ],
+       [
+        3,
+        3
+       ],
+       [
+        4,
+        4
+       ],
+       [
+        5,
+        5
+       ],
+       [
+        6,
+        6
+       ],
+       [
+        7,
+        7
+       ],
+       [
+        8,
+        8
+       ],
+       [
+        9,
+        9
+       ],
+       [
+        10,
+        10
+       ],
+       [
+        11,
+        11
+       ],
+       [
+        12,
+        12
+       ],
+       [
+        13,
+        13
+       ],
+       [
+        14,
+        14
+       ],
+       [
+        15,
+        15
+       ],
+       [
+        16,
+        16
+       ],
+       [
+        17,
+        17
+       ],
+       [
+        18,
+        18
+       ],
+       [
+        19,
+        19
+       ],
+       [
+        20,
+        20
+       ],
+       [
+        21,
+        21
+       ],
+       [
+        22,
+        22
+       ],
+       [
+        23,
+        23
+       ],
+       [
+        24,
+        24
+       ],
+       [
+        25,
+        25
+       ],
+       [
+        26,
+        26
+       ],
+       [
+        27,
+        27
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "mode": "solver",
+       "T_stem": [
+        268,
+        353
+       ],
+       "T_crossbar": [
+        627,
+        665
+       ],
+       "stroke_thickness": 29.3,
+       "thickness_ratio": 0.78,
+       "stroke_vertical": 31.2,
+       "rise": 121.6,
+       "angle": 20,
+       "stroke_x": [
+        143,
+        478
+       ],
+       "protrusion": 124.6,
+       "lower_centre_y": 187.3,
+       "upper_centre_y": 395.8,
+       "gaps": [
+        110.8,
+        177.3,
+        155.2
+       ]
+      }
+     }
+    }
+   },
+   "alts": {},
+   "kern": {
+    "uni04E8": {
+     "mode": "clone",
+     "base": "uni041E",
+     "lookalike": null
+    },
+    "uni04E9": {
+     "mode": "clone",
+     "base": "uni043E.sc",
+     "lookalike": null
+    },
+    "uni04AE": {
+     "mode": "twin",
+     "base": "Y",
+     "lookalike": null
+    },
+    "uni04AF": {
+     "mode": "clone",
+     "base": "uni0443.sc",
+     "lookalike": null
+    }
+   },
+   "kern_like": {
+    "uni20AE": {
+     "glyph": "T",
+     "capped": {
+      "four": [
+       [
+        {},
+        -20
+       ]
+      ],
+      "four.lf": [
+       [
+        {},
+        -20
+       ]
+      ],
+      "four.osf": [
+       [
+        {},
+        -20
+       ]
+      ],
+      "four.sc": [
+       [
+        {},
+        -36
+       ]
+      ]
+     }
+    }
+   },
+   "anchors": {
+    "uni04E8": "uni041E",
+    "uni04E9": "uni043E.sc",
+    "uni04AE": "Y",
+    "uni04AF": "y.sc"
+   },
+   "statics": []
+  },
+  {
+   "file": "BonaNovaSCMN-Bold.ttf",
+   "source": "sources/bonanovasc/BonaNovaSC-Bold.ttf",
+   "variable": false,
+   "slant": 0.0,
+   "masters": [
+    {}
+   ],
+   "added": "Ө ө Ү ү ₮",
+   "glyphs": {
+    "uni04E8": {
+     "kind": "composite",
+     "metrics_base": "Theta",
+     "components": [
+      "Theta"
+     ],
+     "tracks": null,
+     "measurements": {}
+    },
+    "uni04E9": {
+     "kind": "simple",
+     "metrics_base": "uni043E.sc",
+     "components": [],
+     "tracks": [
+      "uni043E.sc",
+      [
+       [
+        4,
+        0
+       ],
+       [
+        5,
+        1
+       ],
+       [
+        6,
+        2
+       ],
+       [
+        7,
+        3
+       ],
+       [
+        8,
+        4
+       ],
+       [
+        9,
+        5
+       ],
+       [
+        10,
+        6
+       ],
+       [
+        11,
+        7
+       ],
+       [
+        12,
+        8
+       ],
+       [
+        13,
+        9
+       ],
+       [
+        14,
+        10
+       ],
+       [
+        15,
+        11
+       ],
+       [
+        16,
+        12
+       ],
+       [
+        17,
+        13
+       ],
+       [
+        18,
+        14
+       ],
+       [
+        19,
+        15
+       ],
+       [
+        20,
+        16
+       ],
+       [
+        21,
+        17
+       ],
+       [
+        22,
+        18
+       ],
+       [
+        23,
+        19
+       ],
+       [
+        24,
+        20
+       ],
+       [
+        25,
+        21
+       ],
+       [
+        26,
+        22
+       ],
+       [
+        27,
+        23
+       ],
+       [
+        28,
+        24
+       ],
+       [
+        29,
+        25
+       ],
+       [
+        30,
+        26
+       ],
+       [
+        31,
+        27
+       ],
+       [
+        32,
+        28
+       ],
+       [
+        33,
+        29
+       ],
+       [
+        34,
+        30
+       ],
+       [
+        35,
+        31
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "bar_thickness": 43.0,
+       "bar_center": 262.5,
+       "bar_x": [
+        137,
+        531
+       ]
+      }
+     }
+    },
+    "uni04AE": {
+     "kind": "composite",
+     "metrics_base": "Y",
+     "components": [
+      "Y"
+     ],
+     "tracks": null,
+     "measurements": {}
+    },
+    "uni04AF": {
+     "kind": "composite",
+     "metrics_base": "y.sc",
+     "components": [
+      "y.sc"
+     ],
+     "tracks": null,
+     "measurements": {}
+    },
+    "uni20AE": {
+     "kind": "simple",
+     "metrics_base": "T",
+     "components": [],
+     "tracks": [
+      "T",
+      [
+       [
+        0,
+        0
+       ],
+       [
+        1,
+        1
+       ],
+       [
+        2,
+        2
+       ],
+       [
+        3,
+        3
+       ],
+       [
+        4,
+        4
+       ],
+       [
+        5,
+        5
+       ],
+       [
+        6,
+        6
+       ],
+       [
+        7,
+        7
+       ],
+       [
+        8,
+        8
+       ],
+       [
+        9,
+        9
+       ],
+       [
+        10,
+        10
+       ],
+       [
+        11,
+        11
+       ],
+       [
+        12,
+        12
+       ],
+       [
+        13,
+        13
+       ],
+       [
+        14,
+        14
+       ],
+       [
+        15,
+        15
+       ],
+       [
+        16,
+        16
+       ],
+       [
+        17,
+        17
+       ],
+       [
+        18,
+        18
+       ],
+       [
+        19,
+        19
+       ],
+       [
+        20,
+        20
+       ],
+       [
+        21,
+        21
+       ],
+       [
+        22,
+        22
+       ],
+       [
+        23,
+        23
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "mode": "solver",
+       "T_stem": [
+        238,
+        398
+       ],
+       "T_crossbar": [
+        617,
+        665
+       ],
+       "stroke_thickness": 37.2,
+       "thickness_ratio": 0.78,
+       "stroke_vertical": 39.6,
+       "rise": 128.6,
+       "angle": 20,
+       "stroke_x": [
+        141,
+        495
+       ],
+       "protrusion": 96.7,
+       "lower_centre_y": 186.5,
+       "upper_centre_y": 389.9,
+       "gaps": [
+        102.4,
+        163.8,
+        143.3
+       ]
+      }
+     }
+    }
+   },
+   "alts": {},
+   "kern": {
+    "uni04E8": {
+     "mode": "clone",
+     "base": "uni041E",
+     "lookalike": null
+    },
+    "uni04E9": {
+     "mode": "clone",
+     "base": "uni043E.sc",
+     "lookalike": null
+    },
+    "uni04AE": {
+     "mode": "twin",
+     "base": "Y",
+     "lookalike": null
+    },
+    "uni04AF": {
+     "mode": "clone",
+     "base": "uni0443.sc",
+     "lookalike": null
+    }
+   },
+   "kern_like": {
+    "uni20AE": {
+     "glyph": "T",
+     "capped": {
+      "four": [
+       [
+        {},
+        -30
+       ]
+      ],
+      "four.lf": [
+       [
+        {},
+        -30
+       ]
+      ],
+      "four.osf": [
+       [
+        {},
+        -30
+       ]
+      ],
+      "four.sc": [
+       [
+        {},
+        -45
+       ]
+      ]
+     }
+    }
+   },
+   "anchors": {
+    "uni04E8": "uni041E",
+    "uni04E9": "uni043E.sc",
+    "uni04AE": "Y",
+    "uni04AF": "y.sc"
+   },
+   "statics": []
+  }
+ ]
+}

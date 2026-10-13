@@ -1,0 +1,143 @@
+{
+  "_comment": "Batch 1 (2026-10-13). Same pipeline and review rules as Unbounded MN. Glyph references '@X' resolve through each font's cmap.",
+  "family_id": "alumnisans",
+  "license": "sources/alumnisans/OFL.txt",
+  "upstream": "https://github.com/googlefonts/alumni",
+  "out_dir": "build/AlumniSansMN",
+  "family_name": "Alumni Sans",
+  "new_family_name": "Alumni Sans MN",
+  "version_suffix": "MN 0.1",
+  "copyright_append": "Mongolian additions ({added}) 2026, Font Shuugch project.",
+  "license_note": "OFL.txt declares no Reserved Font Name, so the name may be reused; the edition is still renamed 'Alumni Sans MN' so it never clashes with the original.",
+  "statics": true,
+  "fonts": [
+    {
+      "source": "sources/alumnisans/AlumniSans[wght].ttf",
+      "out_file": "AlumniSansMN[wght].ttf"
+    },
+    {
+      "source": "sources/alumnisans/AlumniSans-Italic[wght].ttf",
+      "out_file": "AlumniSansMN-Italic[wght].ttf"
+    }
+  ],
+  "glyphs": {
+    "uni04E8": {
+      "unicode": "04E8",
+      "build": {
+        "method": "barred_o",
+        "base": "@О",
+        "bar_ref": "@Н",
+        "prefer_component": [
+          "@Ɵ",
+          "@Θ"
+        ]
+      },
+      "otl_base": "@О"
+    },
+    "uni04E9": {
+      "unicode": "04E9",
+      "build": {
+        "method": "barred_o",
+        "base": "@о",
+        "bar_ref": "@н",
+        "prefer_component": [
+          "@ɵ"
+        ]
+      },
+      "otl_base": "@о"
+    },
+    "uni04AE": {
+      "unicode": "04AE",
+      "build": {
+        "method": "component",
+        "base": "@Y"
+      },
+      "otl_base": "@У",
+      "anchor_base": "@Y",
+      "kern_lookalike": {
+        "latin_twin": "@Y",
+        "mode": "auto",
+        "map": {
+          "А": "A",
+          "О": "O",
+          "Ө": "O",
+          "С": "C",
+          "а": "a",
+          "е": "e",
+          "о": "o",
+          "ө": "o",
+          "с": "c",
+          "р": "p",
+          "х": "x",
+          "ү": "v",
+          "н": "n",
+          "г": "r",
+          "й": "u",
+          "и": "u",
+          "«": "«",
+          "»": "»",
+          "-": "-",
+          ".": ".",
+          ",": ","
+        }
+      }
+    },
+    "uni04AF": {
+      "unicode": "04AF",
+      "build": {
+        "method": "straight_u_p",
+        "base": "@v",
+        "stem_ref": "@р"
+      },
+      "otl_base": "@у",
+      "anchor_base": "@v"
+    },
+    "uni20AE": {
+      "unicode": "20AE",
+      "build": {
+        "method": "tugrik",
+        "base": "@T",
+        "angle_deg": 20,
+        "angle_min_deg": 15,
+        "span": 0.62,
+        "thickness_ratio": 0.78,
+        "thickness_min_ratio": 0.58,
+        "whitespace_ratio": 0.8,
+        "whitespace_split": [
+          0.25,
+          0.4,
+          0.35
+        ],
+        "min_protrusion": 0.55,
+        "heavy_gap_factor": 1.2,
+        "bottom_gap_ratio": 0.45,
+        "heavy_gap_refs": [
+          {
+            "glyph": "@₸",
+            "x": 0.2
+          },
+          {
+            "glyph": "@€",
+            "x": 0.1
+          },
+          {
+            "glyph": "@¥",
+            "x": 0.3
+          },
+          {
+            "glyph": "@e",
+            "x": 0.5
+          }
+        ]
+      },
+      "kern_like": {
+        "glyph": "@T",
+        "caps": {
+          "@4": {
+            "ratio": 0.5
+          }
+        }
+      }
+    }
+  }
+}

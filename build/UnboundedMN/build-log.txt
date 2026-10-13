@@ -1,0 +1,56 @@
+source: sources/unbounded/Unbounded[wght].ttf (v1.701, 1419 glyphs, variable)
+masters (normalized): default, wght=-1, wght=+1
+uni04E8 (U+04E8): composite of 'uni019F': verified at every master to be 'O' + a full-width bar joined to both walls
+uni04E8 (U+04E8): cross-check (generic constructor vs designer glyph, vertical ray through centre): default: designer bar [(-14, 104), (317, 433), (646, 764)] vs constructed centre 375.0 thick 116.0 | wght=-1.00: designer bar [(-12, 40), (350, 400), (710, 762)] vs constructed centre 375.0 thick 50.0 | wght=+1.00: designer bar [(-18, 194), (288, 462), (556, 768)] vs constructed centre 375.0 thick 148.2
+uni04E9 (U+04E9): composite of 'uni0275': verified at every master to be 'o' + a full-width bar joined to both walls
+uni04E9 (U+04E9): cross-check (generic constructor vs designer glyph, vertical ray through centre): default: designer bar [(-14, 88), (232, 332), (478, 580)] vs constructed centre 283.0 thick 100.0 | wght=-1.00: designer bar [(-12, 39), (255, 305), (521, 572)] vs constructed centre 280.0 thick 49.0 | wght=+1.00: designer bar [(-18, 167), (214, 360), (408, 593)] vs constructed centre 287.5 thick 109.5
+uni04AE (U+04AE): composite of 'Y' (offset 0,0)
+uni04AF (U+04AF): 'v' outline with its bottom replaced by a straight stem: stem width 130.0 (= 'p' descender stem), x 292..422, down to y=-165.0 ('p' descender); outer arm edges extended to meet the stem at y=-16.4 ('v' bottom flat was 146.0 wide)
+    uni04AF @ default: {'stem': 130.0, 'stem_x': (292, 422), 'join_y': -16.4, 'descender': -165.0, 'v_bottom_width': 146.0}
+    uni04AF @ {'wght': -1.0}: {'stem': 54.0, 'stem_x': (303, 357), 'join_y': -3.9, 'descender': -165.0, 'v_bottom_width': 58.0}
+    uni04AF @ {'wght': 1.0}: {'stem': 254.0, 'stem_x': (276, 530), 'join_y': -39.7, 'descender': -165.0, 'v_bottom_width': 290.0}
+uni20AE (U+20AE): 'T' outline + two parallel strokes (vertical end cuts) centred on the stem: perpendicular thickness 90.5 (= 0.78 x crossbar 116), angle 20 deg, x 159..625 (62% of the crossbar), centre lines cross the stem axis at y=200.9 and y=405.9; white gaps baseline/between/crossbar = (67.9, 108.7, 95.1) (default)
+uni20AE (U+20AE): heaviest master (wght=+1, override): thickness 120 (0.522 x crossbar), 15 deg, x 150..690 (protrudes 141.0 past the stem), gaps (24, 52, 50.8); family internal gaps {'uni20B8': 41.0, 'Euro': 42.0, 'yen': 40.0, 'e': 42.2} -> rule minimum 48.0
+uni20AE (U+20AE):   (generic heavy rule without the override would give: thickness 124.2, 15 deg, x 149..691, gaps (21.6, 48.0, 48.0))
+    uni20AE @ default: {'mode': 'solver', 'T_stem': (326, 458), 'T_crossbar': (634, 750), 'stroke_thickness': 90.5, 'thickness_ratio': 0.78, 'stroke_vertical': 96.3, 'rise': 169.7, 'angle': 20, 'stroke_x': (159, 625), 'protrusion': 167.1, 'lower_centre_y': 200.9, 'upper_centre_y': 405.9, 'gaps': (67.9, 108.7, 95.1)}
+    uni20AE @ {'wght': -1.0}: {'mode': 'solver', 'T_stem': (347, 403), 'T_crossbar': (700, 750), 'stroke_thickness': 50.0, 'thickness_ratio': 1.0, 'stroke_vertical': 53.2, 'rise': 163.4, 'angle': 20, 'stroke_x': (151, 599), 'protrusion': 196.4, 'lower_centre_y': 215.8, 'upper_centre_y': 441.1, 'gaps': (107.6, 172.1, 150.6)}
+    uni20AE @ {'wght': 1.0}: {'mode': 'override', 'T_stem': (291, 549), 'T_crossbar': (520, 750), 'stroke_thickness': 120, 'thickness_ratio': 0.522, 'stroke_vertical': 124.2, 'rise': 144.7, 'angle': 15, 'stroke_x': (150, 690), 'protrusion': 141.0, 'lower_centre_y': 158.5, 'upper_centre_y': 334.7, 'gaps': (24, 52, 50.8), 'family_gaps': {'uni20B8': 41.0, 'Euro': 42.0, 'yen': 40.0, 'e': 42.2}, 'min_internal_gap': 48.0}
+GSUB FeatureVariations: uni04E9 -> uni04E9.BRACKET.varAlt01 in lookups [0, 1]
+uni04E9.BRACKET.varAlt01: composite of 'uni0275.BRACKET.varAlt01' (weight-range alternate, mirrors uni0275)
+kern: uni04AE: Latin/Cyrillic kerning shared = False (0/26 look-alike pairs kern alike (Y+A -153 vs Y+uni0410 0; A+Y -152 vs uni0410+Y 0; Y+O -84 vs Y+uni041E 0)); mode auto
+kern: uni04E8 as 1st glyph cloned from uni041E (39 pair records/class rows)
+kern: uni04E9 as 1st glyph cloned from uni043E (30 pair records/class rows)
+kern: uni04AE as 1st glyph cloned from uni0423 (57 pair records/class rows)
+kern: uni04AF as 1st glyph cloned from uni0443 (42 pair records/class rows)
+kern: uni04E9.BRACKET.varAlt01 as 1st glyph cloned from uni043E (30 pair records/class rows)
+kern: uni04E8 as 2nd glyph cloned from uni041E (34 pair records/classes)
+kern: uni04E9 as 2nd glyph cloned from uni043E (32 pair records/classes)
+kern: uni04AE as 2nd glyph cloned from uni0423 (49 pair records/classes)
+kern: uni04AF as 2nd glyph cloned from uni0443 (48 pair records/classes)
+kern: uni04E9.BRACKET.varAlt01 as 2nd glyph cloned from uni043E (32 pair records/classes)
+kern: uni04AE look-alike pairs from Y: 49 explicit pairs in a new first subtable of lookup 0
+kern: uni20AE+four capped: T+four -> per-master values [-60, -98, -40]
+kern: uni20AE digit/punctuation pairs from T: 81 explicit pairs in a new first subtable of lookup 0
+mark: uni04E8 base anchors cloned from uni041E (1 subtables)
+mark: uni04E9 base anchors cloned from uni043E (1 subtables)
+mark: uni04AE base anchors cloned from Y (1 subtables)
+mark: uni04AF base anchors cloned from v (1 subtables)
+mark: uni04E9.BRACKET.varAlt01 base anchors cloned from uni043E (1 subtables)
+GSUB context: uni04E8 added beside uni041E in lookups ['8:Back']
+GSUB context: uni04AE added beside uni0423 in lookups ['8:Back']
+name 0: 'Copyright 2022 The Unbounded Project Authors (https://github.com/googlefonts/unbounded)' -> 'Copyright 2022 The Unbounded Project Authors (https://github.com/googlefonts/unbounded). Mongolian additions (Ө ө Ү ү ₮) 2026, Font Shuugch project.'
+name 1: 'Unbounded' -> 'Unbounded MN'
+name 3: '1.701;NAN;Unbounded-Regular' -> '1.701;MN0.2;NAN;UnboundedMN-Regular'
+name 4: 'Unbounded Regular' -> 'Unbounded MN Regular'
+name 5: 'Version 1.701;gftools[0.9.28.dev5+ged2979d]' -> 'Version 1.701;MN 0.2'
+name 6: 'Unbounded-Regular' -> 'UnboundedMN-Regular'
+name 25: 'Unbounded' -> 'UnboundedMN'
+saved build\UnboundedMN\UnboundedMN[wght].ttf
+static ExtraLight {'wght': 200.0} -> build\UnboundedMN\static\UnboundedMN-ExtraLight.ttf (names: 'Unbounded MN ExtraLight' / 'Regular' / 'Unbounded MN ExtraLight'; overlaps removed in ['uni04AF', 'uni20AE'])
+static Light {'wght': 300.0} -> build\UnboundedMN\static\UnboundedMN-Light.ttf (names: 'Unbounded MN Light' / 'Regular' / 'Unbounded MN Light'; overlaps removed in ['uni04AF', 'uni20AE'])
+static Regular {'wght': 400.0} -> build\UnboundedMN\static\UnboundedMN-Regular.ttf (names: 'Unbounded MN' / 'Regular' / 'Unbounded MN Regular'; overlaps removed in ['uni04AF', 'uni20AE'])
+static Medium {'wght': 500.0} -> build\UnboundedMN\static\UnboundedMN-Medium.ttf (names: 'Unbounded MN Medium' / 'Regular' / 'Unbounded MN Medium'; overlaps removed in ['uni04AF', 'uni20AE'])
+static SemiBold {'wght': 600.0} -> build\UnboundedMN\static\UnboundedMN-SemiBold.ttf (names: 'Unbounded MN SemiBold' / 'Regular' / 'Unbounded MN SemiBold'; overlaps removed in ['uni04AF', 'uni20AE'])
+static Bold {'wght': 700.0} -> build\UnboundedMN\static\UnboundedMN-Bold.ttf (names: 'Unbounded MN' / 'Bold' / 'Unbounded MN Bold'; overlaps removed in ['uni04AF', 'uni20AE'])
+static ExtraBold {'wght': 800.0} -> build\UnboundedMN\static\UnboundedMN-ExtraBold.ttf (names: 'Unbounded MN ExtraBold' / 'Regular' / 'Unbounded MN ExtraBold'; overlaps removed in ['uni04AF', 'uni20AE'])
+static Black {'wght': 900.0} -> build\UnboundedMN\static\UnboundedMN-Black.ttf (names: 'Unbounded MN Black' / 'Regular' / 'Unbounded MN Black'; overlaps removed in ['uni04AF', 'uni20AE'])

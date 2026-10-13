@@ -1,0 +1,44 @@
+source: sources/yanonekaffeesatz/YanoneKaffeesatz[wght].ttf (v2.003, 675 glyphs, variable)
+skip U+20AE: already mapped to uni20AE
+masters (normalized): default, wght=+1
+uni04E8 (U+04E8): 'uni041E' + bar from uni041D crossbar: thickness 24.0, centre y=350.0, x 60..406 (default)
+    uni04E8 @ default: {'bar_thickness': 24.0, 'bar_center': 350.0, 'bar_x': (60, 406)}
+    uni04E8 @ {'wght': 1.0}: {'bar_thickness': 105.0, 'bar_center': 350.0, 'bar_x': (84, 327)}
+uni04E9 (U+04E9): 'uni043E' + bar from uni043D crossbar: thickness 24.0, centre y=250.0, x 52..349 (default)
+    uni04E9 @ default: {'bar_thickness': 24.0, 'bar_center': 250.0, 'bar_x': (52, 349)}
+    uni04E9 @ {'wght': 1.0}: {'bar_thickness': 95.0, 'bar_center': 250.0, 'bar_x': (82, 280)}
+uni04AE (U+04AE): composite of 'Y' (offset 0,0)
+uni04AF (U+04AF): 'v' outline with a straight stem and 'uni0440''s terminal: stem width 24.0 ('uni0440' 24.0, deslanted), down to y=-197.0; outer arm edges extended to meet a stem of 'uni0440''s width at y=10.9
+    uni04AF @ default: {'mode': 'edges', 'stem': 24.0, 'p_stem': 24.0, 'widened': False, 'stem_x': (176, 200), 'join_y': 10.9, 'descender': -197.0, 'split_y': -78.8}
+    uni04AF @ {'wght': 1.0}: {'mode': 'edges', 'stem': 112.0, 'p_stem': 112.0, 'widened': False, 'stem_x': (108, 220), 'join_y': -17.3, 'descender': -197.0, 'split_y': -78.8}
+kern: uni04AE: Latin/Cyrillic kerning shared = False (0/6 look-alike pairs kern alike (Y+A -30 vs Y+uni0410 0; A+Y -30 vs uni0410+Y 0; Y+a -40 vs Y+uni0430 0)); mode auto
+kern: uni04E8 as 1st glyph cloned from uni041E (2 pair records/class rows)
+kern: uni04E9 as 1st glyph cloned from uni043E (1 pair records/class rows)
+kern: uni04AE as 1st glyph cloned from uni0423 (2 pair records/class rows)
+kern: uni04AF as 1st glyph cloned from uni0443 (1 pair records/class rows)
+kern: uni04E8 as 2nd glyph cloned from uni041E (2 pair records/classes)
+kern: uni04E9 as 2nd glyph cloned from uni043E (2 pair records/classes)
+kern: uni04AE as 2nd glyph cloned from uni0423 (1 pair records/classes)
+kern: uni04AF as 2nd glyph cloned from uni0443 (1 pair records/classes)
+kern: uni04AE look-alike pairs from Y: 35 explicit pairs in a new first subtable of lookup 1
+mark: uni04E8 base anchors cloned from uni041E (1 subtables)
+mark: uni04E9 base anchors cloned from uni043E (1 subtables)
+mark: uni04AE base anchors cloned from Y (1 subtables)
+mark: uni04AF base anchors cloned from v (0 subtables)
+GSUB context: uni04E8 added beside uni041E in lookups ['2:Back']
+GSUB context: uni04AE added beside uni0423 in lookups ['2:Back']
+name 0: 'Copyright 2010 The Yanone Kaffeesatz Project Authors (https://github.com/yanone/kaffeesatz)' -> 'Copyright 2010 The Yanone Kaffeesatz Project Authors (https://github.com/yanone/kaffeesatz). Mongolian additions (Ө ө Ү ү) 2026, Font Shuugch project.'
+name 1: 'Yanone Kaffeesatz ExtraLight' -> 'Yanone Kaffeesatz MN ExtraLight'
+name 3: '2.003;NONE;YanoneKaffeesatz-ExtraLight' -> '2.003;MN0.1;NONE;YanoneKaffeesatzMN-ExtraLight'
+name 4: 'Yanone Kaffeesatz ExtraLight' -> 'Yanone Kaffeesatz MN ExtraLight'
+name 5: 'Version 2.003' -> 'Version 2.003;MN 0.1'
+name 6: 'YanoneKaffeesatz-ExtraLight' -> 'YanoneKaffeesatzMN-ExtraLight'
+name 16: 'Yanone Kaffeesatz' -> 'Yanone Kaffeesatz MN'
+name 25: 'YanoneKaffeesatz' -> 'YanoneKaffeesatzMN'
+saved build\YanoneKaffeesatzMN\YanoneKaffeesatzMN[wght].ttf
+static ExtraLight {'wght': 200.0} -> build\YanoneKaffeesatzMN\static\YanoneKaffeesatzMN-ExtraLight.ttf (names: 'Yanone Kaffeesatz MN ExtraLight' / 'Regular' / 'Yanone Kaffeesatz MN ExtraLight'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF'])
+static Light {'wght': 300.0} -> build\YanoneKaffeesatzMN\static\YanoneKaffeesatzMN-Light.ttf (names: 'Yanone Kaffeesatz MN Light' / 'Regular' / 'Yanone Kaffeesatz MN Light'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF'])
+static Regular {'wght': 400.0} -> build\YanoneKaffeesatzMN\static\YanoneKaffeesatzMN-Regular.ttf (names: 'Yanone Kaffeesatz MN' / 'Regular' / 'Yanone Kaffeesatz MN Regular'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF'])
+static Medium {'wght': 500.0} -> build\YanoneKaffeesatzMN\static\YanoneKaffeesatzMN-Medium.ttf (names: 'Yanone Kaffeesatz MN Medium' / 'Regular' / 'Yanone Kaffeesatz MN Medium'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF'])
+static SemiBold {'wght': 600.0} -> build\YanoneKaffeesatzMN\static\YanoneKaffeesatzMN-SemiBold.ttf (names: 'Yanone Kaffeesatz MN SemiBold' / 'Regular' / 'Yanone Kaffeesatz MN SemiBold'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF'])
+static Bold {'wght': 700.0} -> build\YanoneKaffeesatzMN\static\YanoneKaffeesatzMN-Bold.ttf (names: 'Yanone Kaffeesatz MN' / 'Bold' / 'Yanone Kaffeesatz MN Bold'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF'])

@@ -1,0 +1,111 @@
+source: sources/sofiasansextracondensed/SofiaSansExtraCondensed[wght].ttf (v4.101, 954 glyphs, variable)
+masters (normalized): default, wght=-1, wght=+1
+uni04E8 (U+04E8): candidate Theta rejected: Theta bar does not join both walls at default (ink runs at y=328: [(43, 108), (144, 256), (291, 356)])
+uni04E8 (U+04E8): 'uni041E' + bar from uni041D crossbar: thickness 62.0, centre y=327.5, x 76..324 (default)
+    uni04E8 @ default: {'bar_thickness': 62.0, 'bar_center': 327.5, 'bar_x': (76, 324)}
+    uni04E8 @ {'wght': -1.0}: {'bar_thickness': 16.0, 'bar_center': 327.5, 'bar_x': (63, 329)}
+    uni04E8 @ {'wght': 1.0}: {'bar_thickness': 146.0, 'bar_center': 327.5, 'bar_x': (105, 383)}
+uni04E9 (U+04E9): 'uni043E' + bar from uni043D crossbar: thickness 61.0, centre y=243.0, x 70..268 (default)
+    uni04E9 @ default: {'bar_thickness': 61.0, 'bar_center': 243.0, 'bar_x': (70, 268)}
+    uni04E9 @ {'wght': -1.0}: {'bar_thickness': 16.0, 'bar_center': 239.0, 'bar_x': (55, 265)}
+    uni04E9 @ {'wght': 1.0}: {'bar_thickness': 108.2, 'bar_center': 250.0, 'bar_x': (100, 306)}
+uni04AE (U+04AE): composite of 'Y' (offset 0,0)
+uni04AF (U+04AF): 'v' outline with a straight stem and 'uni0440''s terminal: stem width 65.0 ('uni0440' 65.0, deslanted), down to y=-185.0; outer arm edges extended to meet a stem of 'uni0440''s width at y=-36.2; stem widened where the join would sit deeper than 0.25 x descender
+    uni04AF @ default: {'mode': 'edges', 'stem': 65.0, 'p_stem': 65.0, 'widened': False, 'stem_x': (127, 192), 'join_y': -36.2, 'descender': -185.0, 'split_y': -74.0}
+    uni04AF @ {'wght': -1.0}: {'mode': 'edges', 'stem': 16.0, 'p_stem': 16.0, 'widened': False, 'stem_x': (140, 156), 'join_y': -9.7, 'descender': -185.0, 'split_y': -74.0}
+    uni04AF @ {'wght': 1.0}: {'mode': 'edges', 'stem': 166.5, 'p_stem': 160.0, 'widened': True, 'stem_x': (122, 289), 'join_y': -46.2, 'descender': -185.0, 'split_y': -74.0}
+uni20AE (U+20AE): 'T' outline + two parallel strokes (vertical end cuts) centred on the stem: perpendicular thickness 49.1 (= 0.78 x crossbar 63), angle 20 deg, x 73..252 (62% of the crossbar), centre lines cross the stem axis at y=164.4 and y=385.4; white gaps baseline/between/crossbar = (105.5, 168.8, 147.7) (default)
+uni20AE (U+20AE): heaviest master (wght=+1, heavy rule): thickness 113.9 (0.78 x crossbar), 20 deg, x 37..385 (protrudes 91.3 past the stem), gaps (27.7, 56.8, 55.2); family internal gaps {'Euro': 37.0, 'yen': 49.0, 'e': 87.0} -> rule minimum 44.4
+    uni20AE @ default: {'mode': 'solver', 'T_stem': (130, 195), 'T_crossbar': (592, 655), 'stroke_thickness': 49.1, 'thickness_ratio': 0.78, 'stroke_vertical': 52.3, 'rise': 65.4, 'angle': 20, 'stroke_x': (73, 252), 'protrusion': 57.4, 'lower_centre_y': 164.4, 'upper_centre_y': 385.4, 'gaps': (105.5, 168.8, 147.7)}
+    uni20AE @ {'wght': -1.0}: {'mode': 'solver', 'T_stem': (152, 168), 'T_crossbar': (639, 655), 'stroke_thickness': 16.0, 'thickness_ratio': 1.0, 'stroke_vertical': 17.0, 'rise': 61.4, 'angle': 20, 'stroke_x': (76, 244), 'protrusion': 76.3, 'lower_centre_y': 175.1, 'upper_centre_y': 409.5, 'gaps': (135.9, 217.4, 190.2)}
+    uni20AE @ {'wght': 1.0}: {'mode': 'heavy rule', 'T_stem': (128, 294), 'T_crossbar': (509, 655), 'stroke_thickness': 113.9, 'thickness_ratio': 0.78, 'stroke_vertical': 121.2, 'rise': 126.9, 'angle': 20, 'stroke_x': (37, 385), 'protrusion': 91.3, 'lower_centre_y': 151.8, 'upper_centre_y': 329.7, 'gaps': (27.7, 56.8, 55.2), 'family_gaps': {'Euro': 37.0, 'yen': 49.0, 'e': 87.0}, 'min_internal_gap': 44.4}
+kern: uni04AE: Latin/Cyrillic kerning shared = True (15/16 look-alike pairs kern alike (Y+r -33 vs Y+uni0433 0)); mode auto
+kern: uni04E8 as 1st glyph cloned from uni041E (1 pair records/class rows)
+kern: uni04E9 as 1st glyph cloned from uni043E (1 pair records/class rows)
+kern: uni04AE as 1st glyph cloned from Y (1 pair records/class rows)
+kern: uni04AF as 1st glyph cloned from uni0443 (1 pair records/class rows)
+kern: uni04E8 as 2nd glyph cloned from uni041E (3 pair records/classes)
+kern: uni04E9 as 2nd glyph cloned from uni043E (3 pair records/classes)
+kern: uni04AE as 2nd glyph cloned from Y (3 pair records/classes)
+kern: uni04AF as 2nd glyph cloned from uni0443 (3 pair records/classes)
+kern: uni20AE+four capped: T+four -> per-master values [-28, -25, -24]
+kern: uni20AE digit/punctuation pairs from T: 73 explicit pairs in a new first subtable of lookup 0
+mark: uni04E8 base anchors cloned from uni041E (1 subtables)
+mark: uni04E9 base anchors cloned from uni043E (1 subtables)
+mark: uni04AE base anchors cloned from Y (1 subtables)
+mark: uni04AF base anchors cloned from v (1 subtables)
+GSUB context: uni04E8 added beside uni041E in lookups ['2:Back', '32:Back', '32:Look']
+GSUB context: uni04AE added beside uni0423 in lookups ['2:Back', '32:Back', '32:Look']
+name 0: 'Copyright 2019 The Sofia Sans Project Authors (https://github.com/lettersoup/Sofia-Sans)' -> 'Copyright 2019 The Sofia Sans Project Authors (https://github.com/lettersoup/Sofia-Sans). Mongolian additions (Ө ө Ү ү ₮) 2026, Font Shuugch project.'
+name 1: 'Sofia Sans Extra Condensed' -> 'Sofia Sans Extra Condensed MN'
+name 3: '4.101;LS;SofiaSansExtraCondensed-Regular' -> '4.101;MN0.1;LS;SofiaSansExtraCondensedMN-Regular'
+name 4: 'Sofia Sans Extra Condensed Regular' -> 'Sofia Sans Extra Condensed MN Regular'
+name 5: 'Version 4.101' -> 'Version 4.101;MN 0.1'
+name 6: 'SofiaSansExtraCondensed-Regular' -> 'SofiaSansExtraCondensedMN-Regular'
+name 25: 'SofiaSansExtraCondensed' -> 'SofiaSansExtraCondensedMN'
+saved build\SofiaSansExtraCondensedMN\SofiaSansExtraCondensedMN[wght].ttf
+static Thin {'wght': 100.0} -> build\SofiaSansExtraCondensedMN\static\SofiaSansExtraCondensedMN-Thin.ttf (names: 'Sofia Sans Extra Condensed MN Thin' / 'Regular' / 'Sofia Sans Extra Condensed MN Thin'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static ExtraLight {'wght': 200.0} -> build\SofiaSansExtraCondensedMN\static\SofiaSansExtraCondensedMN-ExtraLight.ttf (names: 'Sofia Sans Extra Condensed MN ExtraLight' / 'Regular' / 'Sofia Sans Extra Condensed MN ExtraLight'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static Light {'wght': 300.0} -> build\SofiaSansExtraCondensedMN\static\SofiaSansExtraCondensedMN-Light.ttf (names: 'Sofia Sans Extra Condensed MN Light' / 'Regular' / 'Sofia Sans Extra Condensed MN Light'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static Regular {'wght': 400.0} -> build\SofiaSansExtraCondensedMN\static\SofiaSansExtraCondensedMN-Regular.ttf (names: 'Sofia Sans Extra Condensed MN' / 'Regular' / 'Sofia Sans Extra Condensed MN Regular'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static Medium {'wght': 500.0} -> build\SofiaSansExtraCondensedMN\static\SofiaSansExtraCondensedMN-Medium.ttf (names: 'Sofia Sans Extra Condensed MN Medium' / 'Regular' / 'Sofia Sans Extra Condensed MN Medium'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static SemiBold {'wght': 600.0} -> build\SofiaSansExtraCondensedMN\static\SofiaSansExtraCondensedMN-SemiBold.ttf (names: 'Sofia Sans Extra Condensed MN SemiBold' / 'Regular' / 'Sofia Sans Extra Condensed MN SemiBold'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static Bold {'wght': 700.0} -> build\SofiaSansExtraCondensedMN\static\SofiaSansExtraCondensedMN-Bold.ttf (names: 'Sofia Sans Extra Condensed MN' / 'Bold' / 'Sofia Sans Extra Condensed MN Bold'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static ExtraBold {'wght': 800.0} -> build\SofiaSansExtraCondensedMN\static\SofiaSansExtraCondensedMN-ExtraBold.ttf (names: 'Sofia Sans Extra Condensed MN ExtraBold' / 'Regular' / 'Sofia Sans Extra Condensed MN ExtraBold'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static Black {'wght': 900.0} -> build\SofiaSansExtraCondensedMN\static\SofiaSansExtraCondensedMN-Black.ttf (names: 'Sofia Sans Extra Condensed MN Black' / 'Regular' / 'Sofia Sans Extra Condensed MN Black'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+source: sources/sofiasansextracondensed/SofiaSansExtraCondensed-Italic[wght].ttf (v4.101, 934 glyphs, variable)
+italic: post.italicAngle -9.0 deg -> tan 0.1584; measured on I 0.1586; using 0.1584
+masters (normalized): default, wght=-1, wght=+1
+uni04E8 (U+04E8): candidate Theta rejected: Theta bar does not join both walls at default (ink runs at y=328: [(65, 127), (162, 274), (309, 371)])
+uni04E8 (U+04E8): 'uni041E' + bar from uni041D crossbar: thickness 62.0, centre y=327.5, x 96..340 (default)
+    uni04E8 @ default: {'bar_thickness': 62.0, 'bar_center': 327.5, 'bar_x': (96, 340)}
+    uni04E8 @ {'wght': -1.0}: {'bar_thickness': 16.0, 'bar_center': 327.5, 'bar_x': (84, 344)}
+    uni04E8 @ {'wght': 1.0}: {'bar_thickness': 146.0, 'bar_center': 327.5, 'bar_x': (124, 400)}
+uni04E9 (U+04E9): 'uni043E' + bar from uni043D crossbar: thickness 60.0, centre y=243.0, x 78..271 (default)
+    uni04E9 @ default: {'bar_thickness': 60.0, 'bar_center': 243.0, 'bar_x': (78, 271)}
+    uni04E9 @ {'wght': -1.0}: {'bar_thickness': 16.0, 'bar_center': 239.0, 'bar_x': (63, 268)}
+    uni04E9 @ {'wght': 1.0}: {'bar_thickness': 99.7, 'bar_center': 250.0, 'bar_x': (109, 309)}
+uni04AE (U+04AE): composite of 'Y' (offset 0,0)
+uni04AF (U+04AF): 'v' outline with a straight stem and 'uni0440''s terminal: stem width 62.0 ('uni0440' 62.0, deslanted), down to y=-185.0; outer arm edges extended to meet a stem of 'uni0440''s width at y=-37.7; stem widened where the join would sit deeper than 0.25 x descender; italic slant 9.0 deg
+    uni04AF @ default: {'mode': 'edges', 'stem': 62.0, 'p_stem': 62.0, 'widened': False, 'stem_x': (95, 157), 'join_y': -37.7, 'descender': -185.0, 'split_y': -74.0}
+    uni04AF @ {'wght': -1.0}: {'mode': 'edges', 'stem': 15.9, 'p_stem': 15.9, 'widened': False, 'stem_x': (107, 123), 'join_y': -8.0, 'descender': -185.0, 'split_y': -74.0}
+    uni04AF @ {'wght': 1.0}: {'mode': 'edges', 'stem': 163.3, 'p_stem': 157.0, 'widened': True, 'stem_x': (90, 254), 'join_y': -46.2, 'descender': -185.0, 'split_y': -74.0}
+uni20AE (U+20AE): 'T' outline + two parallel strokes (vertical end cuts) centred on the stem: perpendicular thickness 47.6 (= 0.78 x crossbar 61), angle 20 deg, x 41..218 (62% of the crossbar), centre lines cross the stem axis at y=164.5 and y=386.6; white gaps baseline/between/crossbar = (107.1, 171.4, 150.0) (default)
+uni20AE (U+20AE): heaviest master (wght=+1, heavy rule): thickness 113.9 (0.78 x crossbar), 20 deg, x 8..346 (protrudes 88.6 past the stem), gaps (28.7, 58.3, 56.6); family internal gaps {'Euro': 37.0, 'yen': 49.0, 'e': 84.7} -> rule minimum 44.4
+    uni20AE @ default: {'mode': 'solver', 'T_stem': (98, 161), 'T_crossbar': (594, 655), 'stroke_thickness': 47.6, 'thickness_ratio': 0.78, 'stroke_vertical': 50.6, 'rise': 64.1, 'angle': 20, 'stroke_x': (41, 218), 'protrusion': 57.0, 'lower_centre_y': 164.5, 'upper_centre_y': 386.6, 'gaps': (107.1, 171.4, 150.0)}
+    uni20AE @ {'wght': -1.0}: {'mode': 'solver', 'T_stem': (119, 135), 'T_crossbar': (639, 655), 'stroke_thickness': 16.0, 'thickness_ratio': 1.0, 'stroke_vertical': 17.0, 'rise': 60.2, 'angle': 20, 'stroke_x': (45, 210), 'protrusion': 74.7, 'lower_centre_y': 174.8, 'upper_centre_y': 409.7, 'gaps': (136.2, 217.9, 190.7)}
+    uni20AE @ {'wght': 1.0}: {'mode': 'heavy rule', 'T_stem': (97, 258), 'T_crossbar': (509, 655), 'stroke_thickness': 113.9, 'thickness_ratio': 0.78, 'stroke_vertical': 121.2, 'rise': 123.1, 'angle': 20, 'stroke_x': (8, 346), 'protrusion': 88.6, 'lower_centre_y': 150.8, 'upper_centre_y': 330.3, 'gaps': (28.7, 58.3, 56.6), 'family_gaps': {'Euro': 37.0, 'yen': 49.0, 'e': 84.7}, 'min_internal_gap': 44.4}
+kern: uni04AE: Latin/Cyrillic kerning shared = True (15/16 look-alike pairs kern alike (Y+r -33 vs Y+uni0433 0)); mode auto
+kern: uni04E8 as 1st glyph cloned from uni041E (1 pair records/class rows)
+kern: uni04E9 as 1st glyph cloned from uni043E (1 pair records/class rows)
+kern: uni04AE as 1st glyph cloned from Y (1 pair records/class rows)
+kern: uni04AF as 1st glyph cloned from uni0443 (1 pair records/class rows)
+kern: uni04E8 as 2nd glyph cloned from uni041E (2 pair records/classes)
+kern: uni04E9 as 2nd glyph cloned from uni043E (2 pair records/classes)
+kern: uni04AE as 2nd glyph cloned from Y (2 pair records/classes)
+kern: uni04AF as 2nd glyph cloned from uni0443 (2 pair records/classes)
+kern: uni20AE+four capped: T+four -> per-master values [-28, -25, -24]
+kern: uni20AE digit/punctuation pairs from T: 69 explicit pairs in a new first subtable of lookup 0
+mark: uni04E8 base anchors cloned from uni041E (1 subtables)
+mark: uni04E9 base anchors cloned from uni043E (1 subtables)
+mark: uni04AE base anchors cloned from Y (1 subtables)
+mark: uni04AF base anchors cloned from v (0 subtables)
+GSUB context: uni04E8 added beside uni041E in lookups ['2:Back', '31:Back', '31:Look']
+GSUB context: uni04AE added beside uni0423 in lookups ['2:Back', '31:Back', '31:Look']
+name 0: 'Copyright 2019 The Sofia Sans Project Authors (https://github.com/lettersoup/Sofia-Sans)' -> 'Copyright 2019 The Sofia Sans Project Authors (https://github.com/lettersoup/Sofia-Sans). Mongolian additions (Ө ө Ү ү ₮) 2026, Font Shuugch project.'
+name 1: 'Sofia Sans Extra Condensed' -> 'Sofia Sans Extra Condensed MN'
+name 3: '4.101;LS;SofiaSansExtraCondensed-Italic' -> '4.101;MN0.1;LS;SofiaSansExtraCondensedMN-Italic'
+name 4: 'Sofia Sans Extra Condensed Italic' -> 'Sofia Sans Extra Condensed MN Italic'
+name 5: 'Version 4.101' -> 'Version 4.101;MN 0.1'
+name 6: 'SofiaSansExtraCondensed-Italic' -> 'SofiaSansExtraCondensedMN-Italic'
+name 25: 'SofiaSansExtraCondensedItalic' -> 'SofiaSansExtraCondensedMNItalic'
+saved build\SofiaSansExtraCondensedMN\SofiaSansExtraCondensedMN-Italic[wght].ttf
+static Thin Italic {'wght': 100.0} -> build\SofiaSansExtraCondensedMN\static\SofiaSansExtraCondensedMN-ThinItalic.ttf (names: 'Sofia Sans Extra Condensed MN Thin' / 'Italic' / 'Sofia Sans Extra Condensed MN Thin Italic'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static ExtraLight Italic {'wght': 200.0} -> build\SofiaSansExtraCondensedMN\static\SofiaSansExtraCondensedMN-ExtraLightItalic.ttf (names: 'Sofia Sans Extra Condensed MN ExtraLight' / 'Italic' / 'Sofia Sans Extra Condensed MN ExtraLight Italic'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static Light Italic {'wght': 300.0} -> build\SofiaSansExtraCondensedMN\static\SofiaSansExtraCondensedMN-LightItalic.ttf (names: 'Sofia Sans Extra Condensed MN Light' / 'Italic' / 'Sofia Sans Extra Condensed MN Light Italic'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static Italic {'wght': 400.0} -> build\SofiaSansExtraCondensedMN\static\SofiaSansExtraCondensedMN-Italic.ttf (names: 'Sofia Sans Extra Condensed MN' / 'Italic' / 'Sofia Sans Extra Condensed MN Italic'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static Medium Italic {'wght': 500.0} -> build\SofiaSansExtraCondensedMN\static\SofiaSansExtraCondensedMN-MediumItalic.ttf (names: 'Sofia Sans Extra Condensed MN Medium' / 'Italic' / 'Sofia Sans Extra Condensed MN Medium Italic'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static SemiBold Italic {'wght': 600.0} -> build\SofiaSansExtraCondensedMN\static\SofiaSansExtraCondensedMN-SemiBoldItalic.ttf (names: 'Sofia Sans Extra Condensed MN SemiBold' / 'Italic' / 'Sofia Sans Extra Condensed MN SemiBold Italic'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static Bold Italic {'wght': 700.0} -> build\SofiaSansExtraCondensedMN\static\SofiaSansExtraCondensedMN-BoldItalic.ttf (names: 'Sofia Sans Extra Condensed MN' / 'Bold Italic' / 'Sofia Sans Extra Condensed MN Bold Italic'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static ExtraBold Italic {'wght': 800.0} -> build\SofiaSansExtraCondensedMN\static\SofiaSansExtraCondensedMN-ExtraBoldItalic.ttf (names: 'Sofia Sans Extra Condensed MN ExtraBold' / 'Italic' / 'Sofia Sans Extra Condensed MN ExtraBold Italic'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static Black Italic {'wght': 900.0} -> build\SofiaSansExtraCondensedMN\static\SofiaSansExtraCondensedMN-BlackItalic.ttf (names: 'Sofia Sans Extra Condensed MN Black' / 'Italic' / 'Sofia Sans Extra Condensed MN Black Italic'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])

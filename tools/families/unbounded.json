@@ -1,0 +1,321 @@
+{
+  "_comment": "Per-family parameters for build_mn.py. Paths are relative to the mn-font-editions root. Glyph keys are the new glyph names; 'build' selects a constructor in tools/mnfont/construct.py; 'otl_base' is the existing glyph whose kerning, mark anchors and contextual-lookup membership the new glyph inherits (null = none).",
+  "family_id": "unbounded",
+  "source": "sources/unbounded/Unbounded[wght].ttf",
+  "license": "sources/unbounded/OFL.txt",
+  "upstream": "https://github.com/googlefonts/unbounded",
+  "out_dir": "build/UnboundedMN",
+  "out_file": "UnboundedMN[wght].ttf",
+  "family_name": "Unbounded",
+  "new_family_name": "Unbounded MN",
+  "version_suffix": "MN 0.2",
+  "copyright_append": "Mongolian additions (Ө ө Ү ү ₮) 2026, Font Shuugch project.",
+  "statics": true,
+  "glyphs": {
+    "uni04E8": {
+      "unicode": "04E8",
+      "build": {
+        "method": "barred_o",
+        "base": "O",
+        "bar_ref": "H",
+        "prefer_component": [
+          "uni019F",
+          "Obarred"
+        ]
+      },
+      "otl_base": "uni041E"
+    },
+    "uni04E9": {
+      "unicode": "04E9",
+      "build": {
+        "method": "barred_o",
+        "base": "o",
+        "bar_ref": "uni043D",
+        "prefer_component": [
+          "uni0275",
+          "obarred"
+        ]
+      },
+      "otl_base": "uni043E"
+    },
+    "uni04AE": {
+      "unicode": "04AE",
+      "build": {
+        "method": "component",
+        "base": "Y"
+      },
+      "otl_base": "uni0423",
+      "anchor_base": "Y",
+      "kern_lookalike": {
+        "_comment": "Unbounded keeps Latin and Cyrillic kerning separate (A+Y=-152, А+Y=0), so Ү takes Latin Y's value with each partner's Latin look-alike; partners without one keep the cloned У values (otl_base). keep_fallback: pairs the 2026-10-13 review asked to leave on the У values.",
+        "latin_twin": "Y",
+        "mode": "auto",
+        "map": {
+          "А": "A",
+          "О": "O",
+          "Ө": "O",
+          "С": "C",
+          "а": "a",
+          "е": "e",
+          "о": "o",
+          "ө": "o",
+          "с": "c",
+          "р": "p",
+          "х": "x",
+          "ү": "v",
+          "н": "n",
+          "г": "r",
+          "й": "u",
+          "и": "u",
+          "«": "«",
+          "»": "»",
+          "-": "-",
+          ".": ".",
+          ",": ","
+        },
+        "keep_fallback": {
+          "as_left": [
+            "А",
+            ".",
+            ","
+          ],
+          "as_right": []
+        }
+      }
+    },
+    "uni04AF": {
+      "unicode": "04AF",
+      "build": {
+        "method": "straight_u",
+        "base": "v",
+        "stem_ref": "p"
+      },
+      "otl_base": "uni0443",
+      "anchor_base": "v"
+    },
+    "uni20AE": {
+      "unicode": "20AE",
+      "build": {
+        "method": "tugrik",
+        "base": "T",
+        "angle_deg": 20,
+        "angle_min_deg": 15,
+        "span": 0.62,
+        "thickness_ratio": 0.78,
+        "thickness_min_ratio": 0.58,
+        "whitespace_ratio": 0.8,
+        "whitespace_split": [
+          0.25,
+          0.4,
+          0.35
+        ],
+        "min_protrusion": 0.55,
+        "heavy_gap_factor": 1.2,
+        "bottom_gap_ratio": 0.45,
+        "heavy_gap_refs": [
+          {
+            "glyph": "uni20B8",
+            "x": 0.2
+          },
+          {
+            "glyph": "Euro",
+            "x": 0.1
+          },
+          {
+            "glyph": "yen",
+            "x": 0.3
+          },
+          {
+            "glyph": "e",
+            "x": 0.5
+          }
+        ],
+        "master_overrides": {
+          "wght=1": {
+            "_comment": "design review 2026-10-13, Black variant B",
+            "angle": 15,
+            "thickness": 120,
+            "x_span": 540,
+            "gap_bottom": 24,
+            "gap_between": 52
+          }
+        }
+      },
+      "otl_base": null,
+      "kern_like": {
+        "_comment": "Latin T's kerning against digits and punctuation only (no letters); T4 (-112/-80) would let the 4 run into the strokes, so it is capped.",
+        "glyph": "T",
+        "caps": {
+          "four": {
+            "_comment": "400/900 from the 2026-10-13 review; 200 chosen so the ₮-4 clearance equals the reviewed Regular's (122 units; uncapped T4 -124 would leave 96)",
+            "wght=-1": -98,
+            "default": -60,
+            "wght=1": -40
+          }
+        }
+      }
+    }
+  },
+  "release_notes": [
+    "Ү: kerning now derived from Latin Y through Latin look-alikes of each Cyrillic partner (Unbounded keeps Latin and Cyrillic kerning separate); partners without a look-alike, and ҮА / Ү. / Ү, keep the У values.",
+    "₮: Black master redrawn per design review (strokes 120 thick, x 150..690, 15 deg, gaps 24/52/51); ExtraLight and Regular masters unchanged.",
+    "₮: kerning from Latin T against digits and punctuation only; ₮4 capped at -98/-60/-40 (wght 200/400/900).",
+    "Ү and ү: mark anchors now from Y and v.",
+    "Ө, ө, ү outlines unchanged."
+  ],
+  "fontlog_history": [
+    {
+      "version": "MN 0.1",
+      "date": "2026-10-13",
+      "text": "First prototype: Ө ө (composites of the font's Ɵ ɵ), Ү (composite of Y), ү (v + straight stem), ₮ (T + two diagonal strokes); kerning cloned from О о У у."
+    }
+  ],
+  "frozen_glyphs": [
+    "uni04E8",
+    "uni04E9",
+    "uni04AF"
+  ],
+  "frozen_masters": {
+    "uni20AE": [
+      "default",
+      "wght=-1"
+    ]
+  },
+  "review_targets": {
+    "_comment": "kerning targets from the 2026-10-13 design review (first-glyph adjustment, font units)",
+    "weights": [
+      400,
+      900
+    ],
+    "kerning": {
+      "Үү": [
+        -84,
+        -85
+      ],
+      "Үе": [
+        -168,
+        -185
+      ],
+      "Үс": [
+        -168,
+        -185
+      ],
+      "Үо": [
+        -168,
+        -185
+      ],
+      "Үө": [
+        -168,
+        -185
+      ],
+      "Үх": [
+        -81,
+        -82
+      ],
+      "Үр": [
+        -132,
+        -129
+      ],
+      "Үн": [
+        -109,
+        -105
+      ],
+      "Үй": [
+        -126,
+        -123
+      ],
+      "Үа": [
+        -160,
+        -172
+      ],
+      "ҮО": [
+        -84,
+        -99
+      ],
+      "ҮӨ": [
+        -84,
+        -99
+      ],
+      "ҮС": [
+        -84,
+        -99
+      ],
+      "АҮ": [
+        -152,
+        -165
+      ],
+      "ОҮ": [
+        -83,
+        -98
+      ],
+      "ӨҮ": [
+        -83,
+        -98
+      ],
+      "СҮ": [
+        -65,
+        -89
+      ],
+      "«Ү": [
+        -85,
+        -79
+      ],
+      "Ү»": [
+        -85,
+        -79
+      ],
+      "-Ү": [
+        -127,
+        -129
+      ],
+      "Ү-": [
+        -127,
+        -129
+      ],
+      "ҮА": [
+        -151,
+        -163
+      ],
+      "Ү.": [
+        -122,
+        -146
+      ],
+      "0₮": [
+        -35,
+        -10
+      ],
+      "9₮": [
+        -32,
+        -8
+      ],
+      "4₮": [
+        -46,
+        -42
+      ],
+      "6₮": [
+        -15,
+        -7
+      ],
+      "₮0": [
+        -31,
+        -9
+      ],
+      "₮6": [
+        -29,
+        -8
+      ],
+      "₮1": [
+        10,
+        0
+      ],
+      "₮7": [
+        12,
+        0
+      ],
+      "₮4": [
+        -60,
+        -40
+      ]
+    }
+  }
+}

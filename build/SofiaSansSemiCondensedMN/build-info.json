@@ -1,0 +1,1419 @@
+{
+ "family": "Sofia Sans Semi Condensed MN",
+ "fonts": [
+  {
+   "file": "SofiaSansSemiCondensedMN[wght].ttf",
+   "source": "sources/sofiasanssemicondensed/SofiaSansSemiCondensed[wght].ttf",
+   "variable": true,
+   "slant": 0.0,
+   "masters": [
+    {},
+    {
+     "wght": -1.0
+    },
+    {
+     "wght": 1.0
+    }
+   ],
+   "added": "Ө ө Ү ү ₮",
+   "glyphs": {
+    "uni04E8": {
+     "kind": "simple",
+     "metrics_base": "uni041E",
+     "components": [],
+     "tracks": [
+      "uni041E",
+      [
+       [
+        4,
+        0
+       ],
+       [
+        5,
+        1
+       ],
+       [
+        6,
+        2
+       ],
+       [
+        7,
+        3
+       ],
+       [
+        8,
+        4
+       ],
+       [
+        9,
+        5
+       ],
+       [
+        10,
+        6
+       ],
+       [
+        11,
+        7
+       ],
+       [
+        12,
+        8
+       ],
+       [
+        13,
+        9
+       ],
+       [
+        14,
+        10
+       ],
+       [
+        15,
+        11
+       ],
+       [
+        16,
+        12
+       ],
+       [
+        17,
+        13
+       ],
+       [
+        18,
+        14
+       ],
+       [
+        19,
+        15
+       ],
+       [
+        20,
+        16
+       ],
+       [
+        21,
+        17
+       ],
+       [
+        22,
+        18
+       ],
+       [
+        23,
+        19
+       ],
+       [
+        24,
+        20
+       ],
+       [
+        25,
+        21
+       ],
+       [
+        26,
+        22
+       ],
+       [
+        27,
+        23
+       ],
+       [
+        28,
+        24
+       ],
+       [
+        29,
+        25
+       ],
+       [
+        30,
+        26
+       ],
+       [
+        31,
+        27
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "bar_thickness": 71.0,
+       "bar_center": 327.5,
+       "bar_x": [
+        109,
+        501
+       ]
+      },
+      "wght=-1": {
+       "bar_thickness": 16.0,
+       "bar_center": 327.5,
+       "bar_x": [
+        91,
+        512
+       ]
+      },
+      "wght=+1": {
+       "bar_thickness": 157.0,
+       "bar_center": 327.5,
+       "bar_x": [
+        129,
+        511
+       ]
+      }
+     }
+    },
+    "uni04E9": {
+     "kind": "simple",
+     "metrics_base": "uni043E",
+     "components": [],
+     "tracks": [
+      "uni043E",
+      [
+       [
+        4,
+        0
+       ],
+       [
+        5,
+        1
+       ],
+       [
+        6,
+        2
+       ],
+       [
+        7,
+        3
+       ],
+       [
+        8,
+        4
+       ],
+       [
+        9,
+        5
+       ],
+       [
+        10,
+        6
+       ],
+       [
+        11,
+        7
+       ],
+       [
+        12,
+        8
+       ],
+       [
+        13,
+        9
+       ],
+       [
+        14,
+        10
+       ],
+       [
+        15,
+        11
+       ],
+       [
+        16,
+        12
+       ],
+       [
+        17,
+        13
+       ],
+       [
+        18,
+        14
+       ],
+       [
+        19,
+        15
+       ],
+       [
+        20,
+        16
+       ],
+       [
+        21,
+        17
+       ],
+       [
+        22,
+        18
+       ],
+       [
+        23,
+        19
+       ],
+       [
+        24,
+        20
+       ],
+       [
+        25,
+        21
+       ],
+       [
+        26,
+        22
+       ],
+       [
+        27,
+        23
+       ],
+       [
+        28,
+        24
+       ],
+       [
+        29,
+        25
+       ],
+       [
+        30,
+        26
+       ],
+       [
+        31,
+        27
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "bar_thickness": 69.0,
+       "bar_center": 244.0,
+       "bar_x": [
+        98,
+        409
+       ]
+      },
+      "wght=-1": {
+       "bar_thickness": 16.0,
+       "bar_center": 239.0,
+       "bar_x": [
+        78,
+        411
+       ]
+      },
+      "wght=+1": {
+       "bar_thickness": 103.6,
+       "bar_center": 250.0,
+       "bar_x": [
+        118,
+        416
+       ]
+      }
+     }
+    },
+    "uni04AE": {
+     "kind": "composite",
+     "metrics_base": "Y",
+     "components": [
+      "Y"
+     ],
+     "tracks": null,
+     "measurements": {}
+    },
+    "uni04AF": {
+     "kind": "simple",
+     "metrics_base": "v",
+     "components": [],
+     "tracks": [
+      "v",
+      [
+       [
+        10,
+        3
+       ],
+       [
+        11,
+        4
+       ],
+       [
+        12,
+        5
+       ],
+       [
+        13,
+        6
+       ],
+       [
+        14,
+        7
+       ],
+       [
+        15,
+        8
+       ],
+       [
+        16,
+        9
+       ],
+       [
+        17,
+        10
+       ],
+       [
+        18,
+        11
+       ],
+       [
+        19,
+        12
+       ],
+       [
+        20,
+        13
+       ],
+       [
+        21,
+        14
+       ],
+       [
+        22,
+        15
+       ],
+       [
+        23,
+        16
+       ],
+       [
+        24,
+        17
+       ],
+       [
+        25,
+        18
+       ],
+       [
+        26,
+        19
+       ],
+       [
+        27,
+        20
+       ],
+       [
+        28,
+        21
+       ],
+       [
+        29,
+        22
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "mode": "edges",
+       "stem": 80.0,
+       "p_stem": 80.0,
+       "widened": false,
+       "stem_x": [
+        196,
+        276
+       ],
+       "join_y": -33.4,
+       "descender": -185.0,
+       "split_y": -74.0
+      },
+      "wght=-1": {
+       "mode": "edges",
+       "stem": 16.0,
+       "p_stem": 16.0,
+       "widened": false,
+       "stem_x": [
+        216,
+        232
+       ],
+       "join_y": -7.3,
+       "descender": -185.0,
+       "split_y": -74.0
+      },
+      "wght=+1": {
+       "mode": "edges",
+       "stem": 175.0,
+       "p_stem": 175.0,
+       "widened": false,
+       "stem_x": [
+        174,
+        349
+       ],
+       "join_y": -42.5,
+       "descender": -185.0,
+       "split_y": -74.0
+      }
+     }
+    },
+    "uni20AE": {
+     "kind": "simple",
+     "metrics_base": "T",
+     "components": [],
+     "tracks": [
+      "T",
+      [
+       [
+        0,
+        0
+       ],
+       [
+        1,
+        1
+       ],
+       [
+        2,
+        2
+       ],
+       [
+        3,
+        3
+       ],
+       [
+        4,
+        4
+       ],
+       [
+        5,
+        5
+       ],
+       [
+        6,
+        6
+       ],
+       [
+        7,
+        7
+       ],
+       [
+        8,
+        8
+       ],
+       [
+        9,
+        9
+       ],
+       [
+        10,
+        10
+       ],
+       [
+        11,
+        11
+       ],
+       [
+        12,
+        12
+       ],
+       [
+        13,
+        13
+       ],
+       [
+        14,
+        14
+       ],
+       [
+        15,
+        15
+       ],
+       [
+        16,
+        16
+       ],
+       [
+        17,
+        17
+       ],
+       [
+        18,
+        18
+       ],
+       [
+        19,
+        19
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "mode": "solver",
+       "T_stem": [
+        215,
+        295
+       ],
+       "T_crossbar": [
+        582,
+        655
+       ],
+       "stroke_thickness": 56.9,
+       "thickness_ratio": 0.78,
+       "stroke_vertical": 60.6,
+       "rise": 100.2,
+       "angle": 20,
+       "stroke_x": [
+        117,
+        393
+       ],
+       "protrusion": 97.6,
+       "lower_centre_y": 170.5,
+       "upper_centre_y": 375.4,
+       "gaps": [
+        90.2,
+        144.2,
+        126.2
+       ]
+      },
+      "wght=-1": {
+       "mode": "solver",
+       "T_stem": [
+        247,
+        263
+       ],
+       "T_crossbar": [
+        639,
+        655
+       ],
+       "stroke_thickness": 16.0,
+       "thickness_ratio": 1.0,
+       "stroke_vertical": 17.0,
+       "rise": 95.9,
+       "angle": 20,
+       "stroke_x": [
+        123,
+        387
+       ],
+       "protrusion": 123.8,
+       "lower_centre_y": 183.7,
+       "upper_centre_y": 404.4,
+       "gaps": [
+        127.3,
+        203.6,
+        178.2
+       ]
+      },
+      "wght=+1": {
+       "mode": "heavy rule",
+       "T_stem": [
+        181,
+        362
+       ],
+       "T_crossbar": [
+        499,
+        655
+       ],
+       "stroke_thickness": 121.7,
+       "thickness_ratio": 0.78,
+       "stroke_vertical": 129.5,
+       "rise": 138.3,
+       "angle": 20,
+       "stroke_x": [
+        81,
+        462
+       ],
+       "protrusion": 99.6,
+       "lower_centre_y": 152.7,
+       "upper_centre_y": 323.7,
+       "gaps": [
+        18.8,
+        41.5,
+        41.4
+       ],
+       "family_gaps": {
+        "Euro": 34.0,
+        "yen": 47.0,
+        "e": 82.0
+       },
+       "min_internal_gap": 40.8
+      }
+     }
+    }
+   },
+   "alts": {},
+   "kern": {
+    "uni04E8": {
+     "mode": "clone",
+     "base": "uni041E",
+     "lookalike": null
+    },
+    "uni04E9": {
+     "mode": "clone",
+     "base": "uni043E",
+     "lookalike": null
+    },
+    "uni04AE": {
+     "mode": "twin",
+     "base": "Y",
+     "lookalike": null
+    },
+    "uni04AF": {
+     "mode": "clone",
+     "base": "uni0443",
+     "lookalike": null
+    }
+   },
+   "kern_like": {
+    "uni20AE": {
+     "glyph": "T",
+     "capped": {
+      "four": [
+       [
+        {},
+        -40
+       ],
+       [
+        {
+         "wght": -1.0
+        },
+        -38
+       ],
+       [
+        {
+         "wght": 1.0
+        },
+        -34
+       ]
+      ]
+     }
+    }
+   },
+   "anchors": {
+    "uni04E8": "uni041E",
+    "uni04E9": "uni043E",
+    "uni04AE": "Y",
+    "uni04AF": "v"
+   },
+   "statics": [
+    "SofiaSansSemiCondensedMN-Thin.ttf",
+    "SofiaSansSemiCondensedMN-ExtraLight.ttf",
+    "SofiaSansSemiCondensedMN-Light.ttf",
+    "SofiaSansSemiCondensedMN-Regular.ttf",
+    "SofiaSansSemiCondensedMN-Medium.ttf",
+    "SofiaSansSemiCondensedMN-SemiBold.ttf",
+    "SofiaSansSemiCondensedMN-Bold.ttf",
+    "SofiaSansSemiCondensedMN-ExtraBold.ttf",
+    "SofiaSansSemiCondensedMN-Black.ttf"
+   ]
+  },
+  {
+   "file": "SofiaSansSemiCondensedMN-Italic[wght].ttf",
+   "source": "sources/sofiasanssemicondensed/SofiaSansSemiCondensed-Italic[wght].ttf",
+   "variable": true,
+   "slant": 0.15838444032453627,
+   "masters": [
+    {},
+    {
+     "wght": -1.0
+    },
+    {
+     "wght": 1.0
+    }
+   ],
+   "added": "Ө ө Ү ү ₮",
+   "glyphs": {
+    "uni04E8": {
+     "kind": "simple",
+     "metrics_base": "uni041E",
+     "components": [],
+     "tracks": [
+      "uni041E",
+      [
+       [
+        4,
+        0
+       ],
+       [
+        5,
+        1
+       ],
+       [
+        6,
+        2
+       ],
+       [
+        7,
+        3
+       ],
+       [
+        8,
+        4
+       ],
+       [
+        9,
+        5
+       ],
+       [
+        10,
+        6
+       ],
+       [
+        11,
+        7
+       ],
+       [
+        12,
+        8
+       ],
+       [
+        13,
+        9
+       ],
+       [
+        14,
+        10
+       ],
+       [
+        15,
+        11
+       ],
+       [
+        16,
+        12
+       ],
+       [
+        17,
+        13
+       ],
+       [
+        18,
+        14
+       ],
+       [
+        19,
+        15
+       ],
+       [
+        20,
+        16
+       ],
+       [
+        21,
+        17
+       ],
+       [
+        22,
+        18
+       ],
+       [
+        23,
+        19
+       ],
+       [
+        24,
+        20
+       ],
+       [
+        25,
+        21
+       ],
+       [
+        26,
+        22
+       ],
+       [
+        27,
+        23
+       ],
+       [
+        28,
+        24
+       ],
+       [
+        29,
+        25
+       ],
+       [
+        30,
+        26
+       ],
+       [
+        31,
+        27
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "bar_thickness": 70.0,
+       "bar_center": 327.5,
+       "bar_x": [
+        129,
+        513
+       ]
+      },
+      "wght=-1": {
+       "bar_thickness": 16.0,
+       "bar_center": 327.5,
+       "bar_x": [
+        112,
+        524
+       ]
+      },
+      "wght=+1": {
+       "bar_thickness": 155.0,
+       "bar_center": 327.5,
+       "bar_x": [
+        147,
+        524
+       ]
+      }
+     }
+    },
+    "uni04E9": {
+     "kind": "simple",
+     "metrics_base": "uni043E",
+     "components": [],
+     "tracks": [
+      "uni043E",
+      [
+       [
+        4,
+        0
+       ],
+       [
+        5,
+        1
+       ],
+       [
+        6,
+        2
+       ],
+       [
+        7,
+        3
+       ],
+       [
+        8,
+        4
+       ],
+       [
+        9,
+        5
+       ],
+       [
+        10,
+        6
+       ],
+       [
+        11,
+        7
+       ],
+       [
+        12,
+        8
+       ],
+       [
+        13,
+        9
+       ],
+       [
+        14,
+        10
+       ],
+       [
+        15,
+        11
+       ],
+       [
+        16,
+        12
+       ],
+       [
+        17,
+        13
+       ],
+       [
+        18,
+        14
+       ],
+       [
+        19,
+        15
+       ],
+       [
+        20,
+        16
+       ],
+       [
+        21,
+        17
+       ],
+       [
+        22,
+        18
+       ],
+       [
+        23,
+        19
+       ],
+       [
+        24,
+        20
+       ],
+       [
+        25,
+        21
+       ],
+       [
+        26,
+        22
+       ],
+       [
+        27,
+        23
+       ],
+       [
+        28,
+        24
+       ],
+       [
+        29,
+        25
+       ],
+       [
+        30,
+        26
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "bar_thickness": 68.0,
+       "bar_center": 243.5,
+       "bar_x": [
+        105,
+        410
+       ]
+      },
+      "wght=-1": {
+       "bar_thickness": 16.0,
+       "bar_center": 239.0,
+       "bar_x": [
+        85,
+        412
+       ]
+      },
+      "wght=+1": {
+       "bar_thickness": 103.7,
+       "bar_center": 250.0,
+       "bar_x": [
+        125,
+        418
+       ]
+      }
+     }
+    },
+    "uni04AE": {
+     "kind": "composite",
+     "metrics_base": "Y",
+     "components": [
+      "Y"
+     ],
+     "tracks": null,
+     "measurements": {}
+    },
+    "uni04AF": {
+     "kind": "simple",
+     "metrics_base": "v",
+     "components": [],
+     "tracks": [
+      "v",
+      [
+       [
+        10,
+        3
+       ],
+       [
+        11,
+        4
+       ],
+       [
+        12,
+        5
+       ],
+       [
+        13,
+        6
+       ],
+       [
+        14,
+        7
+       ],
+       [
+        15,
+        8
+       ],
+       [
+        16,
+        9
+       ],
+       [
+        17,
+        10
+       ],
+       [
+        18,
+        11
+       ],
+       [
+        19,
+        12
+       ],
+       [
+        20,
+        13
+       ],
+       [
+        21,
+        14
+       ],
+       [
+        22,
+        15
+       ],
+       [
+        23,
+        16
+       ],
+       [
+        24,
+        17
+       ],
+       [
+        25,
+        18
+       ],
+       [
+        26,
+        19
+       ],
+       [
+        27,
+        20
+       ],
+       [
+        28,
+        21
+       ],
+       [
+        29,
+        22
+       ],
+       [
+        30,
+        23
+       ],
+       [
+        31,
+        24
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "mode": "edges",
+       "stem": 77.0,
+       "p_stem": 77.0,
+       "widened": false,
+       "stem_x": [
+        162,
+        239
+       ],
+       "join_y": -33.1,
+       "descender": -185.0,
+       "split_y": -74.0
+      },
+      "wght=-1": {
+       "mode": "edges",
+       "stem": 15.7,
+       "p_stem": 15.7,
+       "widened": false,
+       "stem_x": [
+        181,
+        197
+       ],
+       "join_y": -6.2,
+       "descender": -185.0,
+       "split_y": -74.0
+      },
+      "wght=+1": {
+       "mode": "edges",
+       "stem": 170.9,
+       "p_stem": 170.9,
+       "widened": false,
+       "stem_x": [
+        141,
+        312
+       ],
+       "join_y": -41.3,
+       "descender": -185.0,
+       "split_y": -74.0
+      }
+     }
+    },
+    "uni20AE": {
+     "kind": "simple",
+     "metrics_base": "T",
+     "components": [],
+     "tracks": [
+      "T",
+      [
+       [
+        0,
+        0
+       ],
+       [
+        1,
+        1
+       ],
+       [
+        2,
+        2
+       ],
+       [
+        3,
+        3
+       ],
+       [
+        4,
+        4
+       ],
+       [
+        5,
+        5
+       ],
+       [
+        6,
+        6
+       ],
+       [
+        7,
+        7
+       ],
+       [
+        8,
+        8
+       ],
+       [
+        9,
+        9
+       ],
+       [
+        10,
+        10
+       ],
+       [
+        11,
+        11
+       ],
+       [
+        12,
+        12
+       ],
+       [
+        13,
+        13
+       ],
+       [
+        14,
+        14
+       ],
+       [
+        15,
+        15
+       ],
+       [
+        16,
+        16
+       ],
+       [
+        17,
+        17
+       ],
+       [
+        18,
+        18
+       ],
+       [
+        19,
+        19
+       ],
+       [
+        20,
+        20
+       ],
+       [
+        21,
+        21
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "mode": "solver",
+       "T_stem": [
+        181,
+        258
+       ],
+       "T_crossbar": [
+        583,
+        655
+       ],
+       "stroke_thickness": 56.2,
+       "thickness_ratio": 0.78,
+       "stroke_vertical": 59.8,
+       "rise": 98.2,
+       "angle": 20,
+       "stroke_x": [
+        85,
+        355
+       ],
+       "protrusion": 96.4,
+       "lower_centre_y": 170.3,
+       "upper_centre_y": 376.2,
+       "gaps": [
+        91.3,
+        146.1,
+        127.9
+       ]
+      },
+      "wght=-1": {
+       "mode": "solver",
+       "T_stem": [
+        212,
+        228
+       ],
+       "T_crossbar": [
+        639,
+        655
+       ],
+       "stroke_thickness": 16.0,
+       "thickness_ratio": 1.0,
+       "stroke_vertical": 17.0,
+       "rise": 94.3,
+       "angle": 20,
+       "stroke_x": [
+        91,
+        350
+       ],
+       "protrusion": 121.6,
+       "lower_centre_y": 183.3,
+       "upper_centre_y": 404.6,
+       "gaps": [
+        127.7,
+        204.2,
+        178.7
+       ]
+      },
+      "wght=+1": {
+       "mode": "heavy rule",
+       "T_stem": [
+        148,
+        322
+       ],
+       "T_crossbar": [
+        500,
+        655
+       ],
+       "stroke_thickness": 120.9,
+       "thickness_ratio": 0.78,
+       "stroke_vertical": 128.7,
+       "rise": 133.5,
+       "angle": 20,
+       "stroke_x": [
+        52,
+        418
+       ],
+       "protrusion": 96.0,
+       "lower_centre_y": 151.7,
+       "upper_centre_y": 324.9,
+       "gaps": [
+        20.7,
+        44.5,
+        44.0
+       ],
+       "family_gaps": {
+        "Euro": 34.0,
+        "yen": 47.0,
+        "e": 85.2
+       },
+       "min_internal_gap": 40.8
+      }
+     }
+    }
+   },
+   "alts": {},
+   "kern": {
+    "uni04E8": {
+     "mode": "clone",
+     "base": "uni041E",
+     "lookalike": null
+    },
+    "uni04E9": {
+     "mode": "clone",
+     "base": "uni043E",
+     "lookalike": null
+    },
+    "uni04AE": {
+     "mode": "twin",
+     "base": "Y",
+     "lookalike": null
+    },
+    "uni04AF": {
+     "mode": "clone",
+     "base": "uni0443",
+     "lookalike": null
+    }
+   },
+   "kern_like": {
+    "uni20AE": {
+     "glyph": "T",
+     "capped": {
+      "four": [
+       [
+        {},
+        -40
+       ],
+       [
+        {
+         "wght": -1.0
+        },
+        -38
+       ],
+       [
+        {
+         "wght": 1.0
+        },
+        -34
+       ]
+      ]
+     }
+    }
+   },
+   "anchors": {
+    "uni04E8": "uni041E",
+    "uni04E9": "uni043E",
+    "uni04AE": "Y",
+    "uni04AF": "v"
+   },
+   "statics": [
+    "SofiaSansSemiCondensedMN-ThinItalic.ttf",
+    "SofiaSansSemiCondensedMN-ExtraLightItalic.ttf",
+    "SofiaSansSemiCondensedMN-LightItalic.ttf",
+    "SofiaSansSemiCondensedMN-Italic.ttf",
+    "SofiaSansSemiCondensedMN-MediumItalic.ttf",
+    "SofiaSansSemiCondensedMN-SemiBoldItalic.ttf",
+    "SofiaSansSemiCondensedMN-BoldItalic.ttf",
+    "SofiaSansSemiCondensedMN-ExtraBoldItalic.ttf",
+    "SofiaSansSemiCondensedMN-BlackItalic.ttf"
+   ]
+  }
+ ]
+}

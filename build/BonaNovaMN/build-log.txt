@@ -1,0 +1,84 @@
+source: sources/bonanova/BonaNova-Regular.ttf (v4.001, 2136 glyphs, static)
+masters (normalized): default
+uni04E8 (U+04E8): candidate Theta rejected: Theta bar does not join both walls at default (ink runs at y=332: [(60, 157), (632, 730)])
+uni04E8 (U+04E8): 'uni041E' + bar from uni041D crossbar: thickness 36.0, centre y=332.5, x 109..681 (default)
+    uni04E8 @ default: {'bar_thickness': 36.0, 'bar_center': 332.5, 'bar_x': (109, 681)}
+uni04E9 (U+04E9): candidate uni0275 rejected: uni0275 bar does not join both walls at default (ink runs at y=220: [(46, 132), (403, 489)])
+uni04E9 (U+04E9): 'uni043E' + bar from uni043D crossbar: thickness 36.0, centre y=220.0, x 89..446 (default)
+    uni04E9 @ default: {'bar_thickness': 36.0, 'bar_center': 220.0, 'bar_x': (89, 446)}
+uni04AE (U+04AE): composite of 'Y' (offset 0,0)
+uni04AF (U+04AF): 'v' outline with a straight stem and 'uni0440''s terminal: stem width 80.0 ('uni0440' 80.0, deslanted), down to y=-225.0; outer arm edges extended to meet a stem of 'uni0440''s width at y=53.1
+    uni04AF @ default: {'mode': 'edges', 'stem': 80.0, 'p_stem': 80.0, 'widened': False, 'stem_x': (193, 273), 'join_y': 53.1, 'descender': -225.0, 'split_y': -90.0}
+uni20AE (U+20AE): 'T' outline + two parallel strokes (vertical end cuts) centred on the stem: perpendicular thickness 29.3 (= 0.77 x crossbar 38), angle 20 deg, x 143..478 (62% of the crossbar), centre lines cross the stem axis at y=187.3 and y=395.8; white gaps baseline/between/crossbar = (110.8, 177.3, 155.2) (default)
+    uni20AE @ default: {'mode': 'solver', 'T_stem': (268, 353), 'T_crossbar': (627, 665), 'stroke_thickness': 29.3, 'thickness_ratio': 0.78, 'stroke_vertical': 31.2, 'rise': 121.6, 'angle': 20, 'stroke_x': (143, 478), 'protrusion': 124.6, 'lower_centre_y': 187.3, 'upper_centre_y': 395.8, 'gaps': (110.8, 177.3, 155.2)}
+kern: uni04AE: Latin/Cyrillic kerning shared = True (23/25 look-alike pairs kern alike (Y+A -40 vs Y+uni0410 0; A+Y -40 vs uni0410+Y 0)); mode auto
+kern: uni04E8 as 1st glyph cloned from uni041E (2 pair records/class rows)
+kern: uni04E9 as 1st glyph cloned from uni043E (2 pair records/class rows)
+kern: uni04AE as 1st glyph cloned from Y (2 pair records/class rows)
+kern: uni04AF as 1st glyph cloned from uni0443 (2 pair records/class rows)
+kern: uni04E8 as 2nd glyph cloned from uni041E (2 pair records/classes)
+kern: uni04E9 as 2nd glyph cloned from uni043E (2 pair records/classes)
+kern: uni04AE as 2nd glyph cloned from Y (2 pair records/classes)
+kern: uni04AF as 2nd glyph cloned from uni0443 (3 pair records/classes)
+kern: uni20AE+four.sc capped: T+four.sc -> per-master values [-36]
+kern: uni20AE digit/punctuation pairs from T: 156 explicit pairs in a new first subtable of lookup 2
+kern: uni20AE+four capped: T+four -> per-master values [-20]
+kern: uni20AE+four.lf capped: T+four.lf -> per-master values [-20]
+kern: uni20AE+four.osf capped: T+four.osf -> per-master values [-20]
+kern: uni20AE digit/punctuation pairs from T: 7 explicit pairs in a new first subtable of lookup 3
+kern: uni20AE digit/punctuation pairs from T (lookup 2) (new lookup 9 for DFLT text): 156 explicit pairs in a new first subtable of lookup 9
+kern: uni20AE digit/punctuation pairs from T (lookup 3) (new lookup 10 for DFLT text): 7 explicit pairs in a new first subtable of lookup 10
+mark: uni04E8 base anchors cloned from uni041E (1 subtables)
+mark: uni04E9 base anchors cloned from uni043E (1 subtables)
+mark: uni04AE base anchors cloned from Y (1 subtables)
+mark: uni04AF base anchors cloned from v (1 subtables)
+GSUB context: uni04E8 added beside uni041E in lookups ['2:Back']
+GSUB context: uni04AE added beside uni0423 in lookups ['2:Back']
+name 0: 'Copyright 2017 The Bona Nova Project Authors (https://github.com/kosmynkab/Bona-Nova)' -> 'Copyright 2017 The Bona Nova Project Authors (https://github.com/kosmynkab/Bona-Nova). Mongolian additions (Ө ө Ү ү ₮) 2026, Font Shuugch project.'
+name 1: 'Bona Nova' -> 'Bona Nova MN'
+name 3: '4.001;NONE;BonaNova-Regular' -> '4.001;MN0.1;NONE;BonaNovaMN-Regular'
+name 4: 'Bona Nova Regular' -> 'Bona Nova MN Regular'
+name 5: 'Version 4.001; ttfautohint (v1.8.3)' -> 'Version 4.001;MN 0.1'
+name 6: 'BonaNova-Regular' -> 'BonaNovaMN-Regular'
+saved build\BonaNovaMN\BonaNovaMN-Regular.ttf
+source: sources/bonanova/BonaNova-Bold.ttf (v4.001, 2136 glyphs, static)
+masters (normalized): default
+uni04E8 (U+04E8): composite of 'Theta': verified at every master to be 'uni041E' + a full-width bar joined to both walls
+uni04E8 (U+04E8): cross-check (generic constructor vs designer glyph, vertical ray through centre): default: designer bar [(-15, 29), (325, 368), (635, 680)] vs constructed centre 332.5 thick 43.0
+uni04E9 (U+04E9): composite of 'uni0275': verified at every master to be 'uni043E' + a full-width bar joined to both walls
+uni04E9 (U+04E9): cross-check (generic constructor vs designer glyph, vertical ray through centre): default: designer bar [(-15, 29), (217, 260), (431, 475)] vs constructed centre 230.0 thick 43.0
+uni04AE (U+04AE): composite of 'Y' (offset 0,0)
+uni04AF (U+04AF): 'v' outline with a straight stem and 'uni0440''s terminal: stem width 150.0 ('uni0440' 150.0, deslanted), down to y=-224.0; outer arm edges extended to meet a stem of 'uni0440''s width at y=116.8
+    uni04AF @ default: {'mode': 'edges', 'stem': 150.0, 'p_stem': 150.0, 'widened': False, 'stem_x': (175, 325), 'join_y': 116.8, 'descender': -224.0, 'split_y': -89.6}
+uni20AE (U+20AE): 'T' outline + two parallel strokes (vertical end cuts) centred on the stem: perpendicular thickness 37.2 (= 0.78 x crossbar 48), angle 20 deg, x 141..495 (62% of the crossbar), centre lines cross the stem axis at y=186.5 and y=389.9; white gaps baseline/between/crossbar = (102.4, 163.8, 143.3) (default)
+    uni20AE @ default: {'mode': 'solver', 'T_stem': (238, 398), 'T_crossbar': (617, 665), 'stroke_thickness': 37.2, 'thickness_ratio': 0.78, 'stroke_vertical': 39.6, 'rise': 128.6, 'angle': 20, 'stroke_x': (141, 495), 'protrusion': 96.7, 'lower_centre_y': 186.5, 'upper_centre_y': 389.9, 'gaps': (102.4, 163.8, 143.3)}
+kern: uni04AE: Latin/Cyrillic kerning shared = True (23/25 look-alike pairs kern alike (Y+A -70 vs Y+uni0410 0; A+Y -70 vs uni0410+Y 0)); mode auto
+kern: uni04E8 as 1st glyph cloned from uni041E (2 pair records/class rows)
+kern: uni04E9 as 1st glyph cloned from uni043E (2 pair records/class rows)
+kern: uni04AE as 1st glyph cloned from Y (2 pair records/class rows)
+kern: uni04AF as 1st glyph cloned from uni0443 (2 pair records/class rows)
+kern: uni04E8 as 2nd glyph cloned from uni041E (2 pair records/classes)
+kern: uni04E9 as 2nd glyph cloned from uni043E (2 pair records/classes)
+kern: uni04AE as 2nd glyph cloned from Y (2 pair records/classes)
+kern: uni04AF as 2nd glyph cloned from uni0443 (3 pair records/classes)
+kern: uni20AE+four.sc capped: T+four.sc -> per-master values [-45]
+kern: uni20AE digit/punctuation pairs from T: 141 explicit pairs in a new first subtable of lookup 2
+kern: uni20AE+four capped: T+four -> per-master values [-30]
+kern: uni20AE+four.lf capped: T+four.lf -> per-master values [-30]
+kern: uni20AE+four.osf capped: T+four.osf -> per-master values [-30]
+kern: uni20AE digit/punctuation pairs from T: 7 explicit pairs in a new first subtable of lookup 3
+kern: uni20AE digit/punctuation pairs from T (lookup 2) (new lookup 9 for DFLT text): 141 explicit pairs in a new first subtable of lookup 9
+kern: uni20AE digit/punctuation pairs from T (lookup 3) (new lookup 10 for DFLT text): 7 explicit pairs in a new first subtable of lookup 10
+mark: uni04E8 base anchors cloned from uni041E (1 subtables)
+mark: uni04E9 base anchors cloned from uni043E (1 subtables)
+mark: uni04AE base anchors cloned from Y (1 subtables)
+mark: uni04AF base anchors cloned from v (1 subtables)
+GSUB context: uni04E8 added beside uni041E in lookups ['2:Back']
+GSUB context: uni04AE added beside uni0423 in lookups ['2:Back']
+name 0: 'Copyright 2017 The Bona Nova Project Authors (https://github.com/kosmynkab/Bona-Nova)' -> 'Copyright 2017 The Bona Nova Project Authors (https://github.com/kosmynkab/Bona-Nova). Mongolian additions (Ө ө Ү ү ₮) 2026, Font Shuugch project.'
+name 1: 'Bona Nova' -> 'Bona Nova MN'
+name 3: '4.001;NONE;BonaNova-Bold' -> '4.001;MN0.1;NONE;BonaNovaMN-Bold'
+name 4: 'Bona Nova Bold' -> 'Bona Nova MN Bold'
+name 5: 'Version 4.001; ttfautohint (v1.8.3)' -> 'Version 4.001;MN 0.1'
+name 6: 'BonaNova-Bold' -> 'BonaNovaMN-Bold'
+saved build\BonaNovaMN\BonaNovaMN-Bold.ttf

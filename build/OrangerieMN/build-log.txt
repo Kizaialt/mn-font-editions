@@ -1,0 +1,35 @@
+source: sources/oranienbaum/Oranienbaum-Regular.ttf (v1.000, 419 glyphs, static)
+masters (normalized): default
+uni04E8 (U+04E8): 'afii10032' + bar from afii10031 crossbar: thickness 20.0, centre y=350.0, x 88..462 (default)
+    uni04E8 @ default: {'bar_thickness': 20.0, 'bar_center': 350.0, 'bar_x': (88, 462)}
+uni04E9 (U+04E9): 'afii10080' + bar from afii10079 crossbar: thickness 20.0, centre y=230.0, x 90..380 (default)
+    uni04E9 @ default: {'bar_thickness': 20.0, 'bar_center': 230.0, 'bar_x': (90, 380)}
+uni04AE (U+04AE): composite of 'Y' (offset 0,0)
+uni04AF (U+04AF): 'v' outline with a straight stem and 'afii10082''s terminal: stem width 80.0 ('afii10082' 80.0, deslanted), down to y=-240.0; outer arm edges extended to meet a stem of 'afii10082''s width at y=76.0
+    uni04AF @ default: {'mode': 'edges', 'stem': 80.0, 'p_stem': 80.0, 'widened': False, 'stem_x': (192, 272), 'join_y': 76.0, 'descender': -240.0, 'split_y': -96.0}
+uni20AE (U+20AE): 'T' outline + two parallel strokes (vertical end cuts) centred on the stem: perpendicular thickness 15.6 (= 0.78 x crossbar 20), angle 20 deg, x 113..382 (62% of the crossbar), centre lines cross the stem axis at y=194.5 and y=430.6; white gaps baseline/between/crossbar = (137.2, 219.5, 192.0) (default)
+    uni20AE @ default: {'mode': 'solver', 'T_stem': (205, 290), 'T_crossbar': (680, 700), 'stroke_thickness': 15.6, 'thickness_ratio': 0.78, 'stroke_vertical': 16.6, 'rise': 98.2, 'angle': 20, 'stroke_x': (113, 382), 'protrusion': 92.3, 'lower_centre_y': 194.5, 'upper_centre_y': 430.6, 'gaps': (137.2, 219.5, 192.0)}
+kern: uni04AE: Latin/Cyrillic kerning shared = False (0/15 look-alike pairs kern alike (Y+A -60 vs Y+afii10017 0; A+Y -50 vs afii10017+Y 0; Y+O -30 vs Y+afii10032 0)); mode auto
+kern: uni04E8 as 1st glyph cloned from afii10032 (17 pair records/class rows)
+kern: uni04E9 as 1st glyph cloned from afii10080 (10 pair records/class rows)
+kern: uni04AE as 1st glyph cloned from afii10037 (63 pair records/class rows)
+kern: uni04AF as 1st glyph cloned from afii10085 (15 pair records/class rows)
+kern: uni04E8 as 2nd glyph cloned from afii10032 (14 pair records/classes)
+kern: uni04E9 as 2nd glyph cloned from afii10080 (23 pair records/classes)
+kern: uni04AE as 2nd glyph cloned from afii10037 (25 pair records/classes)
+kern: uni04AF as 2nd glyph cloned from afii10085 (46 pair records/classes)
+kern: uni04AE look-alike pairs from Y: 16 explicit pairs in a new first subtable of lookup 0
+kern: uni20AE digit/punctuation pairs from T: 11 explicit pairs in a new first subtable of lookup 0
+mark: uni04E8 base anchors cloned from afii10032 (0 subtables)
+mark: uni04E9 base anchors cloned from afii10080 (0 subtables)
+mark: uni04AE base anchors cloned from Y (0 subtables)
+mark: uni04AF base anchors cloned from v (0 subtables)
+name 0: "Copyright (c) 2012, Oleg Pospelov (oleg@pospelov.com), Jovanny Lemonad (lemonad@jovanny.ru), with Reserved Font Name 'Oranienbaum'" -> "Copyright (c) 2012, Oleg Pospelov (oleg@pospelov.com), Jovanny Lemonad (lemonad@jovanny.ru), with Reserved Font Name 'Oranienbaum'. Mongolian additions (U+04E8 U+04E9 U+04AE U+04AF U+20AE) 2026, Font Shuugch project."
+name 1: 'Oranienbaum' -> 'Orangerie MN'
+name 3: 'OlegPospelovandjovannyLemonad: Oranienbaum: 2012' -> 'OlegPospelovandjovannyLemonad: Oranienbaum: 2012;MN0.1'
+name 4: 'Oranienbaum' -> 'Orangerie MN'
+name 5: 'Version 1.001; ttfautohint (v0.91) -l 8 -r 50 -G 200 -x 0 -w "gGD"' -> 'Version 1.001;MN 0.1'
+name 6: 'Oranienbaum-Regular' -> 'OrangerieMN-Regular'
+name 7: 'Oranienbaum is a trademark of Oleg Pospelov and jovanny Lemonad.' -> 'Orangerie MN is a modified version of a typeface by Oleg Pospelov and Jovanny Lemonad; it is released under a different name because the original name is reserved.'
+name 18: 'Oranienbaum' -> 'Orangerie MN'
+saved build\OrangerieMN\OrangerieMN-Regular.ttf
