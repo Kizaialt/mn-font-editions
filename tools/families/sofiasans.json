@@ -10,6 +10,7 @@
   "copyright_append": "Mongolian additions ({added}) 2026, Font Shuugch project.",
   "license_note": "OFL.txt declares no Reserved Font Name, so the name may be reused; the edition is still renamed 'Sofia Sans MN' so it never clashes with the original.",
   "statics": true,
+  "default_locl_lang": "RUS",
   "fonts": [
     {
       "source": "sources/sofiasans/SofiaSans[wght].ttf",

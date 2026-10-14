@@ -10,8 +10,12 @@ OFL.txt declares no Reserved Font Name, so the name may be reused; the edition i
 
 Added the letters Mongolian Cyrillic needs that the original lacks. No existing glyph was altered.
 
+Standard Russian-style Cyrillic forms are the default in this Mongolian edition; the original's default is Bulgarian. See the per-file notes below.
+
 
 #### `SofiaSansExtraCondensedMN[wght].ttf` (from `SofiaSansExtraCondensed[wght].ttf`)
+
+Default forms: standard Russian-style Cyrillic forms are the default in this Mongolian edition; the original's default is Bulgarian. The cmap maps 30 letters (Љ Д Л Ф в г д ж з и й к л п т ц ш щ ъ ы ь ю ѓ љ њ ќ ѝ џ ґ ӣ) to their `.loclRUS` glyphs, which the original reaches only through the `locl` feature for language RUS. No outline, metric, kerning or other layout table was changed; the original Bulgarian-style glyphs stay in the font under their plain names.
 
 - U+04E8 Ө `uni04E8`: 'uni041E' + bar from uni041D crossbar: thickness 62.0, centre y=327.5, x 76..324 (default); kerning from `uni041E`; mark anchors from `uni041E`.
   - per master (normalized wght): default: ; wght=-1: ; wght=+1: 
@@ -25,6 +29,8 @@ Added the letters Mongolian Cyrillic needs that the original lacks. No existing 
   - heaviest master (wght=+1, heavy rule): thickness 113.9 (0.78 x crossbar), 20 deg, x 37..385 (protrudes 91.3 past the stem), gaps (27.7, 56.8, 55.2); family internal gaps {'Euro': 37.0, 'yen': 49.0, 'e': 87.0} -> rule minimum 44.4
 
 #### `SofiaSansExtraCondensedMN-Italic[wght].ttf` (from `SofiaSansExtraCondensed-Italic[wght].ttf`)
+
+Default forms: standard Russian-style Cyrillic forms are the default in this Mongolian edition; the original's default is Bulgarian. The cmap maps 13 letters (Љ Д Л Ф в д ж з к л ю љ ќ) to their `.loclRUS` glyphs, which the original reaches only through the `locl` feature for language RUS. No outline, metric, kerning or other layout table was changed; the original Bulgarian-style glyphs stay in the font under their plain names.
 
 Italic: new outlines constructed upright and re-slanted by 9.0 deg (the font's own slant).
 

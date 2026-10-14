@@ -700,7 +700,133 @@
     "SofiaSansCondensedMN-Bold.ttf",
     "SofiaSansCondensedMN-ExtraBold.ttf",
     "SofiaSansCondensedMN-Black.ttf"
-   ]
+   ],
+   "default_locl": {
+    "lang": "RUS",
+    "script": "cyrl",
+    "remapped": {
+     "U+0409": [
+      "uni0409",
+      "uni0409.loclRUS"
+     ],
+     "U+0414": [
+      "uni0414",
+      "uni0414.loclRUS"
+     ],
+     "U+041B": [
+      "uni041B",
+      "uni041B.loclRUS"
+     ],
+     "U+0424": [
+      "uni0424",
+      "uni0424.loclRUS"
+     ],
+     "U+0432": [
+      "uni0432",
+      "uni0432.loclRUS"
+     ],
+     "U+0433": [
+      "uni0433",
+      "uni0433.loclRUS"
+     ],
+     "U+0434": [
+      "uni0434",
+      "uni0434.loclRUS"
+     ],
+     "U+0436": [
+      "uni0436",
+      "uni0436.loclRUS"
+     ],
+     "U+0437": [
+      "uni0437",
+      "uni0437.loclRUS"
+     ],
+     "U+0438": [
+      "uni0438",
+      "uni0438.loclRUS"
+     ],
+     "U+0439": [
+      "uni0439",
+      "uni0439.loclRUS"
+     ],
+     "U+043A": [
+      "uni043A",
+      "uni043A.loclRUS"
+     ],
+     "U+043B": [
+      "uni043B",
+      "uni043B.loclRUS"
+     ],
+     "U+043F": [
+      "uni043F",
+      "uni043F.loclRUS"
+     ],
+     "U+0442": [
+      "uni0442",
+      "uni0442.loclRUS"
+     ],
+     "U+0446": [
+      "uni0446",
+      "uni0446.loclRUS"
+     ],
+     "U+0448": [
+      "uni0448",
+      "uni0448.loclRUS"
+     ],
+     "U+0449": [
+      "uni0449",
+      "uni0449.loclRUS"
+     ],
+     "U+044A": [
+      "uni044A",
+      "uni044A.loclRUS"
+     ],
+     "U+044B": [
+      "uni044B",
+      "uni044B.loclRUS"
+     ],
+     "U+044C": [
+      "uni044C",
+      "uni044C.loclRUS"
+     ],
+     "U+044E": [
+      "uni044E",
+      "uni044E.loclRUS"
+     ],
+     "U+0453": [
+      "uni0453",
+      "uni0453.loclRUS"
+     ],
+     "U+0459": [
+      "uni0459",
+      "uni0459.loclRUS"
+     ],
+     "U+045A": [
+      "uni045A",
+      "uni045A.loclRUS"
+     ],
+     "U+045C": [
+      "uni045C",
+      "uni045C.loclRUS"
+     ],
+     "U+045D": [
+      "uni045D",
+      "uni045D.loclRUS"
+     ],
+     "U+045F": [
+      "uni045F",
+      "uni045F.loclRUS"
+     ],
+     "U+0491": [
+      "uni0491",
+      "uni0491.loclRUS"
+     ],
+     "U+04E3": [
+      "uni04E3",
+      "uni04E3.loclRUS"
+     ]
+    }
+   }
   },
   {
    "file": "SofiaSansCondensedMN-Italic[wght].ttf",
@@ -1401,7 +1527,65 @@
     "SofiaSansCondensedMN-BoldItalic.ttf",
     "SofiaSansCondensedMN-ExtraBoldItalic.ttf",
     "SofiaSansCondensedMN-BlackItalic.ttf"
-   ]
+   ],
+   "default_locl": {
+    "lang": "RUS",
+    "script": "cyrl",
+    "remapped": {
+     "U+0409": [
+      "uni0409",
+      "uni0409.loclRUS"
+     ],
+     "U+0414": [
+      "uni0414",
+      "uni0414.loclRUS"
+     ],
+     "U+041B": [
+      "uni041B",
+      "uni041B.loclRUS"
+     ],
+     "U+0424": [
+      "uni0424",
+      "uni0424.loclRUS"
+     ],
+     "U+0432": [
+      "uni0432",
+      "uni0432.loclRUS"
+     ],
+     "U+0434": [
+      "uni0434",
+      "uni0434.loclRUS"
+     ],
+     "U+0436": [
+      "uni0436",
+      "uni0436.loclRUS"
+     ],
+     "U+0437": [
+      "uni0437",
+      "uni0437.loclRUS"
+     ],
+     "U+043A": [
+      "uni043A",
+      "uni043A.loclRUS"
+     ],
+     "U+043B": [
+      "uni043B",
+      "uni043B.loclRUS"
+     ],
+     "U+044E": [
+      "uni044E",
+      "uni044E.loclRUS"
+     ],
+     "U+0459": [
+      "uni0459",
+      "uni0459.loclRUS"
+     ],
+     "U+045C": [
+      "uni045C",
+      "uni045C.loclRUS"
+     ]
+    }
+   }
   }
  ]
 }

@@ -270,6 +270,16 @@ def build_font(cfg, log):
     otl.clone_marks(font, anchor_pairs, log)
     otl.clone_context_membership(font, pairs, log)
 
+    # 3b. default language forms (opt-in): e.g. "default_locl_lang": "RUS" makes the
+    #     Russian-style forms the default in a font whose default is Bulgarian.  After
+    #     everything above, so kerning/anchor cloning still sees the original cmap.
+    default_locl = None
+    if cfg.get("default_locl_lang"):
+        lang = cfg["default_locl_lang"]
+        changed = otl.default_locl_remap(font, lang, log)
+        default_locl = dict(lang=lang, script="cyrl",
+                            remapped={f"U+{cp:04X}": [a, b] for cp, (a, b) in sorted(changed.items())})
+
     # 4. naming, OS/2, misc
     added = " ".join(chr(int(g["unicode"], 16)) for g in todo.values())
     ncfg = dict(cfg)
@@ -311,6 +321,8 @@ def build_font(cfg, log):
                 kern=info_kern, kern_like=info_kern_like,
                 anchors={n: a for n, a in anchor_pairs},
                 statics=[os.path.basename(p) for _, _, p in statics])
+    if default_locl:        # key only present for opt-in families: other builds stay byte-identical
+        info["default_locl"] = default_locl
     return dict(out_path=out_path, orig_version=orig_version, todo=todo, built=built,
                 statics=statics, extra_alts=extra_alts, info=info, cfg=cfg)
 
@@ -336,7 +348,7 @@ def build(cfg_path, no_statics=False):
     shutil.copyfile(_p(cfg["license"]), os.path.join(out_dir, "OFL.txt"))
     if not cfg.get("fonts"):
         r = results[0]
-        write_fontlog(cfg, out_dir, r["orig_version"], r["todo"], r["built"], r["statics"], r["extra_alts"])
+        write_fontlog(cfg, out_dir, r["orig_version"], r["todo"], r["built"], r["statics"], r["extra_alts"], r["info"])
     else:
         write_fontlog_multi(cfg, out_dir, results)
     with open(os.path.join(out_dir, "build-log.txt"), "w", encoding="utf-8") as fh:
@@ -420,7 +432,23 @@ def _glyph_lines(todo, built, extra_alts):
     return lines
 
 
-def write_fontlog(cfg, out_dir, orig_version, todo, built, statics, extra_alts=()):
+def _locl_lines(info, family_level=False):
+    """FONTLOG text for the opt-in `default_locl_lang` change (empty for other families)."""
+    dl = info.get("default_locl") if info else None
+    if not dl:
+        return []
+    if family_level:
+        return ["Standard Russian-style Cyrillic forms are the default in this Mongolian edition; "
+                "the original's default is Bulgarian. See the per-file notes below.", ""]
+    chars = " ".join(chr(int(k[2:], 16)) for k in dl["remapped"])
+    return [f"Default forms: standard Russian-style Cyrillic forms are the default in this Mongolian edition; "
+            f"the original's default is Bulgarian. The cmap maps {len(dl['remapped'])} letters ({chars}) to their "
+            f"`.locl{dl['lang']}` glyphs, which the original reaches only through the `locl` feature for language "
+            f"{dl['lang']}. No outline, metric, kerning or other layout table was changed; the original "
+            f"Bulgarian-style glyphs stay in the font under their plain names.", ""]
+
+
+def write_fontlog(cfg, out_dir, orig_version, todo, built, statics, extra_alts=(), info=None):
     today = cfg.get("date") or datetime.date(2026, 10, 13).isoformat()
     lines = [
         f"# FONTLOG for {cfg['new_family_name']}",
@@ -437,6 +465,7 @@ def write_fontlog(cfg, out_dir, orig_version, todo, built, statics, extra_alts=(
         "No existing glyph was altered.",
         "",
     ]
+    lines += _locl_lines(info, True) + _locl_lines(info)
     if cfg.get("release_notes"):
         lines += ["Changes in this release:", ""] + [f"- {n}" for n in cfg["release_notes"]] + ["", "Glyphs:", ""]
     lines += _glyph_lines(todo, built, extra_alts)
@@ -485,11 +514,14 @@ def write_fontlog_multi(cfg, out_dir, results):
     lines += ["## Changelog", "", f"### {today} - {cfg['version_suffix']} - Font Shuugch project", "",
               "Added the letters Mongolian Cyrillic needs that the original lacks. "
               "No existing glyph was altered.", ""]
+    if any(r["info"].get("default_locl") for r in results):
+        lines += _locl_lines(results[0]["info"], True)
     for n in cfg.get("release_notes", []):
         lines.append(f"- {n}")
     for r in results:
         info = r["info"]
         lines += ["", f"#### `{info['file']}` (from `{os.path.basename(info['source'])}`)", ""]
+        lines += _locl_lines(info)
         if info["slant"]:
             lines.append(f"Italic: new outlines constructed upright and re-slanted by "
                          f"{math.degrees(math.atan(info['slant'])):.1f} deg (the font's own slant).")

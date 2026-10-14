@@ -602,3 +602,72 @@ def selective_kerning(font, new, spec, masters, log):
             add_gap_lookup(font, ds, collect(gpos.LookupList.Lookup[si], False), log,
                            f"{new} digit/punctuation pairs from {src} (lookup {si})")
     return capped
+
+
+# --------------------------------------------------------------------------
+# default language forms (family option "default_locl_lang")
+# --------------------------------------------------------------------------
+
+def locl_remap_table(font, lang="RUS", script="cyrl"):
+    """{glyph: substitute} of what `script`'s `lang` locl feature does to a glyph.
+
+    Only single-substitution lookups are supported (anything else raises); the
+    lookups run in lookup-list order, a subtable of a lookup applies at most
+    once per glyph, so chained substitutions compose the way GSUB would.
+    Glyphs the feature leaves alone are not in the result.
+    """
+    gsub = font["GSUB"].table
+    feats = gsub.FeatureList.FeatureRecord
+    sr = next((s for s in gsub.ScriptList.ScriptRecord if s.ScriptTag == script), None)
+    lr = next((l for l in sr.Script.LangSysRecord if l.LangSysTag == lang.ljust(4)), None) if sr else None
+    if lr is None:
+        raise ValueError(f"GSUB has no {script}/{lang} language system")
+    idx = sorted({li for fi in lr.LangSys.FeatureIndex if feats[fi].FeatureTag == "locl"
+                  for li in feats[fi].Feature.LookupListIndex})
+    if not idx:
+        raise ValueError(f"{script}/{lang} has no locl feature")
+    maps = []
+    for li in idx:
+        lk = gsub.LookupList.Lookup[li]
+        m = {}
+        for st in lk.SubTable:
+            t = lk.LookupType
+            if hasattr(st, "ExtSubTable"):
+                t, st = st.ExtensionLookupType, st.ExtSubTable
+            if t != 1:
+                raise ValueError(f"locl lookup {li} is type {t}; only single substitution (1) is supported")
+            for k, v in st.mapping.items():
+                m.setdefault(k, v)
+        maps.append(m)
+
+    def final(g):
+        for m in maps:
+            g = m.get(g, g)
+        return g
+
+    out = {k: final(k) for m in maps for k in m}
+    order = set(font.getGlyphOrder())
+    missing = sorted(v for v in out.values() if v not in order)
+    if missing:
+        raise ValueError(f"locl substitutes glyphs that do not exist: {missing[:5]}")
+    return {k: v for k, v in out.items() if v != k}
+
+
+def default_locl_remap(font, lang, log, script="cyrl"):
+    """Make `lang`'s locl forms the default: every cmap entry whose glyph the
+    script's `lang` locl feature substitutes now points at the substituted
+    glyph.  Outlines, metrics and layout tables are not touched.  Returns
+    {codepoint: (old_glyph, new_glyph)}."""
+    remap = locl_remap_table(font, lang, script)
+    changed = {}
+    for t in font["cmap"].tables:
+        c = getattr(t, "cmap", None)
+        if not c:
+            continue
+        for cp, g in list(c.items()):
+            if g in remap:
+                c[cp] = remap[g]
+                changed[cp] = (g, remap[g])
+    log.append(f"default forms: {script}/{lang} locl lookups applied to the cmap: {len(changed)} codepoints "
+               f"({' '.join(chr(cp) for cp in sorted(changed))}) now map to the .locl{lang} glyphs")
+    return changed

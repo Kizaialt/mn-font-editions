@@ -14,6 +14,11 @@ Uses build/<Family>MN/build-info.json (written by build_mn.py).  Exit code
   T's against digits+punctuation with caps, no letter kerning; mark anchors;
   heavy-master ₮ geometry and whitespace rule; FeatureVariations parity;
   review targets (if any); static instances; names.
+
+Families with "default_locl_lang" (e.g. "RUS": the original's default Cyrillic forms are
+Bulgarian-style and the Russian-style forms are reached only through `locl`): the cmap of the
+MN edition must point the affected letters at the .loclRUS glyphs, the other cmap entries stay
+unchanged, and shaping parity is judged against the SOURCE SHAPED WITH THAT LANGUAGE.
 """
 from __future__ import annotations
 
@@ -34,12 +39,14 @@ from fontTools.pens.recordingPen import RecordingPointPen, DecomposingRecordingP
 
 from mnfont.outline import GlyphSets, orientation_problems  # noqa: E402
 from mnfont.render import HBFont  # noqa: E402
+from mnfont import otl  # noqa: E402
 
 REQUIRED = list(range(0x0410, 0x0450)) + [0x0401, 0x0451, 0x04E8, 0x04E9, 0x04AE, 0x04AF, 0x20AE]
 PARTNERS = ("АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя"
             "ӨөҮү.,-:;«»0123456789 ")
 SAMPLE = ("Съешь же ещё этих мягких французских булок, да выпей чаю. "
           "The quick brown fox jumps over the lazy dog 0123456789 ТАТА Уа Ту ГО Ѓ ɵƟ fi.")
+LANG_BCP47 = {"RUS": "ru", "BGR": "bg", "SRB": "sr", "MKD": "mk"}   # OT language tag -> HarfBuzz language
 NOCCMP = {"ccmp": False}   # SC families map Latin lowercase to .sc in ccmp; compare base glyphs
 
 results = []
@@ -101,11 +108,25 @@ def verify_font(cfg, fc, finfo, var_path, src_path, statics, ots, baseline):
     import build_mn
     tag = os.path.basename(var_path)
     files = [var_path] + statics
+    ll = cfg.get("default_locl_lang")
+    bcp = LANG_BCP47[ll] if ll else None
+    expect, scm0 = {}, {}
+    if ll:      # codepoint -> the glyph the original's `locl` (language ll) substitutes for its default one
+        src0 = TTFont(src_path)
+        lremap = otl.locl_remap_table(src0, ll)
+        scm0 = src0.getBestCmap()
+        expect = {c: lremap[g] for c, g in scm0.items() if g in lremap}
     for p in files:
         f = TTFont(p)
         cm = f.getBestCmap()
         missing = [f"U+{c:04X}" for c in REQUIRED if c not in cm]
         check(not missing, f"cmap coverage {os.path.basename(p)}", ", ".join(missing))
+        if ll:
+            bad = [f"U+{c:04X} {cm.get(c)}" for c, g in expect.items()
+                   if cm.get(c) != g or not g.endswith(f".locl{ll}")]
+            check(expect and not bad,
+                  f"default forms {os.path.basename(p)}: cmap of {len(expect)} letters points at the .locl{ll} glyphs",
+                  " ".join(bad[:6]))
         f.ensureDecompiled()
         buf = io.BytesIO()
         f.save(buf)
@@ -140,17 +161,48 @@ def verify_font(cfg, fc, finfo, var_path, src_path, statics, ots, baseline):
             ok = oh.VarStore.VarData[0].Item[:len(order)] == sh.VarStore.VarData[0].Item[:len(order)]
         check(ok, f"{tag}: HVAR data of original glyphs identical")
     scm, ocm = src.getBestCmap(), out.getBestCmap()
-    check(all(ocm.get(c) == n for c, n in scm.items()), f"{tag}: cmap entries of the source unchanged")
+    if ll:
+        bad = [f"U+{c:04X}" for c, n in scm.items() if ocm.get(c) != expect.get(c, n)]
+        check(not bad, f"{tag}: cmap entries of the source unchanged except the {len(expect)} .locl{ll} default forms",
+              " ".join(bad[:6]))
+    else:
+        check(all(ocm.get(c) == n for c, n in scm.items()), f"{tag}: cmap entries of the source unchanged")
     hs, ho = HBFont(src_path), HBFont(var_path)
-    diffs = []
+    diffs, diffs_ru = [], []
     for w in ws:
         hs.set_wght(w)
         ho.set_wght(w)
-        a = [(i.codepoint, p.x_advance, p.x_offset, p.y_offset) for i, p in zip(*hs.shape(SAMPLE))]
-        b = [(i.codepoint, p.x_advance, p.x_offset, p.y_offset) for i, p in zip(*ho.shape(SAMPLE))]
-        if a != b:
+        sig = lambda h, lang=None: [(i.codepoint, p.x_advance, p.x_offset, p.y_offset)  # noqa: E731
+                                    for i, p in zip(*h.shape(SAMPLE, None, lang))]
+        a = sig(hs, bcp)            # source shaped with the family's default language (None = default)
+        if a != sig(ho):
             diffs.append(w)
-    check(not diffs, f"{tag}: shaping of text without new glyphs identical to source ({ws})", str(diffs))
+        if ll and a != sig(ho, bcp):
+            diffs_ru.append(w)
+    if ll:
+        check(not diffs, f"{tag}: shaping of text without new glyphs identical to the source shaped with language "
+                         f"{ll} ({ws})", str(diffs))
+        check(not diffs_ru, f"{tag}: same text shaped with language {ll} is still identical ({ws})", str(diffs_ru))
+        # independent of the lookup parsing above: every Cyrillic letter, one by one, through HarfBuzz
+        hs.set_wght(None if ax is None else ax.defaultValue)
+        ho.set_wght(None if ax is None else ax.defaultValue)
+        letters = sorted(c for c in scm if 0x0400 <= c <= 0x04FF)
+        bad = [chr(c) for c in letters
+               if hs.name(hs.shape(chr(c), None, bcp)[0][0].codepoint) != ho.name(ho.shape(chr(c))[0][0].codepoint)]
+        check(not bad, f"{tag}: default glyph of each of {len(letters)} Cyrillic letters == source shaped with language {ll}",
+              " ".join(bad[:8]))
+        # the other GSUB features must still act on the default forms exactly as on the source's
+        # language-ll forms (aalt is left out: it lists alternates, and the .locl glyphs carry more of them)
+        text = "".join(chr(c) for c in sorted(expect)) + " ВГДЖЗИЙКЛПТЦШЩЪЫЬЮ вгджзийклптцшщъыьюо 0123456789"
+        names = lambda h, feat, lang=None: [(h.name(i.codepoint), p.x_advance, p.x_offset)  # noqa: E731
+                                            for i, p in zip(*h.shape(text, {feat: True}, lang))]
+        feats = ("smcp", "c2sc", "case", "ss01", "ss02", "dlig", "liga", "calt", "frac", "sups", "subs",
+                 "tnum", "pnum", "kern", "locl")
+        bad = [ft for ft in feats if names(hs, ft, bcp) != names(ho, ft)]
+        check(not bad, f"{tag}: features {' '.join(feats)} act on the default forms as on the source's {ll} forms",
+              " ".join(bad))
+    else:
+        check(not diffs, f"{tag}: shaping of text without new glyphs identical to source ({ws})", str(diffs))
 
     # 3. new glyphs ---------------------------------------------------------
     # fonts without a GDEF glyph-class table (e.g. old kern-only fonts) get none added either

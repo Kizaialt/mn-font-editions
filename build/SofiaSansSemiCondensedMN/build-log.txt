@@ -36,6 +36,7 @@ mark: uni04AE base anchors cloned from Y (1 subtables)
 mark: uni04AF base anchors cloned from v (1 subtables)
 GSUB context: uni04E8 added beside uni041E in lookups ['2:Back', '32:Back', '32:Look']
 GSUB context: uni04AE added beside uni0423 in lookups ['2:Back', '32:Back', '32:Look']
+default forms: cyrl/RUS locl lookups applied to the cmap: 30 codepoints (Љ Д Л Ф в г д ж з и й к л п т ц ш щ ъ ы ь ю ѓ љ њ ќ ѝ џ ґ ӣ) now map to the .loclRUS glyphs
 name 0: 'Copyright 2019 The Sofia Sans Project Authors (https://github.com/lettersoup/Sofia-Sans)' -> 'Copyright 2019 The Sofia Sans Project Authors (https://github.com/lettersoup/Sofia-Sans). Mongolian additions (Ө ө Ү ү ₮) 2026, Font Shuugch project.'
 name 1: 'Sofia Sans Semi Condensed' -> 'Sofia Sans Semi Condensed MN'
 name 3: '4.101;LS;SofiaSansSemiCondensed-Regular' -> '4.101;MN0.1;LS;SofiaSansSemiCondensedMN-Regular'
@@ -92,6 +93,7 @@ mark: uni04AE base anchors cloned from Y (1 subtables)
 mark: uni04AF base anchors cloned from v (0 subtables)
 GSUB context: uni04E8 added beside uni041E in lookups ['2:Back', '31:Back', '31:Look']
 GSUB context: uni04AE added beside uni0423 in lookups ['2:Back', '31:Back', '31:Look']
+default forms: cyrl/RUS locl lookups applied to the cmap: 13 codepoints (Љ Д Л Ф в д ж з к л ю љ ќ) now map to the .loclRUS glyphs
 name 0: 'Copyright 2019 The Sofia Sans Project Authors (https://github.com/lettersoup/Sofia-Sans)' -> 'Copyright 2019 The Sofia Sans Project Authors (https://github.com/lettersoup/Sofia-Sans). Mongolian additions (Ө ө Ү ү ₮) 2026, Font Shuugch project.'
 name 1: 'Sofia Sans Semi Condensed' -> 'Sofia Sans Semi Condensed MN'
 name 3: '4.101;LS;SofiaSansSemiCondensed-Italic' -> '4.101;MN0.1;LS;SofiaSansSemiCondensedMN-Italic'

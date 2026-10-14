@@ -100,9 +100,11 @@ class HBFont:
             self.font.set_variations({"wght": w})
         self.wght = w
 
-    def shape(self, text, features=None):
+    def shape(self, text, features=None, language=None):
         buf = hb.Buffer()
         buf.add_str(text)
+        if language:
+            buf.language = language        # BCP 47 tag, e.g. "ru" -> OpenType language system RUS
         buf.guess_segment_properties()
         hb.shape(self.font, buf, features or {})
         return buf.glyph_infos, buf.glyph_positions
