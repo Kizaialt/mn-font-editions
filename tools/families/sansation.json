@@ -1,0 +1,179 @@
+{
+  "_comment": "Batch 3 (2026-10-19). Same pipeline and review rules as Unbounded MN. Glyph references '@X' resolve through each font's cmap.",
+  "family_id": "sansation",
+  "license": "sources/sansation/OFL.txt",
+  "upstream": "https://github.com/googlefonts/googlefontdirectory-hg",
+  "out_dir": "build/SensaSansMN",
+  "family_name": "Sansation",
+  "new_family_name": "Sensa Sans MN",
+  "version_suffix": "MN 0.1",
+  "copyright_append": "Mongolian additions ({added}) 2026, Font Shuugch project.",
+  "date": "2026-10-19",
+  "license_note": "RESERVED FONT NAME: the original OFL.txt reserves the name 'Sansation' (Copyright (c) 2011 by Bernd Montag, with Reserved Font Name 'Sansation'). A modified version may not use the reserved name, so this edition is released as 'Sensa Sans MN' (files SensaSansMN-*.ttf) and its font names (family, full, PostScript, unique ID) no longer contain the word 'Sansation'; the original author is credited in the copyright notice and below. NameID 0 (the copyright notice) keeps the original line verbatim, including its Reserved-Font-Name declaration, because the OFL requires the copyright notice to be retained; every other name record is renamed. The unique IDs (nameID 3), identical in all six original files, are made distinct per style.",
+  "reserved_font_name": "Sansation",
+  "statics": false,
+  "fonts": [
+    {
+      "source": "sources/sansation/Sansation-Light.ttf",
+      "out_file": "SensaSansMN-Light.ttf",
+      "name_overrides": {
+        "3": "BerndMontag: Sensa Sans MN Light: 2011;MN0.1"
+      }
+    },
+    {
+      "source": "sources/sansation/Sansation-LightItalic.ttf",
+      "out_file": "SensaSansMN-LightItalic.ttf",
+      "name_overrides": {
+        "3": "BerndMontag: Sensa Sans MN Light Italic: 2011;MN0.1"
+      }
+    },
+    {
+      "source": "sources/sansation/Sansation-Regular.ttf",
+      "out_file": "SensaSansMN-Regular.ttf",
+      "name_overrides": {
+        "3": "BerndMontag: Sensa Sans MN Regular: 2011;MN0.1"
+      }
+    },
+    {
+      "source": "sources/sansation/Sansation-Italic.ttf",
+      "out_file": "SensaSansMN-Italic.ttf",
+      "name_overrides": {
+        "3": "BerndMontag: Sensa Sans MN Italic: 2011;MN0.1"
+      }
+    },
+    {
+      "source": "sources/sansation/Sansation-Bold.ttf",
+      "out_file": "SensaSansMN-Bold.ttf",
+      "name_overrides": {
+        "3": "BerndMontag: Sensa Sans MN Bold: 2011;MN0.1"
+      }
+    },
+    {
+      "source": "sources/sansation/Sansation-BoldItalic.ttf",
+      "out_file": "SensaSansMN-BoldItalic.ttf",
+      "name_overrides": {
+        "3": "BerndMontag: Sensa Sans MN Bold Italic: 2011;MN0.1"
+      }
+    }
+  ],
+  "glyphs": {
+    "uni04E8": {
+      "unicode": "04E8",
+      "build": {
+        "method": "barred_o",
+        "base": "@О",
+        "bar_ref": "@Н",
+        "prefer_component": [
+          "@Ɵ",
+          "@Θ"
+        ]
+      },
+      "otl_base": "@О"
+    },
+    "uni04E9": {
+      "unicode": "04E9",
+      "build": {
+        "method": "barred_o",
+        "base": "@о",
+        "bar_ref": "@н",
+        "prefer_component": [
+          "@ɵ"
+        ]
+      },
+      "otl_base": "@о"
+    },
+    "uni04AE": {
+      "unicode": "04AE",
+      "build": {
+        "method": "component",
+        "base": "@Y"
+      },
+      "otl_base": "@У",
+      "anchor_base": "@Y",
+      "kern_lookalike": {
+        "latin_twin": "@Y",
+        "mode": "auto",
+        "map": {
+          "А": "A",
+          "О": "O",
+          "Ө": "O",
+          "С": "C",
+          "а": "a",
+          "е": "e",
+          "о": "o",
+          "ө": "o",
+          "с": "c",
+          "р": "p",
+          "х": "x",
+          "ү": "v",
+          "н": "n",
+          "г": "r",
+          "й": "u",
+          "и": "u",
+          "«": "«",
+          "»": "»",
+          "-": "-",
+          ".": ".",
+          ",": ","
+        }
+      }
+    },
+    "uni04AF": {
+      "unicode": "04AF",
+      "build": {
+        "method": "straight_u_p",
+        "base": "@v",
+        "stem_ref": "@р"
+      },
+      "otl_base": "@у",
+      "anchor_base": "@v"
+    },
+    "uni20AE": {
+      "unicode": "20AE",
+      "build": {
+        "method": "tugrik",
+        "base": "@T",
+        "angle_deg": 20,
+        "angle_min_deg": 15,
+        "span": 0.62,
+        "thickness_ratio": 0.78,
+        "thickness_min_ratio": 0.58,
+        "whitespace_ratio": 0.8,
+        "whitespace_split": [
+          0.25,
+          0.4,
+          0.35
+        ],
+        "min_protrusion": 0.55,
+        "heavy_gap_factor": 1.2,
+        "bottom_gap_ratio": 0.45,
+        "heavy_gap_refs": [
+          {
+            "glyph": "@₸",
+            "x": 0.2
+          },
+          {
+            "glyph": "@€",
+            "x": 0.1
+          },
+          {
+            "glyph": "@¥",
+            "x": 0.3
+          },
+          {
+            "glyph": "@e",
+            "x": 0.5
+          }
+        ]
+      },
+      "kern_like": {
+        "glyph": "@T",
+        "caps": {
+          "@4": {
+            "ratio": 0.5
+          }
+        }
+      }
+    }
+  }
+}

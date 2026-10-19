@@ -1,0 +1,39 @@
+source: sources/delagothicone/DelaGothicOne-Regular.ttf (v1.005, 9194 glyphs, static)
+masters (normalized): default
+uni04E8 (U+04E8): candidate Theta rejected: Theta bar does not join both walls at default (ink runs at y=368: [(40, 277), (356, 616), (694, 931)])
+uni04E8 (U+04E8): 'uni041E' + bar from uni041D crossbar: thickness 158.6, centre y=368.5, x 161..810 (default)
+    uni04E8 @ default: {'bar_thickness': 158.6, 'bar_center': 368.5, 'bar_x': (161, 810)}
+uni04E9 (U+04E9): 'uni043E' + bar from uni043D crossbar: thickness 75.3, centre y=273.0, x 137..599 (default)
+    uni04E9 @ default: {'bar_thickness': 75.3, 'bar_center': 273.0, 'bar_x': (137, 599)}
+uni04AE (U+04AE): composite of 'Y' (offset 0,0)
+uni04AF (U+04AF): 'v' outline with a straight stem and 'uni0440''s terminal: stem width 244.2 ('uni0440' 221.8, deslanted), down to y=-232.0; outer arm edges (curved: continued along their end tangents) to meet a stem of 'uni0440''s width at y=-104.4; stem widened where the join would sit deeper than 0.45 x descender; flat end cut at 'uni0440''s depth (its descender sides are curved, so no terminal is copied)
+    uni04AF @ default: {'mode': 'edges', 'stem': 244.2, 'p_stem': 221.8, 'widened': True, 'stem_x': (227, 472), 'join_y': -104.4, 'descender': -232.0, 'split_y': -139.2}
+uni20AE (U+20AE): 'T' outline + two parallel strokes (vertical end cuts) centred on the stem: perpendicular thickness 119.9 (= 0.58 x crossbar 206), angle 17.5 deg, x 203..735 (62% of the crossbar), centre lines cross the stem axis at y=172.0 and y=337.9; white gaps baseline/between/crossbar = (25.1, 40.2, 35.2) (default)
+    uni20AE @ default: {'mode': 'solver', 'T_stem': (344, 594), 'T_crossbar': (520, 726), 'stroke_thickness': 119.9, 'thickness_ratio': 0.582, 'stroke_vertical': 125.7, 'rise': 167.9, 'angle': 17.5, 'stroke_x': (203, 735), 'protrusion': 141.3, 'lower_centre_y': 172.0, 'upper_centre_y': 337.9, 'gaps': (25.1, 40.2, 35.2)}
+kern: uni04AE: Latin/Cyrillic kerning shared = False (4/15 look-alike pairs kern alike (Y+A -80 vs Y+uni0410 0; A+Y -60 vs uni0410+Y 0; Y+O -60 vs Y+uni041E 0)); mode auto
+kern: uni04E8 as 1st glyph cloned from uni041E (0 pair records/class rows)
+kern: uni04E9 as 1st glyph cloned from uni043E (0 pair records/class rows)
+kern: uni04AE as 1st glyph cloned from uni0423 (1 pair records/class rows)
+kern: uni04AF as 1st glyph cloned from uni0443 (2 pair records/class rows)
+kern: uni04E8 as 2nd glyph cloned from uni041E (0 pair records/classes)
+kern: uni04E9 as 2nd glyph cloned from uni043E (0 pair records/classes)
+kern: uni04AE as 2nd glyph cloned from uni0423 (3 pair records/classes)
+kern: uni04AF as 2nd glyph cloned from uni0443 (1 pair records/classes)
+kern: uni04AE look-alike pairs from Y: 15 explicit pairs in a new first subtable of lookup 1
+kern: uni20AE digit/punctuation pairs from T: 3 explicit pairs in a new first subtable of lookup 0
+kern: uni20AE+four.osf capped: T+four.osf -> per-master values [-40]
+kern: uni20AE digit/punctuation pairs from T: 13 explicit pairs in a new first subtable of lookup 1
+mark: uni04E8 base anchors cloned from uni041E (1 subtables)
+mark: uni04E9 base anchors cloned from uni043E (1 subtables)
+mark: uni04AE base anchors cloned from Y (1 subtables)
+mark: uni04AF base anchors cloned from v (0 subtables)
+GSUB context: uni04E8 added beside uni041E in lookups ['2:Back']
+GSUB context: uni04AE added beside uni0423 in lookups ['2:Back']
+name 0: 'Copyright 2020 The Dela Gothic Project Authors (https://github.com/syakuzen/DelaGothic)' -> 'Copyright 2020 The Dela Gothic Project Authors (https://github.com/syakuzen/DelaGothic). Mongolian additions (U+04E8 U+04E9 U+04AE U+04AF U+20AE) 2026, Font Shuugch project.'
+name 1: 'Dela Gothic One' -> 'Dela Gothic One MN'
+name 3: '1.005;ATKN;DelaGothicOne-Regular' -> '1.005;MN0.1;ATKN;DelaGothicOneMN-Regular'
+name 4: 'Dela Gothic One Regular' -> 'Dela Gothic One MN Regular'
+name 5: 'Version 1.005' -> 'Version 1.005;MN 0.1'
+name 6: 'DelaGothicOne-Regular' -> 'DelaGothicOneMN-Regular'
+OS/2 ulUnicodeRange bits added: [33]
+saved build/DelaGothicOneMN/DelaGothicOneMN-Regular.ttf

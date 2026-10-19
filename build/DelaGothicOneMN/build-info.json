@@ -1,0 +1,464 @@
+{
+ "family": "Dela Gothic One MN",
+ "fonts": [
+  {
+   "file": "DelaGothicOneMN-Regular.ttf",
+   "source": "sources/delagothicone/DelaGothicOne-Regular.ttf",
+   "variable": false,
+   "slant": 0.0,
+   "masters": [
+    {}
+   ],
+   "added": "Ө ө Ү ү ₮",
+   "glyphs": {
+    "uni04E8": {
+     "kind": "simple",
+     "metrics_base": "uni041E",
+     "components": [],
+     "tracks": [
+      "uni041E",
+      [
+       [
+        4,
+        0
+       ],
+       [
+        5,
+        1
+       ],
+       [
+        6,
+        2
+       ],
+       [
+        7,
+        3
+       ],
+       [
+        8,
+        4
+       ],
+       [
+        9,
+        5
+       ],
+       [
+        10,
+        6
+       ],
+       [
+        11,
+        7
+       ],
+       [
+        12,
+        8
+       ],
+       [
+        13,
+        9
+       ],
+       [
+        14,
+        10
+       ],
+       [
+        15,
+        11
+       ],
+       [
+        16,
+        12
+       ],
+       [
+        17,
+        13
+       ],
+       [
+        18,
+        14
+       ],
+       [
+        19,
+        15
+       ],
+       [
+        20,
+        16
+       ],
+       [
+        21,
+        17
+       ],
+       [
+        22,
+        18
+       ],
+       [
+        23,
+        19
+       ],
+       [
+        24,
+        20
+       ],
+       [
+        25,
+        21
+       ],
+       [
+        26,
+        22
+       ],
+       [
+        27,
+        23
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "bar_thickness": 158.6,
+       "bar_center": 368.5,
+       "bar_x": [
+        161,
+        810
+       ]
+      }
+     }
+    },
+    "uni04E9": {
+     "kind": "simple",
+     "metrics_base": "uni043E",
+     "components": [],
+     "tracks": [
+      "uni043E",
+      [
+       [
+        4,
+        0
+       ],
+       [
+        5,
+        1
+       ],
+       [
+        6,
+        2
+       ],
+       [
+        7,
+        3
+       ],
+       [
+        8,
+        4
+       ],
+       [
+        9,
+        5
+       ],
+       [
+        10,
+        6
+       ],
+       [
+        11,
+        7
+       ],
+       [
+        12,
+        8
+       ],
+       [
+        13,
+        9
+       ],
+       [
+        14,
+        10
+       ],
+       [
+        15,
+        11
+       ],
+       [
+        16,
+        12
+       ],
+       [
+        17,
+        13
+       ],
+       [
+        18,
+        14
+       ],
+       [
+        19,
+        15
+       ],
+       [
+        20,
+        16
+       ],
+       [
+        21,
+        17
+       ],
+       [
+        22,
+        18
+       ],
+       [
+        23,
+        19
+       ],
+       [
+        24,
+        20
+       ],
+       [
+        25,
+        21
+       ],
+       [
+        26,
+        22
+       ],
+       [
+        27,
+        23
+       ],
+       [
+        28,
+        24
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "bar_thickness": 75.3,
+       "bar_center": 273.0,
+       "bar_x": [
+        137,
+        599
+       ]
+      }
+     }
+    },
+    "uni04AE": {
+     "kind": "composite",
+     "metrics_base": "Y",
+     "components": [
+      "Y"
+     ],
+     "tracks": null,
+     "measurements": {}
+    },
+    "uni04AF": {
+     "kind": "simple",
+     "metrics_base": "v",
+     "components": [],
+     "tracks": [
+      "v",
+      [
+       [
+        4,
+        4
+       ],
+       [
+        5,
+        5
+       ],
+       [
+        6,
+        6
+       ],
+       [
+        7,
+        7
+       ],
+       [
+        8,
+        8
+       ],
+       [
+        9,
+        0
+       ],
+       [
+        10,
+        1
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "mode": "edges",
+       "stem": 244.2,
+       "p_stem": 221.8,
+       "widened": true,
+       "stem_x": [
+        227,
+        472
+       ],
+       "join_y": -104.4,
+       "descender": -232.0,
+       "split_y": -139.2
+      }
+     }
+    },
+    "uni20AE": {
+     "kind": "simple",
+     "metrics_base": "T",
+     "components": [],
+     "tracks": [
+      "T",
+      [
+       [
+        0,
+        0
+       ],
+       [
+        1,
+        1
+       ],
+       [
+        2,
+        2
+       ],
+       [
+        3,
+        3
+       ],
+       [
+        4,
+        4
+       ],
+       [
+        5,
+        5
+       ],
+       [
+        6,
+        6
+       ],
+       [
+        7,
+        7
+       ],
+       [
+        8,
+        8
+       ],
+       [
+        9,
+        9
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "mode": "solver",
+       "T_stem": [
+        344,
+        594
+       ],
+       "T_crossbar": [
+        520,
+        726
+       ],
+       "stroke_thickness": 119.9,
+       "thickness_ratio": 0.582,
+       "stroke_vertical": 125.7,
+       "rise": 167.9,
+       "angle": 17.5,
+       "stroke_x": [
+        203,
+        735
+       ],
+       "protrusion": 141.3,
+       "lower_centre_y": 172.0,
+       "upper_centre_y": 337.9,
+       "gaps": [
+        25.1,
+        40.2,
+        35.2
+       ]
+      }
+     }
+    }
+   },
+   "alts": {},
+   "kern": {
+    "uni04E8": {
+     "mode": "clone",
+     "base": "uni041E",
+     "lookalike": null
+    },
+    "uni04E9": {
+     "mode": "clone",
+     "base": "uni043E",
+     "lookalike": null
+    },
+    "uni04AE": {
+     "mode": "lookalike",
+     "base": "uni0423",
+     "lookalike": {
+      "latin_twin": "Y",
+      "mode": "auto",
+      "map": {
+       "А": "A",
+       "О": "O",
+       "Ө": "O",
+       "С": "C",
+       "а": "a",
+       "е": "e",
+       "о": "o",
+       "ө": "o",
+       "с": "c",
+       "р": "p",
+       "х": "x",
+       "ү": "v",
+       "н": "n",
+       "г": "r",
+       "й": "u",
+       "и": "u",
+       "«": "«",
+       "»": "»",
+       "-": "-",
+       ".": ".",
+       ",": ","
+      }
+     }
+    },
+    "uni04AF": {
+     "mode": "clone",
+     "base": "uni0443",
+     "lookalike": null
+    }
+   },
+   "kern_like": {
+    "uni20AE": {
+     "glyph": "T",
+     "capped": {
+      "four.osf": [
+       [
+        {},
+        -40
+       ]
+      ]
+     }
+    }
+   },
+   "anchors": {
+    "uni04E8": "uni041E",
+    "uni04E9": "uni043E",
+    "uni04AE": "Y",
+    "uni04AF": "v"
+   },
+   "statics": []
+  }
+ ]
+}

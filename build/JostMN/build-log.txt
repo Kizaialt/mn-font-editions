@@ -1,0 +1,105 @@
+source: sources/jost/Jost[wght].ttf (v3.710, 535 glyphs, variable)
+masters (normalized): default, wght=-1, wght=+1
+uni04E8 (U+04E8): 'uni041E' + bar from uni041D crossbar: thickness 80.0, centre y=350.0, x 86..704 (default)
+    uni04E8 @ default: {'bar_thickness': 80.0, 'bar_center': 350.0, 'bar_x': (86, 704)}
+    uni04E8 @ {'wght': -1.0}: {'bar_thickness': 10.0, 'bar_center': 350.0, 'bar_x': (56, 718)}
+    uni04E8 @ {'wght': 1.0}: {'bar_thickness': 156.4, 'bar_center': 345.0, 'bar_x': (150, 690)}
+uni04E9 (U+04E9): 'uni043E' + bar from uni043D crossbar: thickness 75.0, centre y=230.0, x 77..469 (default)
+    uni04E9 @ default: {'bar_thickness': 75.0, 'bar_center': 230.0, 'bar_x': (77, 469)}
+    uni04E9 @ {'wght': -1.0}: {'bar_thickness': 10.0, 'bar_center': 230.0, 'bar_x': (50, 506)}
+    uni04E9 @ {'wght': 1.0}: {'bar_thickness': 77.7, 'bar_center': 230.5, 'bar_x': (132, 484)}
+uni04AE (U+04AE): composite of 'Y' (offset 0,0)
+uni04AF (U+04AF): 'v' outline with a straight stem and 'uni0440''s terminal: stem width 80.0 ('uni0440' 80.0, deslanted), down to y=-220.0; outer arm edges extended to meet a stem of 'uni0440''s width at y=55.0
+    uni04AF @ default: {'mode': 'edges', 'stem': 80.0, 'p_stem': 80.0, 'widened': False, 'stem_x': (180, 260), 'join_y': 55.0, 'descender': -220.0, 'split_y': -88.0}
+    uni04AF @ {'wght': -1.0}: {'mode': 'edges', 'stem': 10.0, 'p_stem': 10.0, 'widened': False, 'stem_x': (205, 215), 'join_y': -3.1, 'descender': -220.0, 'split_y': -88.0}
+    uni04AF @ {'wght': 1.0}: {'mode': 'edges', 'stem': 195.0, 'p_stem': 195.0, 'widened': False, 'stem_x': (192, 388), 'join_y': 108.5, 'descender': -220.0, 'split_y': -88.0}
+uni20AE (U+20AE): 'T' outline + two parallel strokes (vertical end cuts) centred on the stem: perpendicular thickness 62.4 (= 0.78 x crossbar 80), angle 20 deg, x 95..370 (62% of the crossbar), centre lines cross the stem axis at y=180.1 and y=401.2; white gaps baseline/between/crossbar = (96.7, 154.7, 135.4) (default)
+uni20AE (U+20AE): heaviest master (wght=+1, heavy rule): thickness 114.1 (0.585 x crossbar), 20 deg, x 79..541 (protrudes 121.0 past the stem), gaps (17.3, 38.4, 38.4); family internal gaps {'Euro': 32.0, 'yen': 34.6, 'e': 65.9} -> rule minimum 38.4
+    uni20AE @ default: {'mode': 'solver', 'T_stem': (190, 275), 'T_crossbar': (620, 700), 'stroke_thickness': 62.4, 'thickness_ratio': 0.78, 'stroke_vertical': 66.4, 'rise': 100.4, 'angle': 20, 'stroke_x': (95, 370), 'protrusion': 95.4, 'lower_centre_y': 180.1, 'upper_centre_y': 401.2, 'gaps': (96.7, 154.7, 135.4)}
+    uni20AE @ {'wght': -1.0}: {'mode': 'solver', 'T_stem': (210, 221), 'T_crossbar': (689, 700), 'stroke_thickness': 11.0, 'thickness_ratio': 1.0, 'stroke_vertical': 11.7, 'rise': 88.2, 'angle': 20, 'stroke_x': (94, 337), 'protrusion': 115.7, 'lower_centre_y': 194.3, 'upper_centre_y': 437.0, 'gaps': (144.3, 230.9, 202.1)}
+    uni20AE @ {'wght': 1.0}: {'mode': 'heavy rule', 'T_stem': (200, 420), 'T_crossbar': (505, 700), 'stroke_thickness': 114.1, 'thickness_ratio': 0.585, 'stroke_vertical': 121.4, 'rise': 168.2, 'angle': 20, 'stroke_x': (79, 541), 'protrusion': 121.0, 'lower_centre_y': 162.0, 'upper_centre_y': 321.8, 'gaps': (17.3, 38.4, 38.4), 'family_gaps': {'Euro': 32.0, 'yen': 34.6, 'e': 65.9}, 'min_internal_gap': 38.4}
+normalize_direction: counter-clockwise (PostScript-order) contours read reversed, so the new glyphs are in TrueType direction: T [0], Y [0], uni041D [1, 2], uni041E [0, 1], uni043D [1, 2], uni043E [0, 1], uni0440 [0, 1, 2], v [0]
+kern: uni04AE: Latin/Cyrillic kerning shared = True (23/26 look-alike pairs kern alike (n+Y -100 vs uni043D+Y -80; Y+u -80 vs Y+uni0439 0; u+Y -80 vs uni0439+Y 0)); mode auto
+kern: uni04E8 as 1st glyph cloned from uni041E (1 pair records/class rows)
+kern: uni04E9 as 1st glyph cloned from uni043E (1 pair records/class rows)
+kern: uni04AE as 1st glyph cloned from Y (1 pair records/class rows)
+kern: uni04AF as 1st glyph cloned from uni0443 (1 pair records/class rows)
+kern: uni04E8 as 2nd glyph cloned from uni041E (1 pair records/classes)
+kern: uni04E9 as 2nd glyph cloned from uni043E (1 pair records/classes)
+kern: uni04AE as 2nd glyph cloned from Y (1 pair records/classes)
+kern: uni04AF as 2nd glyph cloned from uni0443 (1 pair records/classes)
+kern: uni20AE digit/punctuation pairs from T: 14 explicit pairs in a new first subtable of lookup 0
+mark: uni04E8 base anchors cloned from uni041E (0 subtables)
+mark: uni04E9 base anchors cloned from uni043E (0 subtables)
+mark: uni04AE base anchors cloned from Y (0 subtables)
+mark: uni04AF base anchors cloned from v (0 subtables)
+name 0: 'Copyright 2020 The Jost Project Authors (https://github.com/indestructible-type/Jost)' -> 'Copyright 2020 The Jost Project Authors (https://github.com/indestructible-type/Jost). Mongolian additions (Ө ө Ү ү ₮) 2026, Font Shuugch project.'
+name 1: 'Jost' -> 'Jost MN'
+name 3: '3.710;it*;Jost-Regular' -> '3.710;MN0.1;it*;JostMN-Regular'
+name 4: 'Jost Regular' -> 'Jost MN Regular'
+name 5: 'Version 3.710' -> 'Version 3.710;MN 0.1'
+name 6: 'Jost-Regular' -> 'JostMN-Regular'
+name 25: 'JostRoman' -> 'JostMNRoman'
+saved build/JostMN/JostMN[wght].ttf
+static Thin {'wght': 100.0} -> build/JostMN/static/JostMN-Thin.ttf (names: 'Jost MN Thin' / 'Regular' / 'Jost MN Thin'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static ExtraLight {'wght': 200.0} -> build/JostMN/static/JostMN-ExtraLight.ttf (names: 'Jost MN ExtraLight' / 'Regular' / 'Jost MN ExtraLight'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static Light {'wght': 300.0} -> build/JostMN/static/JostMN-Light.ttf (names: 'Jost MN Light' / 'Regular' / 'Jost MN Light'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static Regular {'wght': 400.0} -> build/JostMN/static/JostMN-Regular.ttf (names: 'Jost MN' / 'Regular' / 'Jost MN Regular'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static Medium {'wght': 500.0} -> build/JostMN/static/JostMN-Medium.ttf (names: 'Jost MN Medium' / 'Regular' / 'Jost MN Medium'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static SemiBold {'wght': 600.0} -> build/JostMN/static/JostMN-SemiBold.ttf (names: 'Jost MN SemiBold' / 'Regular' / 'Jost MN SemiBold'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static Bold {'wght': 700.0} -> build/JostMN/static/JostMN-Bold.ttf (names: 'Jost MN' / 'Bold' / 'Jost MN Bold'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static ExtraBold {'wght': 800.0} -> build/JostMN/static/JostMN-ExtraBold.ttf (names: 'Jost MN ExtraBold' / 'Regular' / 'Jost MN ExtraBold'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static Black {'wght': 900.0} -> build/JostMN/static/JostMN-Black.ttf (names: 'Jost MN Black' / 'Regular' / 'Jost MN Black'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+source: sources/jost/Jost-Italic[wght].ttf (v3.710, 535 glyphs, variable)
+italic: post.italicAngle -5.0 deg -> tan 0.0875; measured on I 0.1707; using 0.1707
+masters (normalized): default, wght=-1, wght=+1
+uni04E8 (U+04E8): 'uni041E' + bar from uni041D crossbar: thickness 79.0, centre y=350.0, x 117..715 (default)
+    uni04E8 @ default: {'bar_thickness': 79.0, 'bar_center': 350.0, 'bar_x': (117, 715)}
+    uni04E8 @ {'wght': -1.0}: {'bar_thickness': 10.0, 'bar_center': 350.0, 'bar_x': (87, 730)}
+    uni04E8 @ {'wght': 1.0}: {'bar_thickness': 152.8, 'bar_center': 345.0, 'bar_x': (182, 698)}
+uni04E9 (U+04E9): 'uni043E' + bar from uni043D crossbar: thickness 74.0, centre y=230.5, x 88..467 (default)
+    uni04E9 @ default: {'bar_thickness': 74.0, 'bar_center': 230.5, 'bar_x': (88, 467)}
+    uni04E9 @ {'wght': -1.0}: {'bar_thickness': 10.0, 'bar_center': 230.5, 'bar_x': (61, 504)}
+    uni04E9 @ {'wght': 1.0}: {'bar_thickness': 75.3, 'bar_center': 230.5, 'bar_x': (142, 480)}
+uni04AE (U+04AE): composite of 'Y' (offset 0,0)
+uni04AF (U+04AF): 'v' outline with a straight stem and 'uni0440''s terminal: stem width 81.9 ('uni0440' 81.9, deslanted), down to y=-220.0; outer arm edges extended to meet a stem of 'uni0440''s width at y=58.8; italic slant 9.7 deg
+    uni04AF @ default: {'mode': 'edges', 'stem': 81.9, 'p_stem': 81.9, 'widened': False, 'stem_x': (156, 238), 'join_y': 58.8, 'descender': -220.0, 'split_y': -88.0}
+    uni04AF @ {'wght': -1.0}: {'mode': 'edges', 'stem': 10.0, 'p_stem': 10.0, 'widened': False, 'stem_x': (181, 191), 'join_y': -2.8, 'descender': -219.0, 'split_y': -87.6}
+    uni04AF @ {'wght': 1.0}: {'mode': 'edges', 'stem': 195.0, 'p_stem': 195.0, 'widened': False, 'stem_x': (169, 364), 'join_y': 111.5, 'descender': -220.0, 'split_y': -88.0}
+uni20AE (U+20AE): 'T' outline + two parallel strokes (vertical end cuts) centred on the stem: perpendicular thickness 62.4 (= 0.78 x crossbar 80), angle 20 deg, x 64..333 (62% of the crossbar), centre lines cross the stem axis at y=179.5 and y=401.6; white gaps baseline/between/crossbar = (97.3, 155.7, 136.2) (default)
+uni20AE (U+20AE): heaviest master (wght=+1, heavy rule): thickness 115.1 (0.59 x crossbar), 20 deg, x 46..502 (protrudes 119.4 past the stem), gaps (17.3, 38.4, 38.4); family internal gaps {'Euro': 32.0, 'yen': 33.7, 'e': 66.0} -> rule minimum 38.4
+    uni20AE @ default: {'mode': 'solver', 'T_stem': (156, 240), 'T_crossbar': (620, 700), 'stroke_thickness': 62.4, 'thickness_ratio': 0.78, 'stroke_vertical': 66.4, 'rise': 98.0, 'angle': 20, 'stroke_x': (64, 333), 'protrusion': 92.6, 'lower_centre_y': 179.5, 'upper_centre_y': 401.6, 'gaps': (97.3, 155.7, 136.2)}
+    uni20AE @ {'wght': -1.0}: {'mode': 'solver', 'T_stem': (176, 187), 'T_crossbar': (689, 700), 'stroke_thickness': 11.0, 'thickness_ratio': 1.0, 'stroke_vertical': 11.7, 'rise': 85.8, 'angle': 20, 'stroke_x': (64, 299), 'protrusion': 112.3, 'lower_centre_y': 193.7, 'upper_centre_y': 437.3, 'gaps': (145.0, 231.9, 202.9)}
+    uni20AE @ {'wght': 1.0}: {'mode': 'heavy rule', 'T_stem': (165, 382), 'T_crossbar': (505, 700), 'stroke_thickness': 115.1, 'thickness_ratio': 0.59, 'stroke_vertical': 122.5, 'rise': 165.9, 'angle': 20, 'stroke_x': (46, 502), 'protrusion': 119.4, 'lower_centre_y': 161.5, 'upper_centre_y': 322.4, 'gaps': (17.3, 38.4, 38.4), 'family_gaps': {'Euro': 32.0, 'yen': 33.7, 'e': 66.0}, 'min_internal_gap': 38.4}
+normalize_direction: counter-clockwise (PostScript-order) contours read reversed, so the new glyphs are in TrueType direction: T [0], Y [0], uni041D [1, 2], uni041E [0, 1], uni043D [1, 2], uni043E [0, 1], uni0440 [0, 1, 2], v [0]
+kern: uni04AE: Latin/Cyrillic kerning shared = True (23/26 look-alike pairs kern alike (n+Y -100 vs uni043D+Y -80; Y+u -80 vs Y+uni0439 0; u+Y -80 vs uni0439+Y 0)); mode auto
+kern: uni04E8 as 1st glyph cloned from uni041E (1 pair records/class rows)
+kern: uni04E9 as 1st glyph cloned from uni043E (1 pair records/class rows)
+kern: uni04AE as 1st glyph cloned from Y (1 pair records/class rows)
+kern: uni04AF as 1st glyph cloned from uni0443 (1 pair records/class rows)
+kern: uni04E8 as 2nd glyph cloned from uni041E (1 pair records/classes)
+kern: uni04E9 as 2nd glyph cloned from uni043E (1 pair records/classes)
+kern: uni04AE as 2nd glyph cloned from Y (1 pair records/classes)
+kern: uni04AF as 2nd glyph cloned from uni0443 (1 pair records/classes)
+kern: uni20AE digit/punctuation pairs from T: 14 explicit pairs in a new first subtable of lookup 0
+mark: uni04E8 base anchors cloned from uni041E (0 subtables)
+mark: uni04E9 base anchors cloned from uni043E (0 subtables)
+mark: uni04AE base anchors cloned from Y (0 subtables)
+mark: uni04AF base anchors cloned from v (0 subtables)
+name 0: 'Copyright 2020 The Jost Project Authors (https://github.com/indestructible-type/Jost)' -> 'Copyright 2020 The Jost Project Authors (https://github.com/indestructible-type/Jost). Mongolian additions (Ө ө Ү ү ₮) 2026, Font Shuugch project.'
+name 1: 'Jost' -> 'Jost MN'
+name 3: '3.710;it*;Jost-Italic' -> '3.710;MN0.1;it*;JostMN-Italic'
+name 4: 'Jost Italic' -> 'Jost MN Italic'
+name 5: 'Version 3.710' -> 'Version 3.710;MN 0.1'
+name 6: 'Jost-Italic' -> 'JostMN-Italic'
+name 25: 'JostItalic' -> 'JostMNItalic'
+saved build/JostMN/JostMN-Italic[wght].ttf
+static Thin Italic {'wght': 100.0} -> build/JostMN/static/JostMN-ThinItalic.ttf (names: 'Jost MN Thin' / 'Italic' / 'Jost MN Thin Italic'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static ExtraLight Italic {'wght': 200.0} -> build/JostMN/static/JostMN-ExtraLightItalic.ttf (names: 'Jost MN ExtraLight' / 'Italic' / 'Jost MN ExtraLight Italic'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static Light Italic {'wght': 300.0} -> build/JostMN/static/JostMN-LightItalic.ttf (names: 'Jost MN Light' / 'Italic' / 'Jost MN Light Italic'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static Italic {'wght': 400.0} -> build/JostMN/static/JostMN-Italic.ttf (names: 'Jost MN' / 'Italic' / 'Jost MN Italic'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static Medium Italic {'wght': 500.0} -> build/JostMN/static/JostMN-MediumItalic.ttf (names: 'Jost MN Medium' / 'Italic' / 'Jost MN Medium Italic'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static SemiBold Italic {'wght': 600.0} -> build/JostMN/static/JostMN-SemiBoldItalic.ttf (names: 'Jost MN SemiBold' / 'Italic' / 'Jost MN SemiBold Italic'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static Bold Italic {'wght': 700.0} -> build/JostMN/static/JostMN-BoldItalic.ttf (names: 'Jost MN' / 'Bold Italic' / 'Jost MN Bold Italic'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static ExtraBold Italic {'wght': 800.0} -> build/JostMN/static/JostMN-ExtraBoldItalic.ttf (names: 'Jost MN ExtraBold' / 'Italic' / 'Jost MN ExtraBold Italic'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static Black Italic {'wght': 900.0} -> build/JostMN/static/JostMN-BlackItalic.ttf (names: 'Jost MN Black' / 'Italic' / 'Jost MN Black Italic'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])

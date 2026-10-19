@@ -37,7 +37,7 @@ def rows_for(cfg_path):
         f = TTFont(path)
         finfo = next(x for x in info["fonts"] if x["file"] == fc["out_file"])
         hl = set(finfo["glyphs"]) | set(finfo.get("alts", {}))
-        style = "Italic" if f["post"].italicAngle else "Roman"
+        style = "Italic" if (f["post"].italicAngle or f["OS/2"].fsSelection & 1) else "Roman"
         if "fvar" in f:
             ax = next(a for a in f["fvar"].axes if a.axisTag == "wght")
             reg = 400 if ax.minValue <= 400 <= ax.maxValue else ax.defaultValue

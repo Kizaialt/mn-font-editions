@@ -1,0 +1,36 @@
+source: sources/tenorsans/TenorSans-Regular.ttf (v1.001, 477 glyphs, static)
+masters (normalized): default
+uni04E8 (U+04E8): 'uni041E' + bar from uni041D crossbar: thickness 46.0, centre y=350.0, x 99..766 (default)
+    uni04E8 @ default: {'bar_thickness': 46.0, 'bar_center': 350.0, 'bar_x': (99, 766)}
+uni04E9 (U+04E9): 'uni043E' + bar from uni043D crossbar: thickness 34.0, centre y=249.5, x 98..520 (default)
+    uni04E9 @ default: {'bar_thickness': 34.0, 'bar_center': 249.5, 'bar_x': (98, 520)}
+uni04AE (U+04AE): composite of 'Y' (offset 0,0)
+uni04AF (U+04AF): 'v' outline with a straight stem and 'uni0440''s terminal: stem width 85.0 ('uni0440' 85.0, deslanted), down to y=-250.0; outer arm edges extended to meet a stem of 'uni0440''s width at y=30.5
+    uni04AF @ default: {'mode': 'edges', 'stem': 85.0, 'p_stem': 85.0, 'widened': False, 'stem_x': (216, 300), 'join_y': 30.5, 'descender': -250.0, 'split_y': -100.0}
+uni20AE (U+20AE): 'T' outline + two parallel strokes (vertical end cuts) centred on the stem: perpendicular thickness 42.9 (= 0.78 x crossbar 55), angle 20 deg, x 139..528 (62% of the crossbar), centre lines cross the stem axis at y=196.6 and y=407.2; white gaps baseline/between/crossbar = (103.1, 164.9, 144.3) (default)
+    uni20AE @ default: {'mode': 'solver', 'T_stem': (288, 379), 'T_crossbar': (645, 700), 'stroke_thickness': 42.9, 'thickness_ratio': 0.78, 'stroke_vertical': 45.7, 'rise': 141.5, 'angle': 20, 'stroke_x': (139, 528), 'protrusion': 148.9, 'lower_centre_y': 196.6, 'upper_centre_y': 407.2, 'gaps': (103.1, 164.9, 144.3)}
+normalize_direction: counter-clockwise (PostScript-order) contours read reversed, so the new glyphs are in TrueType direction: T [0], Y [0], uni041D [0], uni041E [0, 1], uni043D [0], uni0440 [0, 1], v [0]
+kern: uni04AE: Latin/Cyrillic kerning shared = False (0/2 look-alike pairs kern alike (Y+A -90 vs Y+uni0410 0; A+Y -90 vs uni0410+Y 0)); mode auto
+kern: uni04E8 as 1st glyph cloned from uni041E (0 pair records/class rows)
+kern: uni04E9 as 1st glyph cloned from uni043E (0 pair records/class rows)
+kern: uni04AE as 1st glyph cloned from uni0423 (0 pair records/class rows)
+kern: uni04AF as 1st glyph cloned from uni0443 (2 pair records/class rows)
+kern: uni04E8 as 2nd glyph cloned from uni041E (0 pair records/classes)
+kern: uni04E9 as 2nd glyph cloned from uni043E (0 pair records/classes)
+kern: uni04AE as 2nd glyph cloned from uni0423 (0 pair records/classes)
+kern: uni04AF as 2nd glyph cloned from uni0443 (1 pair records/classes)
+kern: uni04AE look-alike pairs from Y: 2 explicit pairs in a new first subtable of lookup 0
+mark: uni04E8 base anchors cloned from uni041E (0 subtables)
+mark: uni04E9 base anchors cloned from uni043E (0 subtables)
+mark: uni04AE base anchors cloned from Y (0 subtables)
+mark: uni04AF base anchors cloned from v (0 subtables)
+name 0: 'Copyright (c) 2010, 2011, Denis Masharov <denis.masharov@gmail.com>. This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL' -> 'Copyright (c) 2010, 2011, Denis Masharov <denis.masharov@gmail.com>. This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL. Mongolian additions (U+04E8 U+04E9 U+04AE U+04AF U+20AE) 2026, Font Shuugch project.'
+name 1: 'Tenor Sans' -> 'Alto Sans MN'
+name 3: 'DenisMasharov: Tenor Sans: 2011' -> 'DenisMasharov: Tenor Sans: 2011;MN0.1'
+name 4: 'Tenor Sans' -> 'Alto Sans MN'
+name 5: 'Version 1.1' -> 'Version 1.1;MN 0.1'
+name 6: 'TenorSans' -> 'AltoSansMN'
+name 7: 'Tenor Sans' -> 'Alto Sans MN is a modified version of a typeface by Denis Masharov; it is released under a different name because the original names are reserved.'
+removed hdmx (per-glyph device metrics without entries for the new glyphs; optional table)
+removed LTSH (per-glyph device metrics without entries for the new glyphs; optional table)
+saved build/AltoSansMN/AltoSansMN-Regular.ttf

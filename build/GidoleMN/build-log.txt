@@ -1,0 +1,34 @@
+source: sources/gidole/Gidole-Regular.ttf (v2.100, 921 glyphs, static)
+masters (normalized): default
+uni04E8 (U+04E8): candidate Theta rejected: Theta bar does not join both walls at default (ink runs at y=708: [(130, 286), (464, 792), (970, 1126)])
+uni04E8 (U+04E8): 'uni041E' + bar from uni041D crossbar: thickness 140.0, centre y=708.0, x 208..1048 (default)
+    uni04E8 @ default: {'bar_thickness': 140.0, 'bar_center': 708.0, 'bar_x': (208, 1048)}
+uni04E9 (U+04E9): 'uni043E' + bar from uni043D crossbar: thickness 135.0, centre y=541.0, x 200..900 (default)
+    uni04E9 @ default: {'bar_thickness': 135.0, 'bar_center': 541.0, 'bar_x': (200, 900)}
+uni04AE (U+04AE): composite of 'Y' (offset 0,0)
+uni04AF (U+04AF): 'v' outline with a straight stem and 'uni0440''s terminal: stem width 150.0 ('uni0440' 150.0, deslanted), down to y=-414.0; outer arm edges extended to meet a stem of 'uni0440''s width at y=8.7
+    uni04AF @ default: {'mode': 'edges', 'stem': 150.0, 'p_stem': 150.0, 'widened': False, 'stem_x': (430, 580), 'join_y': 8.7, 'descender': -414.0, 'split_y': -165.6}
+uni20AE (U+20AE): 'T' outline + two parallel strokes (vertical end cuts) centred on the stem: perpendicular thickness 109.2 (= 0.78 x crossbar 140), angle 20 deg, x 236..812 (62% of the crossbar), centre lines cross the stem axis at y=371.6 and y=821.9; white gaps baseline/between/crossbar = (208.8, 334.1, 292.3) (default)
+    uni20AE @ default: {'mode': 'solver', 'T_stem': (446, 602), 'T_crossbar': (1277, 1417), 'stroke_thickness': 109.2, 'thickness_ratio': 0.78, 'stroke_vertical': 116.2, 'rise': 209.4, 'angle': 20, 'stroke_x': (236, 812), 'protrusion': 209.7, 'lower_centre_y': 371.6, 'upper_centre_y': 821.9, 'gaps': (208.8, 334.1, 292.3)}
+kern: uni04AE: Latin/Cyrillic kerning shared = False (8/20 look-alike pairs kern alike (Y+A -220 vs Y+uni0410 0; A+Y -220 vs uni0410+Y 0; Y+O -60 vs Y+uni041E 0)); mode auto
+kern: uni04E8 as 1st glyph cloned from uni041E (0 pair records/class rows)
+kern: uni04E9 as 1st glyph cloned from uni043E (13 pair records/class rows)
+kern: uni04AE as 1st glyph cloned from uni0423 (0 pair records/class rows)
+kern: uni04AF as 1st glyph cloned from uni0443 (11 pair records/class rows)
+kern: uni04E8 as 2nd glyph cloned from uni041E (0 pair records/classes)
+kern: uni04E9 as 2nd glyph cloned from uni043E (13 pair records/classes)
+kern: uni04AE as 2nd glyph cloned from uni0423 (0 pair records/classes)
+kern: uni04AF as 2nd glyph cloned from uni0443 (12 pair records/classes)
+kern: uni04AE look-alike pairs from Y: 27 explicit pairs in a new first subtable of lookup 0
+kern: uni20AE digit/punctuation pairs from T: 20 explicit pairs in a new first subtable of lookup 0
+mark: uni04E8 base anchors cloned from uni041E (3 subtables)
+mark: uni04E9 base anchors cloned from uni043E (3 subtables)
+mark: uni04AE base anchors cloned from Y (2 subtables)
+mark: uni04AF base anchors cloned from v (1 subtables)
+name 0: 'Copyright 2015 The Gidole Project Authors (https://github.com/googlefonts/gidole)' -> 'Copyright 2015 The Gidole Project Authors (https://github.com/googlefonts/gidole). Mongolian additions (Ө ө Ү ү ₮) 2026, Font Shuugch project.'
+name 1: 'Gidole' -> 'Gidole MN'
+name 3: '2.100;PfEd;Gidole-Regular' -> '2.100;MN0.1;PfEd;GidoleMN-Regular'
+name 4: 'Gidole Regular' -> 'Gidole MN Regular'
+name 5: 'Version 2.100; ttfautohint (v1.8.4.7-5d5b)' -> 'Version 2.100;MN 0.1'
+name 6: 'Gidole-Regular' -> 'GidoleMN-Regular'
+saved build/GidoleMN/GidoleMN-Regular.ttf

@@ -1,0 +1,656 @@
+{
+ "family": "El Messiri MN",
+ "fonts": [
+  {
+   "file": "ElMessiriMN[wght].ttf",
+   "source": "sources/elmessiri/ElMessiri[wght].ttf",
+   "variable": true,
+   "slant": 0.0,
+   "masters": [
+    {},
+    {
+     "wght": 1.0
+    }
+   ],
+   "added": "Ө ө Ү ү ₮",
+   "glyphs": {
+    "uni04E8": {
+     "kind": "simple",
+     "metrics_base": "uni041E",
+     "components": [],
+     "tracks": [
+      "uni041E",
+      [
+       [
+        4,
+        0
+       ],
+       [
+        5,
+        1
+       ],
+       [
+        6,
+        2
+       ],
+       [
+        7,
+        3
+       ],
+       [
+        8,
+        4
+       ],
+       [
+        9,
+        5
+       ],
+       [
+        10,
+        6
+       ],
+       [
+        11,
+        7
+       ],
+       [
+        12,
+        8
+       ],
+       [
+        13,
+        9
+       ],
+       [
+        14,
+        10
+       ],
+       [
+        15,
+        11
+       ],
+       [
+        16,
+        12
+       ],
+       [
+        17,
+        13
+       ],
+       [
+        18,
+        14
+       ],
+       [
+        19,
+        15
+       ],
+       [
+        20,
+        16
+       ],
+       [
+        21,
+        17
+       ],
+       [
+        22,
+        18
+       ],
+       [
+        23,
+        19
+       ],
+       [
+        24,
+        20
+       ],
+       [
+        25,
+        21
+       ],
+       [
+        26,
+        22
+       ],
+       [
+        27,
+        23
+       ],
+       [
+        28,
+        24
+       ],
+       [
+        29,
+        25
+       ],
+       [
+        30,
+        26
+       ],
+       [
+        31,
+        27
+       ],
+       [
+        32,
+        28
+       ],
+       [
+        33,
+        29
+       ],
+       [
+        34,
+        30
+       ],
+       [
+        35,
+        31
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "bar_thickness": 40.0,
+       "bar_center": 330.0,
+       "bar_x": [
+        96,
+        616
+       ]
+      },
+      "wght=+1": {
+       "bar_thickness": 45.0,
+       "bar_center": 330.0,
+       "bar_x": [
+        107,
+        627
+       ]
+      }
+     }
+    },
+    "uni04E9": {
+     "kind": "simple",
+     "metrics_base": "uni043E",
+     "components": [],
+     "tracks": [
+      "uni043E",
+      [
+       [
+        4,
+        0
+       ],
+       [
+        5,
+        1
+       ],
+       [
+        6,
+        2
+       ],
+       [
+        7,
+        3
+       ],
+       [
+        8,
+        4
+       ],
+       [
+        9,
+        5
+       ],
+       [
+        10,
+        6
+       ],
+       [
+        11,
+        7
+       ],
+       [
+        12,
+        8
+       ],
+       [
+        13,
+        9
+       ],
+       [
+        14,
+        10
+       ],
+       [
+        15,
+        11
+       ],
+       [
+        16,
+        12
+       ],
+       [
+        17,
+        13
+       ],
+       [
+        18,
+        14
+       ],
+       [
+        19,
+        15
+       ],
+       [
+        20,
+        16
+       ],
+       [
+        21,
+        17
+       ],
+       [
+        22,
+        18
+       ],
+       [
+        23,
+        19
+       ],
+       [
+        24,
+        20
+       ],
+       [
+        25,
+        21
+       ],
+       [
+        26,
+        22
+       ],
+       [
+        27,
+        23
+       ],
+       [
+        28,
+        24
+       ],
+       [
+        29,
+        25
+       ],
+       [
+        30,
+        26
+       ],
+       [
+        31,
+        27
+       ],
+       [
+        32,
+        28
+       ],
+       [
+        33,
+        29
+       ],
+       [
+        34,
+        30
+       ],
+       [
+        35,
+        31
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "bar_thickness": 40.0,
+       "bar_center": 235.0,
+       "bar_x": [
+        93,
+        437
+       ]
+      },
+      "wght=+1": {
+       "bar_thickness": 45.0,
+       "bar_center": 235.0,
+       "bar_x": [
+        104,
+        448
+       ]
+      }
+     }
+    },
+    "uni04AE": {
+     "kind": "composite",
+     "metrics_base": "Y",
+     "components": [
+      "Y"
+     ],
+     "tracks": null,
+     "measurements": {}
+    },
+    "uni04AF": {
+     "kind": "simple",
+     "metrics_base": "v",
+     "components": [],
+     "tracks": [
+      "v",
+      [
+       [
+        6,
+        1
+       ],
+       [
+        7,
+        2
+       ],
+       [
+        8,
+        3
+       ],
+       [
+        9,
+        4
+       ],
+       [
+        10,
+        5
+       ],
+       [
+        11,
+        6
+       ],
+       [
+        12,
+        7
+       ],
+       [
+        13,
+        8
+       ],
+       [
+        14,
+        9
+       ],
+       [
+        15,
+        10
+       ],
+       [
+        16,
+        11
+       ],
+       [
+        17,
+        12
+       ],
+       [
+        18,
+        13
+       ],
+       [
+        19,
+        14
+       ],
+       [
+        20,
+        15
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "mode": "edges",
+       "stem": 90.0,
+       "p_stem": 90.0,
+       "widened": false,
+       "stem_x": [
+        219,
+        309
+       ],
+       "join_y": 72.2,
+       "descender": -190.0,
+       "split_y": -76.0
+      },
+      "wght=+1": {
+       "mode": "edges",
+       "stem": 130.0,
+       "p_stem": 130.0,
+       "widened": false,
+       "stem_x": [
+        199,
+        329
+       ],
+       "join_y": 93.7,
+       "descender": -190.0,
+       "split_y": -76.0
+      }
+     }
+    },
+    "uni20AE": {
+     "kind": "simple",
+     "metrics_base": "T",
+     "components": [],
+     "tracks": [
+      "T",
+      [
+       [
+        0,
+        0
+       ],
+       [
+        1,
+        1
+       ],
+       [
+        2,
+        2
+       ],
+       [
+        3,
+        3
+       ],
+       [
+        4,
+        4
+       ],
+       [
+        5,
+        5
+       ],
+       [
+        6,
+        6
+       ],
+       [
+        7,
+        7
+       ],
+       [
+        8,
+        8
+       ],
+       [
+        9,
+        9
+       ],
+       [
+        10,
+        10
+       ],
+       [
+        11,
+        11
+       ],
+       [
+        12,
+        12
+       ],
+       [
+        13,
+        13
+       ],
+       [
+        14,
+        14
+       ],
+       [
+        15,
+        15
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "mode": "solver",
+       "T_stem": [
+        256,
+        346
+       ],
+       "T_crossbar": [
+        618,
+        660
+       ],
+       "stroke_thickness": 41.6,
+       "thickness_ratio": 1.0,
+       "stroke_vertical": 44.3,
+       "rise": 124.1,
+       "angle": 20,
+       "stroke_x": [
+        130,
+        472
+       ],
+       "protrusion": 125.5,
+       "lower_centre_y": 185.6,
+       "upper_centre_y": 392.2,
+       "gaps": [
+        101.4,
+        162.3,
+        142.0
+       ]
+      },
+      "wght=+1": {
+       "mode": "heavy rule",
+       "T_stem": [
+        232,
+        362
+       ],
+       "T_crossbar": [
+        611,
+        660
+       ],
+       "stroke_thickness": 41.6,
+       "thickness_ratio": 0.853,
+       "stroke_vertical": 44.3,
+       "rise": 125.2,
+       "angle": 20,
+       "stroke_x": [
+        125,
+        469
+       ],
+       "protrusion": 107.1,
+       "lower_centre_y": 162.7,
+       "upper_centre_y": 368.5,
+       "gaps": [
+        77.9,
+        161.6,
+        157.9
+       ],
+       "family_gaps": {
+        "e": 173.0,
+        "equal": 110.0
+       },
+       "min_internal_gap": 132.0
+      }
+     }
+    }
+   },
+   "alts": {},
+   "kern": {
+    "uni04E8": {
+     "mode": "clone",
+     "base": "uni041E",
+     "lookalike": null
+    },
+    "uni04E9": {
+     "mode": "clone",
+     "base": "uni043E",
+     "lookalike": null
+    },
+    "uni04AE": {
+     "mode": "lookalike",
+     "base": "uni0423",
+     "lookalike": {
+      "latin_twin": "Y",
+      "mode": "auto",
+      "map": {
+       "А": "A",
+       "О": "O",
+       "Ө": "O",
+       "С": "C",
+       "а": "a",
+       "е": "e",
+       "о": "o",
+       "ө": "o",
+       "с": "c",
+       "р": "p",
+       "х": "x",
+       "ү": "v",
+       "н": "n",
+       "г": "r",
+       "й": "u",
+       "и": "u",
+       "«": "«",
+       "»": "»",
+       "-": "-",
+       ".": ".",
+       ",": ","
+      }
+     }
+    },
+    "uni04AF": {
+     "mode": "clone",
+     "base": "uni0443",
+     "lookalike": null
+    }
+   },
+   "kern_like": {
+    "uni20AE": {
+     "glyph": "T",
+     "capped": {
+      "four": [
+       [
+        {},
+        -22
+       ],
+       [
+        {
+         "wght": 1.0
+        },
+        -20
+       ]
+      ]
+     }
+    }
+   },
+   "anchors": {
+    "uni04E8": "uni041E",
+    "uni04E9": "uni043E",
+    "uni04AE": "Y",
+    "uni04AF": "v"
+   },
+   "statics": [
+    "ElMessiriMN-Regular.ttf",
+    "ElMessiriMN-Medium.ttf",
+    "ElMessiriMN-SemiBold.ttf",
+    "ElMessiriMN-Bold.ttf"
+   ]
+  }
+ ]
+}

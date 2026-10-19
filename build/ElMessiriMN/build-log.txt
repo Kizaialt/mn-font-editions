@@ -1,0 +1,44 @@
+source: sources/elmessiri/ElMessiri[wght].ttf (v2.020, 648 glyphs, variable)
+masters (normalized): default, wght=+1
+uni04E8 (U+04E8): 'uni041E' + bar from uni041D crossbar: thickness 40.0, centre y=330.0, x 96..616 (default)
+    uni04E8 @ default: {'bar_thickness': 40.0, 'bar_center': 330.0, 'bar_x': (96, 616)}
+    uni04E8 @ {'wght': 1.0}: {'bar_thickness': 45.0, 'bar_center': 330.0, 'bar_x': (107, 627)}
+uni04E9 (U+04E9): 'uni043E' + bar from uni043D crossbar: thickness 40.0, centre y=235.0, x 93..437 (default)
+    uni04E9 @ default: {'bar_thickness': 40.0, 'bar_center': 235.0, 'bar_x': (93, 437)}
+    uni04E9 @ {'wght': 1.0}: {'bar_thickness': 45.0, 'bar_center': 235.0, 'bar_x': (104, 448)}
+uni04AE (U+04AE): composite of 'Y' (offset 0,0)
+uni04AF (U+04AF): 'v' outline with a straight stem and 'uni0440''s terminal: stem width 90.0 ('uni0440' 90.0, deslanted), down to y=-190.0; outer arm edges extended to meet a stem of 'uni0440''s width at y=72.2
+    uni04AF @ default: {'mode': 'edges', 'stem': 90.0, 'p_stem': 90.0, 'widened': False, 'stem_x': (219, 309), 'join_y': 72.2, 'descender': -190.0, 'split_y': -76.0}
+    uni04AF @ {'wght': 1.0}: {'mode': 'edges', 'stem': 130.0, 'p_stem': 130.0, 'widened': False, 'stem_x': (199, 329), 'join_y': 93.7, 'descender': -190.0, 'split_y': -76.0}
+uni20AE (U+20AE): 'T' outline + two parallel strokes (vertical end cuts) centred on the stem: perpendicular thickness 41.6 (= 0.99 x crossbar 42), angle 20 deg, x 130..472 (62% of the crossbar), centre lines cross the stem axis at y=185.6 and y=392.2; white gaps baseline/between/crossbar = (101.4, 162.3, 142.0) (default)
+uni20AE (U+20AE): heaviest master (wght=+1, heavy rule): thickness 41.6 (0.853 x crossbar), 20 deg, x 125..469 (protrudes 107.1 past the stem), gaps (77.9, 161.6, 157.9); family internal gaps {'e': 173.0, 'equal': 110.0} -> rule minimum 132.0
+    uni20AE @ default: {'mode': 'solver', 'T_stem': (256, 346), 'T_crossbar': (618, 660), 'stroke_thickness': 41.6, 'thickness_ratio': 1.0, 'stroke_vertical': 44.3, 'rise': 124.1, 'angle': 20, 'stroke_x': (130, 472), 'protrusion': 125.5, 'lower_centre_y': 185.6, 'upper_centre_y': 392.2, 'gaps': (101.4, 162.3, 142.0)}
+    uni20AE @ {'wght': 1.0}: {'mode': 'heavy rule', 'T_stem': (232, 362), 'T_crossbar': (611, 660), 'stroke_thickness': 41.6, 'thickness_ratio': 0.853, 'stroke_vertical': 44.3, 'rise': 125.2, 'angle': 20, 'stroke_x': (125, 469), 'protrusion': 107.1, 'lower_centre_y': 162.7, 'upper_centre_y': 368.5, 'gaps': (77.9, 161.6, 157.9), 'family_gaps': {'e': 173.0, 'equal': 110.0}, 'min_internal_gap': 132.0}
+kern: uni04AE: Latin/Cyrillic kerning shared = False (0/25 look-alike pairs kern alike (Y+A -88 vs Y+uni0410 0; A+Y -68 vs uni0410+Y 0; Y+O -41 vs Y+uni041E 0)); mode auto
+kern: uni04E8 as 1st glyph cloned from uni041E (13 pair records/class rows)
+kern: uni04E9 as 1st glyph cloned from uni043E (11 pair records/class rows)
+kern: uni04AE as 1st glyph cloned from uni0423 (28 pair records/class rows)
+kern: uni04AF as 1st glyph cloned from uni0443 (6 pair records/class rows)
+kern: uni04E8 as 2nd glyph cloned from uni041E (13 pair records/classes)
+kern: uni04E9 as 2nd glyph cloned from uni043E (19 pair records/classes)
+kern: uni04AE as 2nd glyph cloned from uni0423 (19 pair records/classes)
+kern: uni04AF as 2nd glyph cloned from uni0443 (25 pair records/classes)
+kern: uni04AE look-alike pairs from Y: 40 explicit pairs in a new first subtable of lookup 0
+kern: uni20AE+four capped: T+four -> per-master values [-22, -20]
+kern: uni20AE digit/punctuation pairs from T: 44 explicit pairs in a new first subtable of lookup 0
+mark: uni04E8 base anchors cloned from uni041E (0 subtables)
+mark: uni04E9 base anchors cloned from uni043E (0 subtables)
+mark: uni04AE base anchors cloned from Y (0 subtables)
+mark: uni04AF base anchors cloned from v (0 subtables)
+name 0: 'Copyright 2015 The El Messiri Project Authors (https://github.com/Gue3bara/El-Messiri)' -> 'Copyright 2015 The El Messiri Project Authors (https://github.com/Gue3bara/El-Messiri). Mongolian additions (Ө ө Ү ү ₮) 2026, Font Shuugch project.'
+name 1: 'El Messiri' -> 'El Messiri MN'
+name 3: '2.020;1KTF;ElMessiri-Regular' -> '2.020;MN0.1;1KTF;ElMessiriMN-Regular'
+name 4: 'El Messiri Regular' -> 'El Messiri MN Regular'
+name 5: 'Version 2.020' -> 'Version 2.020;MN 0.1'
+name 6: 'ElMessiri-Regular' -> 'ElMessiriMN-Regular'
+name 25: 'ElMessiri' -> 'ElMessiriMN'
+saved build/ElMessiriMN/ElMessiriMN[wght].ttf
+static Regular {'wght': 400.0} -> build/ElMessiriMN/static/ElMessiriMN-Regular.ttf (names: 'El Messiri MN' / 'Regular' / 'El Messiri MN Regular'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static Medium {'wght': 500.0} -> build/ElMessiriMN/static/ElMessiriMN-Medium.ttf (names: 'El Messiri MN Medium' / 'Regular' / 'El Messiri MN Medium'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static SemiBold {'wght': 600.0} -> build/ElMessiriMN/static/ElMessiriMN-SemiBold.ttf (names: 'El Messiri MN SemiBold' / 'Regular' / 'El Messiri MN SemiBold'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])
+static Bold {'wght': 700.0} -> build/ElMessiriMN/static/ElMessiriMN-Bold.ttf (names: 'El Messiri MN' / 'Bold' / 'El Messiri MN Bold'; overlaps removed in ['uni04E8', 'uni04E9', 'uni04AF', 'uni20AE'])

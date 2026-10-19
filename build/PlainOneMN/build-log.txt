@@ -1,0 +1,37 @@
+source: sources/prostoone/ProstoOne-Regular.ttf (v1.000, 405 glyphs, static)
+masters (normalized): default
+uni04E8 (U+04E8): 'afii10032' + bar from afii10031 crossbar: thickness 75.0, centre y=350.0, x 128..772 (default)
+    uni04E8 @ default: {'bar_thickness': 75.0, 'bar_center': 350.0, 'bar_x': (128, 772)}
+uni04E9 (U+04E9): 'afii10080' + bar from afii10079 crossbar: thickness 70.0, centre y=260.0, x 121..579 (default)
+    uni04E9 @ default: {'bar_thickness': 70.0, 'bar_center': 260.0, 'bar_x': (121, 579)}
+uni04AE (U+04AE): composite of 'Y' (offset 0,0)
+uni04AF (U+04AF): 'v' outline with a straight stem and 'afii10082''s terminal: stem width 157.7 ('afii10082' 140.0, deslanted), down to y=-180.0; outer arm edges extended to meet a stem of 'afii10082''s width at y=-81.0; stem widened where the join would sit deeper than 0.45 x descender
+    uni04AF @ default: {'mode': 'edges', 'stem': 157.7, 'p_stem': 140.0, 'widened': True, 'stem_x': (241, 399), 'join_y': -81.0, 'descender': -180.0, 'split_y': -108.0}
+uni20AE (U+20AE): 'T' outline + two parallel strokes (vertical end cuts) centred on the stem: perpendicular thickness 58.5 (= 0.78 x crossbar 75), angle 20 deg, x 140..565 (62% of the crossbar), centre lines cross the stem axis at y=194.9 and y=395.5; white gaps baseline/between/crossbar = (86.5, 138.4, 121.1) (default)
+    uni20AE @ default: {'mode': 'solver', 'T_stem': (280, 425), 'T_crossbar': (625, 700), 'stroke_thickness': 58.5, 'thickness_ratio': 0.78, 'stroke_vertical': 62.3, 'rise': 154.6, 'angle': 20, 'stroke_x': (140, 565), 'protrusion': 139.8, 'lower_centre_y': 194.9, 'upper_centre_y': 395.5, 'gaps': (86.5, 138.4, 121.1)}
+kern: uni04AE: Latin/Cyrillic kerning shared = False (0/16 look-alike pairs kern alike (Y+A -100 vs Y+afii10017 0; A+Y -100 vs afii10017+Y 0; Y+O -50 vs Y+afii10032 0)); mode auto
+kern: uni04E8 as 1st glyph cloned from afii10032 (16 pair records/class rows)
+kern: uni04E9 as 1st glyph cloned from afii10080 (10 pair records/class rows)
+kern: uni04AE as 1st glyph cloned from afii10037 (61 pair records/class rows)
+kern: uni04AF as 1st glyph cloned from afii10085 (18 pair records/class rows)
+kern: uni04E8 as 2nd glyph cloned from afii10032 (18 pair records/classes)
+kern: uni04E9 as 2nd glyph cloned from afii10080 (34 pair records/classes)
+kern: uni04AE as 2nd glyph cloned from afii10037 (21 pair records/classes)
+kern: uni04AF as 2nd glyph cloned from afii10085 (46 pair records/classes)
+kern: uni04AE look-alike pairs from Y: 12 explicit pairs in a new first subtable of lookup 0
+kern: uni20AE digit/punctuation pairs from T: 7 explicit pairs in a new first subtable of lookup 0
+mark: uni04E8 base anchors cloned from afii10032 (0 subtables)
+mark: uni04E9 base anchors cloned from afii10080 (0 subtables)
+mark: uni04AE base anchors cloned from Y (0 subtables)
+mark: uni04AF base anchors cloned from v (0 subtables)
+name 0: 'Copyright (c) 2012, Jovanny Lemonad (http://www.jovanny.ru), Copyright (c) 2012, Pavel Emelyanov (zakachka2006@mail.ru), with Reserved Font Name "Prosto" and "Prosto One".' -> 'Copyright (c) 2012, Jovanny Lemonad (http://www.jovanny.ru), Copyright (c) 2012, Pavel Emelyanov (zakachka2006@mail.ru), with Reserved Font Name "Prosto" and "Prosto One". Mongolian additions (U+04E8 U+04E9 U+04AE U+04AF U+20AE) 2026, Font Shuugch project.'
+name 1: 'Prosto One' -> 'Plain One MN'
+name 3: 'PavelEmelyanovandJovannyLemonad: Prosto One: 2012' -> 'PavelEmelyanovandJovannyLemonad: Prosto One: 2012;MN0.1'
+name 4: 'Prosto One' -> 'Plain One MN'
+name 5: 'Version 1.001' -> 'Version 1.001;MN 0.1'
+name 6: 'ProstoOne-Regular' -> 'PlainOneMN-Regular'
+name 7: 'Prosto One is a trademark of Pavel Emelyanov and Jovanny Lemonad.' -> 'Plain One MN is a modified version of a typeface by Pavel Emelyanov and Jovanny Lemonad; it is released under a different name because the original names are reserved.'
+name 18: 'Prosto One' -> 'Plain One MN One'
+removed hdmx (per-glyph device metrics without entries for the new glyphs; optional table)
+removed LTSH (per-glyph device metrics without entries for the new glyphs; optional table)
+saved build/PlainOneMN/PlainOneMN-Regular.ttf

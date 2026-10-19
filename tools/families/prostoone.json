@@ -1,0 +1,147 @@
+{
+  "_comment": "Batch 3 (2026-10-19). Same pipeline and review rules as Unbounded MN. Glyph references '@X' resolve through each font's cmap.",
+  "family_id": "prostoone",
+  "license": "sources/prostoone/OFL.txt",
+  "upstream": "https://github.com/googlefonts/googlefontdirectory-hg",
+  "out_dir": "build/PlainOneMN",
+  "family_name": "Prosto One",
+  "new_family_name": "Plain One MN",
+  "version_suffix": "MN 0.1",
+  "copyright_append": "Mongolian additions ({added}) 2026, Font Shuugch project.",
+  "date": "2026-10-19",
+  "license_note": "RESERVED FONT NAME: the original OFL.txt reserves the names 'Prosto' and 'Prosto One' (Copyright (c) 2012, Jovanny Lemonad, Copyright (c) 2012, Pavel Emelyanov, with Reserved Font Name \"Prosto\" and \"Prosto One\"). A modified version may not use the reserved names, so this edition is released as 'Plain One MN' (files PlainOneMN-*.ttf) and its font names (family, full, PostScript, unique ID, trademark line) no longer contain the word 'Prosto'; the original authors are credited in the copyright notice and below. NameID 0 (the copyright notice) keeps the original line verbatim, including its Reserved-Font-Name declaration, because the OFL requires the copyright notice to be retained; every other name record is renamed.",
+  "reserved_font_name": "Prosto",
+  "name_overrides": {
+    "3": "PavelEmelyanovandJovannyLemonad: Plain One MN: 2012;MN0.1",
+    "7": "Plain One MN is a modified version of a typeface by Pavel Emelyanov and Jovanny Lemonad; it is released under a different name because the original names are reserved."
+  },
+  "statics": false,
+  "fonts": [
+    {
+      "source": "sources/prostoone/ProstoOne-Regular.ttf",
+      "out_file": "PlainOneMN-Regular.ttf"
+    }
+  ],
+  "glyphs": {
+    "uni04E8": {
+      "unicode": "04E8",
+      "build": {
+        "method": "barred_o",
+        "base": "@О",
+        "bar_ref": "@Н",
+        "prefer_component": [
+          "@Ɵ",
+          "@Θ"
+        ]
+      },
+      "otl_base": "@О"
+    },
+    "uni04E9": {
+      "unicode": "04E9",
+      "build": {
+        "method": "barred_o",
+        "base": "@о",
+        "bar_ref": "@н",
+        "prefer_component": [
+          "@ɵ"
+        ]
+      },
+      "otl_base": "@о"
+    },
+    "uni04AE": {
+      "unicode": "04AE",
+      "build": {
+        "method": "component",
+        "base": "@Y"
+      },
+      "otl_base": "@У",
+      "anchor_base": "@Y",
+      "kern_lookalike": {
+        "latin_twin": "@Y",
+        "mode": "auto",
+        "map": {
+          "А": "A",
+          "О": "O",
+          "Ө": "O",
+          "С": "C",
+          "а": "a",
+          "е": "e",
+          "о": "o",
+          "ө": "o",
+          "с": "c",
+          "р": "p",
+          "х": "x",
+          "ү": "v",
+          "н": "n",
+          "г": "r",
+          "й": "u",
+          "и": "u",
+          "«": "«",
+          "»": "»",
+          "-": "-",
+          ".": ".",
+          ",": ","
+        }
+      }
+    },
+    "uni04AF": {
+      "unicode": "04AF",
+      "build": {
+        "method": "straight_u_p",
+        "base": "@v",
+        "stem_ref": "@р",
+        "max_join_depth": 0.45,
+        "split": 0.6
+      },
+      "otl_base": "@у",
+      "anchor_base": "@v"
+    },
+    "uni20AE": {
+      "unicode": "20AE",
+      "build": {
+        "method": "tugrik",
+        "base": "@T",
+        "angle_deg": 20,
+        "angle_min_deg": 15,
+        "span": 0.62,
+        "thickness_ratio": 0.78,
+        "thickness_min_ratio": 0.58,
+        "whitespace_ratio": 0.8,
+        "whitespace_split": [
+          0.25,
+          0.4,
+          0.35
+        ],
+        "min_protrusion": 0.55,
+        "heavy_gap_factor": 1.2,
+        "bottom_gap_ratio": 0.45,
+        "heavy_gap_refs": [
+          {
+            "glyph": "@₸",
+            "x": 0.2
+          },
+          {
+            "glyph": "@€",
+            "x": 0.1
+          },
+          {
+            "glyph": "@¥",
+            "x": 0.3
+          },
+          {
+            "glyph": "@e",
+            "x": 0.5
+          }
+        ]
+      },
+      "kern_like": {
+        "glyph": "@T",
+        "caps": {
+          "@4": {
+            "ratio": 0.5
+          }
+        }
+      }
+    }
+  }
+}

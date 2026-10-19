@@ -40,12 +40,21 @@ def master_locations(font, glyph_names) -> list[dict]:
 
 
 class GlyphSets:
-    """Caches decomposed glyph outlines per normalized location."""
+    """Caches decomposed glyph outlines per normalized location.
 
-    def __init__(self, font):
+    normalize_direction=True (opt-in, family JSON "normalize_direction"): for
+    fonts whose outlines are partly in PostScript (counter-clockwise) order,
+    every contour that is wrongly oriented at the default location is
+    returned reversed (first point kept) at EVERY location, so constructors
+    see - and new glyphs get - TrueType direction.  point_map(name) maps
+    point indices of the returned shape back to the font's own order."""
+
+    def __init__(self, font, normalize_direction=False):
         self.font = font
         self._sets = {}
         self._cache = {}
+        self.normalize_direction = normalize_direction
+        self._reversed = {}
 
     def glyphset(self, loc):
         key = loc_key(loc)
@@ -72,8 +81,44 @@ class GlyphSets:
                     cur.append((float(x), float(y), seg is not None))
                 elif op == "endPath":
                     contours.append(cur)
+            if self.normalize_direction:
+                rev = self.reversed_contours(name, contours if not key[1] else None)
+                contours = [[c[0]] + c[:0:-1] if i in rev else c for i, c in enumerate(contours)]
             self._cache[key] = contours
         return [list(c) for c in self._cache[key]]
+
+    def reversed_contours(self, name, default_contours=None):
+        """Indices of the contours of `name` that are reversed (normalize_direction only)."""
+        if name not in self._reversed:
+            if default_contours is None:
+                default_contours = self._raw_default(name)
+            self._reversed[name] = set(reversed_contours(default_contours))
+        return self._reversed[name]
+
+    def _raw_default(self, name):
+        gs = self.glyphset({})
+        pen = DecomposingRecordingPointPen(gs)
+        gs[name].drawPoints(pen)
+        contours, cur = [], None
+        for op, args, kw in pen.value:
+            if op == "beginPath":
+                cur = []
+            elif op == "addPoint":
+                (x, y), seg = args[0], args[1]
+                cur.append((float(x), float(y), seg is not None))
+            elif op == "endPath":
+                contours.append(cur)
+        return contours
+
+    def point_map(self, name):
+        """Flat point index in shape(name) -> flat point index in the font's own order."""
+        lens = [len(c) for c in self._raw_default(name)]
+        rev = self.reversed_contours(name) if self.normalize_direction else set()
+        out, s0 = [], 0
+        for i, n in enumerate(lens):
+            out += [s0 + (n - j if (i in rev and j) else j) for j in range(n)]
+            s0 += n
+        return out
 
     def advance(self, name, loc) -> float:
         return float(self.glyphset(loc)[name].width)
@@ -261,6 +306,29 @@ def orientation_problems(shape, eps=1.5):
                 continue
             mx, my = (x0 + x1) / 2, (y0 + y1) / 2
             rx, ry = (y1 - y0) / L, -(x1 - x0) / L      # right-hand normal (y up)
+            tot += 1
+            ok += _winding(polys, mx + rx * eps, my + ry * eps) != 0
+        if tot and ok < tot / 2:
+            bad.append(ci)
+    return bad
+
+
+def reversed_contours(shape, eps=0.75):
+    """Indices of contours walked with the ink on their LEFT (PostScript
+    order) - like orientation_problems, but every flattened edge is sampled,
+    however short, so finely flattened curves are judged too."""
+    polys = flatten(shape)
+    bad = []
+    for ci, poly in enumerate(polys):
+        m = len(poly)
+        ok = tot = 0
+        for i in range(m):
+            (x0, y0), (x1, y1) = poly[i], poly[(i + 1) % m]
+            L = math.hypot(x1 - x0, y1 - y0)
+            if L < 0.5:
+                continue
+            mx, my = (x0 + x1) / 2, (y0 + y1) / 2
+            rx, ry = (y1 - y0) / L, -(x1 - x0) / L
             tot += 1
             ok += _winding(polys, mx + rx * eps, my + ry * eps) != 0
         if tot and ok < tot / 2:

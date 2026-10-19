@@ -1,0 +1,2219 @@
+{
+ "family": "Sensa Sans MN",
+ "fonts": [
+  {
+   "file": "SensaSansMN-Light.ttf",
+   "source": "sources/sansation/Sansation-Light.ttf",
+   "variable": false,
+   "slant": 0.0,
+   "masters": [
+    {}
+   ],
+   "added": "Ө ө Ү ү ₮",
+   "glyphs": {
+    "uni04E8": {
+     "kind": "simple",
+     "metrics_base": "afii10032",
+     "components": [],
+     "tracks": [
+      "afii10032",
+      [
+       [
+        4,
+        0
+       ],
+       [
+        5,
+        1
+       ],
+       [
+        6,
+        2
+       ],
+       [
+        7,
+        3
+       ],
+       [
+        8,
+        4
+       ],
+       [
+        9,
+        5
+       ],
+       [
+        10,
+        6
+       ],
+       [
+        11,
+        7
+       ],
+       [
+        12,
+        8
+       ],
+       [
+        13,
+        9
+       ],
+       [
+        14,
+        10
+       ],
+       [
+        15,
+        11
+       ],
+       [
+        16,
+        12
+       ],
+       [
+        17,
+        13
+       ],
+       [
+        18,
+        14
+       ],
+       [
+        19,
+        15
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "bar_thickness": 90.0,
+       "bar_center": 715.0,
+       "bar_x": [
+        168,
+        1477
+       ]
+      }
+     }
+    },
+    "uni04E9": {
+     "kind": "simple",
+     "metrics_base": "afii10080",
+     "components": [],
+     "tracks": [
+      "afii10080",
+      [
+       [
+        4,
+        0
+       ],
+       [
+        5,
+        1
+       ],
+       [
+        6,
+        2
+       ],
+       [
+        7,
+        3
+       ],
+       [
+        8,
+        4
+       ],
+       [
+        9,
+        5
+       ],
+       [
+        10,
+        6
+       ],
+       [
+        11,
+        7
+       ],
+       [
+        12,
+        8
+       ],
+       [
+        13,
+        9
+       ],
+       [
+        14,
+        10
+       ],
+       [
+        15,
+        11
+       ],
+       [
+        16,
+        12
+       ],
+       [
+        17,
+        13
+       ],
+       [
+        18,
+        14
+       ],
+       [
+        19,
+        15
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "bar_thickness": 90.0,
+       "bar_center": 525.0,
+       "bar_x": [
+        153,
+        1047
+       ]
+      }
+     }
+    },
+    "uni04AE": {
+     "kind": "composite",
+     "metrics_base": "Y",
+     "components": [
+      "Y"
+     ],
+     "tracks": null,
+     "measurements": {}
+    },
+    "uni04AF": {
+     "kind": "simple",
+     "metrics_base": "v",
+     "components": [],
+     "tracks": [
+      "v",
+      [
+       [
+        6,
+        0
+       ],
+       [
+        7,
+        1
+       ],
+       [
+        8,
+        2
+       ],
+       [
+        9,
+        3
+       ],
+       [
+        10,
+        4
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "mode": "edges",
+       "stem": 105.0,
+       "p_stem": 105.0,
+       "widened": false,
+       "stem_x": [
+        460,
+        564
+       ],
+       "join_y": -20.1,
+       "descender": -380.0,
+       "split_y": -152.0
+      }
+     }
+    },
+    "uni20AE": {
+     "kind": "simple",
+     "metrics_base": "T",
+     "components": [],
+     "tracks": [
+      "T",
+      [
+       [
+        0,
+        0
+       ],
+       [
+        1,
+        1
+       ],
+       [
+        2,
+        2
+       ],
+       [
+        3,
+        3
+       ],
+       [
+        4,
+        4
+       ],
+       [
+        5,
+        5
+       ],
+       [
+        6,
+        6
+       ],
+       [
+        7,
+        7
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "mode": "solver",
+       "T_stem": [
+        490,
+        595
+       ],
+       "T_crossbar": [
+        1340,
+        1430
+       ],
+       "stroke_thickness": 70.2,
+       "thickness_ratio": 0.78,
+       "stroke_vertical": 74.7,
+       "rise": 242.6,
+       "angle": 20,
+       "stroke_x": [
+        209,
+        876
+       ],
+       "protrusion": 280.8,
+       "lower_centre_y": 395.6,
+       "upper_centre_y": 849.6,
+       "gaps": [
+        237.0,
+        379.2,
+        331.8
+       ]
+      }
+     }
+    }
+   },
+   "alts": {},
+   "kern": {
+    "uni04E8": {
+     "mode": "clone",
+     "base": "afii10032",
+     "lookalike": null
+    },
+    "uni04E9": {
+     "mode": "clone",
+     "base": "afii10080",
+     "lookalike": null
+    },
+    "uni04AE": {
+     "mode": "lookalike",
+     "base": "afii10037",
+     "lookalike": {
+      "latin_twin": "Y",
+      "mode": "auto",
+      "map": {
+       "А": "A",
+       "О": "O",
+       "Ө": "O",
+       "С": "C",
+       "а": "a",
+       "е": "e",
+       "о": "o",
+       "ө": "o",
+       "с": "c",
+       "р": "p",
+       "х": "x",
+       "ү": "v",
+       "н": "n",
+       "г": "r",
+       "й": "u",
+       "и": "u",
+       "«": "«",
+       "»": "»",
+       "-": "-",
+       ".": ".",
+       ",": ","
+      }
+     }
+    },
+    "uni04AF": {
+     "mode": "clone",
+     "base": "afii10085",
+     "lookalike": null
+    }
+   },
+   "kern_like": {
+    "uni20AE": {
+     "glyph": "T",
+     "capped": {}
+    }
+   },
+   "anchors": {
+    "uni04E8": "afii10032",
+    "uni04E9": "afii10080",
+    "uni04AE": "Y",
+    "uni04AF": "v"
+   },
+   "statics": [],
+   "legacy_kern": true
+  },
+  {
+   "file": "SensaSansMN-LightItalic.ttf",
+   "source": "sources/sansation/Sansation-LightItalic.ttf",
+   "variable": false,
+   "slant": 0.20000000000000004,
+   "masters": [
+    {}
+   ],
+   "added": "Ө ө Ү ү ₮",
+   "glyphs": {
+    "uni04E8": {
+     "kind": "simple",
+     "metrics_base": "afii10032",
+     "components": [],
+     "tracks": [
+      "afii10032",
+      [
+       [
+        4,
+        0
+       ],
+       [
+        5,
+        1
+       ],
+       [
+        6,
+        2
+       ],
+       [
+        7,
+        3
+       ],
+       [
+        8,
+        4
+       ],
+       [
+        9,
+        5
+       ],
+       [
+        10,
+        6
+       ],
+       [
+        11,
+        7
+       ],
+       [
+        12,
+        8
+       ],
+       [
+        13,
+        9
+       ],
+       [
+        14,
+        10
+       ],
+       [
+        15,
+        11
+       ],
+       [
+        16,
+        12
+       ],
+       [
+        17,
+        13
+       ],
+       [
+        18,
+        14
+       ],
+       [
+        19,
+        15
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "bar_thickness": 90.0,
+       "bar_center": 715.0,
+       "bar_x": [
+        170,
+        1478
+       ]
+      }
+     }
+    },
+    "uni04E9": {
+     "kind": "simple",
+     "metrics_base": "afii10080",
+     "components": [],
+     "tracks": [
+      "afii10080",
+      [
+       [
+        4,
+        0
+       ],
+       [
+        5,
+        1
+       ],
+       [
+        6,
+        2
+       ],
+       [
+        7,
+        3
+       ],
+       [
+        8,
+        4
+       ],
+       [
+        9,
+        5
+       ],
+       [
+        10,
+        6
+       ],
+       [
+        11,
+        7
+       ],
+       [
+        12,
+        8
+       ],
+       [
+        13,
+        9
+       ],
+       [
+        14,
+        10
+       ],
+       [
+        15,
+        11
+       ],
+       [
+        16,
+        12
+       ],
+       [
+        17,
+        13
+       ],
+       [
+        18,
+        14
+       ],
+       [
+        19,
+        15
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "bar_thickness": 90.0,
+       "bar_center": 525.5,
+       "bar_x": [
+        127,
+        960
+       ]
+      }
+     }
+    },
+    "uni04AE": {
+     "kind": "composite",
+     "metrics_base": "Y",
+     "components": [
+      "Y"
+     ],
+     "tracks": null,
+     "measurements": {}
+    },
+    "uni04AF": {
+     "kind": "simple",
+     "metrics_base": "v",
+     "components": [],
+     "tracks": [
+      "v",
+      [
+       [
+        6,
+        0
+       ],
+       [
+        7,
+        1
+       ],
+       [
+        8,
+        2
+       ],
+       [
+        9,
+        3
+       ],
+       [
+        10,
+        4
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "mode": "edges",
+       "stem": 105.2,
+       "p_stem": 105.2,
+       "widened": false,
+       "stem_x": [
+        317,
+        423
+       ],
+       "join_y": -19.9,
+       "descender": -380.0,
+       "split_y": -152.0
+      }
+     }
+    },
+    "uni20AE": {
+     "kind": "simple",
+     "metrics_base": "T",
+     "components": [],
+     "tracks": [
+      "T",
+      [
+       [
+        0,
+        0
+       ],
+       [
+        1,
+        1
+       ],
+       [
+        2,
+        2
+       ],
+       [
+        3,
+        3
+       ],
+       [
+        4,
+        4
+       ],
+       [
+        5,
+        5
+       ],
+       [
+        6,
+        6
+       ],
+       [
+        7,
+        7
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "mode": "solver",
+       "T_stem": [
+        348,
+        453
+       ],
+       "T_crossbar": [
+        1340,
+        1430
+       ],
+       "stroke_thickness": 70.2,
+       "thickness_ratio": 0.78,
+       "stroke_vertical": 74.7,
+       "rise": 242.6,
+       "angle": 20,
+       "stroke_x": [
+        67,
+        734
+       ],
+       "protrusion": 280.8,
+       "lower_centre_y": 395.6,
+       "upper_centre_y": 849.6,
+       "gaps": [
+        237.0,
+        379.2,
+        331.8
+       ]
+      }
+     }
+    }
+   },
+   "alts": {},
+   "kern": {
+    "uni04E8": {
+     "mode": "clone",
+     "base": "afii10032",
+     "lookalike": null
+    },
+    "uni04E9": {
+     "mode": "clone",
+     "base": "afii10080",
+     "lookalike": null
+    },
+    "uni04AE": {
+     "mode": "lookalike",
+     "base": "afii10037",
+     "lookalike": {
+      "latin_twin": "Y",
+      "mode": "auto",
+      "map": {
+       "А": "A",
+       "О": "O",
+       "Ө": "O",
+       "С": "C",
+       "а": "a",
+       "е": "e",
+       "о": "o",
+       "ө": "o",
+       "с": "c",
+       "р": "p",
+       "х": "x",
+       "ү": "v",
+       "н": "n",
+       "г": "r",
+       "й": "u",
+       "и": "u",
+       "«": "«",
+       "»": "»",
+       "-": "-",
+       ".": ".",
+       ",": ","
+      }
+     }
+    },
+    "uni04AF": {
+     "mode": "clone",
+     "base": "afii10085",
+     "lookalike": null
+    }
+   },
+   "kern_like": {
+    "uni20AE": {
+     "glyph": "T",
+     "capped": {}
+    }
+   },
+   "anchors": {
+    "uni04E8": "afii10032",
+    "uni04E9": "afii10080",
+    "uni04AE": "Y",
+    "uni04AF": "v"
+   },
+   "statics": [],
+   "legacy_kern": true
+  },
+  {
+   "file": "SensaSansMN-Regular.ttf",
+   "source": "sources/sansation/Sansation-Regular.ttf",
+   "variable": false,
+   "slant": 0.0,
+   "masters": [
+    {}
+   ],
+   "added": "Ө ө Ү ү ₮",
+   "glyphs": {
+    "uni04E8": {
+     "kind": "simple",
+     "metrics_base": "afii10032",
+     "components": [],
+     "tracks": [
+      "afii10032",
+      [
+       [
+        4,
+        0
+       ],
+       [
+        5,
+        1
+       ],
+       [
+        6,
+        2
+       ],
+       [
+        7,
+        3
+       ],
+       [
+        8,
+        4
+       ],
+       [
+        9,
+        5
+       ],
+       [
+        10,
+        6
+       ],
+       [
+        11,
+        7
+       ],
+       [
+        12,
+        8
+       ],
+       [
+        13,
+        9
+       ],
+       [
+        14,
+        10
+       ],
+       [
+        15,
+        11
+       ],
+       [
+        16,
+        12
+       ],
+       [
+        17,
+        13
+       ],
+       [
+        18,
+        14
+       ],
+       [
+        19,
+        15
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "bar_thickness": 150.0,
+       "bar_center": 715.0,
+       "bar_x": [
+        219,
+        1446
+       ]
+      }
+     }
+    },
+    "uni04E9": {
+     "kind": "simple",
+     "metrics_base": "afii10080",
+     "components": [],
+     "tracks": [
+      "afii10080",
+      [
+       [
+        4,
+        0
+       ],
+       [
+        5,
+        1
+       ],
+       [
+        6,
+        2
+       ],
+       [
+        7,
+        3
+       ],
+       [
+        8,
+        4
+       ],
+       [
+        9,
+        5
+       ],
+       [
+        10,
+        6
+       ],
+       [
+        11,
+        7
+       ],
+       [
+        12,
+        8
+       ],
+       [
+        13,
+        9
+       ],
+       [
+        14,
+        10
+       ],
+       [
+        15,
+        11
+       ],
+       [
+        16,
+        12
+       ],
+       [
+        17,
+        13
+       ],
+       [
+        18,
+        14
+       ],
+       [
+        19,
+        15
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "bar_thickness": 150.0,
+       "bar_center": 525.0,
+       "bar_x": [
+        194,
+        1046
+       ]
+      }
+     }
+    },
+    "uni04AE": {
+     "kind": "composite",
+     "metrics_base": "Y",
+     "components": [
+      "Y"
+     ],
+     "tracks": null,
+     "measurements": {}
+    },
+    "uni04AF": {
+     "kind": "simple",
+     "metrics_base": "v",
+     "components": [],
+     "tracks": [
+      "v",
+      [
+       [
+        6,
+        0
+       ],
+       [
+        7,
+        1
+       ],
+       [
+        8,
+        2
+       ],
+       [
+        9,
+        3
+       ],
+       [
+        10,
+        4
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "mode": "edges",
+       "stem": 185.0,
+       "p_stem": 185.0,
+       "widened": false,
+       "stem_x": [
+        394,
+        580
+       ],
+       "join_y": 16.5,
+       "descender": -380.0,
+       "split_y": -152.0
+      }
+     }
+    },
+    "uni20AE": {
+     "kind": "simple",
+     "metrics_base": "T",
+     "components": [],
+     "tracks": [
+      "T",
+      [
+       [
+        0,
+        0
+       ],
+       [
+        1,
+        1
+       ],
+       [
+        2,
+        2
+       ],
+       [
+        3,
+        3
+       ],
+       [
+        4,
+        4
+       ],
+       [
+        5,
+        5
+       ],
+       [
+        6,
+        6
+       ],
+       [
+        7,
+        7
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "mode": "solver",
+       "T_stem": [
+        500,
+        685
+       ],
+       "T_crossbar": [
+        1280,
+        1430
+       ],
+       "stroke_thickness": 117.0,
+       "thickness_ratio": 0.78,
+       "stroke_vertical": 124.5,
+       "rise": 244.8,
+       "angle": 20,
+       "stroke_x": [
+        256,
+        929
+       ],
+       "protrusion": 243.9,
+       "lower_centre_y": 381.2,
+       "upper_centre_y": 820.2,
+       "gaps": [
+        196.5,
+        314.5,
+        275.1
+       ]
+      }
+     }
+    }
+   },
+   "alts": {},
+   "kern": {
+    "uni04E8": {
+     "mode": "clone",
+     "base": "afii10032",
+     "lookalike": null
+    },
+    "uni04E9": {
+     "mode": "clone",
+     "base": "afii10080",
+     "lookalike": null
+    },
+    "uni04AE": {
+     "mode": "lookalike",
+     "base": "afii10037",
+     "lookalike": {
+      "latin_twin": "Y",
+      "mode": "auto",
+      "map": {
+       "А": "A",
+       "О": "O",
+       "Ө": "O",
+       "С": "C",
+       "а": "a",
+       "е": "e",
+       "о": "o",
+       "ө": "o",
+       "с": "c",
+       "р": "p",
+       "х": "x",
+       "ү": "v",
+       "н": "n",
+       "г": "r",
+       "й": "u",
+       "и": "u",
+       "«": "«",
+       "»": "»",
+       "-": "-",
+       ".": ".",
+       ",": ","
+      }
+     }
+    },
+    "uni04AF": {
+     "mode": "clone",
+     "base": "afii10085",
+     "lookalike": null
+    }
+   },
+   "kern_like": {
+    "uni20AE": {
+     "glyph": "T",
+     "capped": {}
+    }
+   },
+   "anchors": {
+    "uni04E8": "afii10032",
+    "uni04E9": "afii10080",
+    "uni04AE": "Y",
+    "uni04AF": "v"
+   },
+   "statics": [],
+   "legacy_kern": true
+  },
+  {
+   "file": "SensaSansMN-Italic.ttf",
+   "source": "sources/sansation/Sansation-Italic.ttf",
+   "variable": false,
+   "slant": 0.20000000000000004,
+   "masters": [
+    {}
+   ],
+   "added": "Ө ө Ү ү ₮",
+   "glyphs": {
+    "uni04E8": {
+     "kind": "simple",
+     "metrics_base": "afii10032",
+     "components": [],
+     "tracks": [
+      "afii10032",
+      [
+       [
+        4,
+        0
+       ],
+       [
+        5,
+        1
+       ],
+       [
+        6,
+        2
+       ],
+       [
+        7,
+        3
+       ],
+       [
+        8,
+        4
+       ],
+       [
+        9,
+        5
+       ],
+       [
+        10,
+        6
+       ],
+       [
+        11,
+        7
+       ],
+       [
+        12,
+        8
+       ],
+       [
+        13,
+        9
+       ],
+       [
+        14,
+        10
+       ],
+       [
+        15,
+        11
+       ],
+       [
+        16,
+        12
+       ],
+       [
+        17,
+        13
+       ],
+       [
+        18,
+        14
+       ],
+       [
+        19,
+        15
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "bar_thickness": 150.0,
+       "bar_center": 715.0,
+       "bar_x": [
+        221,
+        1447
+       ]
+      }
+     }
+    },
+    "uni04E9": {
+     "kind": "simple",
+     "metrics_base": "afii10080",
+     "components": [],
+     "tracks": [
+      "afii10080",
+      [
+       [
+        4,
+        0
+       ],
+       [
+        5,
+        1
+       ],
+       [
+        6,
+        2
+       ],
+       [
+        7,
+        3
+       ],
+       [
+        8,
+        4
+       ],
+       [
+        9,
+        5
+       ],
+       [
+        10,
+        6
+       ],
+       [
+        11,
+        7
+       ],
+       [
+        12,
+        8
+       ],
+       [
+        13,
+        9
+       ],
+       [
+        14,
+        10
+       ],
+       [
+        15,
+        11
+       ],
+       [
+        16,
+        12
+       ],
+       [
+        17,
+        13
+       ],
+       [
+        18,
+        14
+       ],
+       [
+        19,
+        15
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "bar_thickness": 150.0,
+       "bar_center": 525.5,
+       "bar_x": [
+        159,
+        928
+       ]
+      }
+     }
+    },
+    "uni04AE": {
+     "kind": "composite",
+     "metrics_base": "Y",
+     "components": [
+      "Y"
+     ],
+     "tracks": null,
+     "measurements": {}
+    },
+    "uni04AF": {
+     "kind": "simple",
+     "metrics_base": "v",
+     "components": [],
+     "tracks": [
+      "v",
+      [
+       [
+        6,
+        0
+       ],
+       [
+        7,
+        1
+       ],
+       [
+        8,
+        2
+       ],
+       [
+        9,
+        3
+       ],
+       [
+        10,
+        4
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "mode": "edges",
+       "stem": 185.1,
+       "p_stem": 185.1,
+       "widened": false,
+       "stem_x": [
+        252,
+        438
+       ],
+       "join_y": 16.7,
+       "descender": -380.0,
+       "split_y": -152.0
+      }
+     }
+    },
+    "uni20AE": {
+     "kind": "simple",
+     "metrics_base": "T",
+     "components": [],
+     "tracks": [
+      "T",
+      [
+       [
+        0,
+        0
+       ],
+       [
+        1,
+        1
+       ],
+       [
+        2,
+        2
+       ],
+       [
+        3,
+        3
+       ],
+       [
+        4,
+        4
+       ],
+       [
+        5,
+        5
+       ],
+       [
+        6,
+        6
+       ],
+       [
+        7,
+        7
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "mode": "solver",
+       "T_stem": [
+        358,
+        543
+       ],
+       "T_crossbar": [
+        1280,
+        1430
+       ],
+       "stroke_thickness": 117.0,
+       "thickness_ratio": 0.78,
+       "stroke_vertical": 124.5,
+       "rise": 244.8,
+       "angle": 20,
+       "stroke_x": [
+        114,
+        787
+       ],
+       "protrusion": 243.9,
+       "lower_centre_y": 381.2,
+       "upper_centre_y": 820.2,
+       "gaps": [
+        196.5,
+        314.5,
+        275.1
+       ]
+      }
+     }
+    }
+   },
+   "alts": {},
+   "kern": {
+    "uni04E8": {
+     "mode": "clone",
+     "base": "afii10032",
+     "lookalike": null
+    },
+    "uni04E9": {
+     "mode": "clone",
+     "base": "afii10080",
+     "lookalike": null
+    },
+    "uni04AE": {
+     "mode": "lookalike",
+     "base": "afii10037",
+     "lookalike": {
+      "latin_twin": "Y",
+      "mode": "auto",
+      "map": {
+       "А": "A",
+       "О": "O",
+       "Ө": "O",
+       "С": "C",
+       "а": "a",
+       "е": "e",
+       "о": "o",
+       "ө": "o",
+       "с": "c",
+       "р": "p",
+       "х": "x",
+       "ү": "v",
+       "н": "n",
+       "г": "r",
+       "й": "u",
+       "и": "u",
+       "«": "«",
+       "»": "»",
+       "-": "-",
+       ".": ".",
+       ",": ","
+      }
+     }
+    },
+    "uni04AF": {
+     "mode": "clone",
+     "base": "afii10085",
+     "lookalike": null
+    }
+   },
+   "kern_like": {
+    "uni20AE": {
+     "glyph": "T",
+     "capped": {}
+    }
+   },
+   "anchors": {
+    "uni04E8": "afii10032",
+    "uni04E9": "afii10080",
+    "uni04AE": "Y",
+    "uni04AF": "v"
+   },
+   "statics": [],
+   "legacy_kern": true
+  },
+  {
+   "file": "SensaSansMN-Bold.ttf",
+   "source": "sources/sansation/Sansation-Bold.ttf",
+   "variable": false,
+   "slant": 0.0,
+   "masters": [
+    {}
+   ],
+   "added": "Ө ө Ү ү ₮",
+   "glyphs": {
+    "uni04E8": {
+     "kind": "simple",
+     "metrics_base": "afii10032",
+     "components": [],
+     "tracks": [
+      "afii10032",
+      [
+       [
+        4,
+        0
+       ],
+       [
+        5,
+        1
+       ],
+       [
+        6,
+        2
+       ],
+       [
+        7,
+        3
+       ],
+       [
+        8,
+        4
+       ],
+       [
+        9,
+        5
+       ],
+       [
+        10,
+        6
+       ],
+       [
+        11,
+        7
+       ],
+       [
+        12,
+        8
+       ],
+       [
+        13,
+        9
+       ],
+       [
+        14,
+        10
+       ],
+       [
+        15,
+        11
+       ],
+       [
+        16,
+        12
+       ],
+       [
+        17,
+        13
+       ],
+       [
+        18,
+        14
+       ],
+       [
+        19,
+        15
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "bar_thickness": 230.0,
+       "bar_center": 715.0,
+       "bar_x": [
+        242,
+        1385
+       ]
+      }
+     }
+    },
+    "uni04E9": {
+     "kind": "simple",
+     "metrics_base": "afii10080",
+     "components": [],
+     "tracks": [
+      "afii10080",
+      [
+       [
+        4,
+        0
+       ],
+       [
+        5,
+        1
+       ],
+       [
+        6,
+        2
+       ],
+       [
+        7,
+        3
+       ],
+       [
+        8,
+        4
+       ],
+       [
+        9,
+        5
+       ],
+       [
+        10,
+        6
+       ],
+       [
+        11,
+        7
+       ],
+       [
+        12,
+        8
+       ],
+       [
+        13,
+        9
+       ],
+       [
+        14,
+        10
+       ],
+       [
+        15,
+        11
+       ],
+       [
+        16,
+        12
+       ],
+       [
+        17,
+        13
+       ],
+       [
+        18,
+        14
+       ],
+       [
+        19,
+        15
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "bar_thickness": 210.0,
+       "bar_center": 525.0,
+       "bar_x": [
+        196,
+        1025
+       ]
+      }
+     }
+    },
+    "uni04AE": {
+     "kind": "composite",
+     "metrics_base": "Y",
+     "components": [
+      "Y"
+     ],
+     "tracks": null,
+     "measurements": {}
+    },
+    "uni04AF": {
+     "kind": "simple",
+     "metrics_base": "v",
+     "components": [],
+     "tracks": [
+      "v",
+      [
+       [
+        6,
+        0
+       ],
+       [
+        7,
+        1
+       ],
+       [
+        8,
+        2
+       ],
+       [
+        9,
+        3
+       ],
+       [
+        10,
+        4
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "mode": "edges",
+       "stem": 265.0,
+       "p_stem": 265.0,
+       "widened": false,
+       "stem_x": [
+        394,
+        660
+       ],
+       "join_y": 16.5,
+       "descender": -380.0,
+       "split_y": -152.0
+      }
+     }
+    },
+    "uni20AE": {
+     "kind": "simple",
+     "metrics_base": "T",
+     "components": [],
+     "tracks": [
+      "T",
+      [
+       [
+        0,
+        0
+       ],
+       [
+        1,
+        1
+       ],
+       [
+        2,
+        2
+       ],
+       [
+        3,
+        3
+       ],
+       [
+        4,
+        4
+       ],
+       [
+        5,
+        5
+       ],
+       [
+        6,
+        6
+       ],
+       [
+        7,
+        7
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "mode": "solver",
+       "T_stem": [
+        410,
+        675
+       ],
+       "T_crossbar": [
+        1200,
+        1430
+       ],
+       "stroke_thickness": 179.4,
+       "thickness_ratio": 0.78,
+       "stroke_vertical": 190.9,
+       "rise": 244.8,
+       "angle": 20,
+       "stroke_x": [
+        206,
+        879
+       ],
+       "protrusion": 203.9,
+       "lower_centre_y": 361.2,
+       "upper_centre_y": 781.5,
+       "gaps": [
+        143.3,
+        229.3,
+        200.7
+       ]
+      }
+     }
+    }
+   },
+   "alts": {},
+   "kern": {
+    "uni04E8": {
+     "mode": "clone",
+     "base": "afii10032",
+     "lookalike": null
+    },
+    "uni04E9": {
+     "mode": "clone",
+     "base": "afii10080",
+     "lookalike": null
+    },
+    "uni04AE": {
+     "mode": "lookalike",
+     "base": "afii10037",
+     "lookalike": {
+      "latin_twin": "Y",
+      "mode": "auto",
+      "map": {
+       "А": "A",
+       "О": "O",
+       "Ө": "O",
+       "С": "C",
+       "а": "a",
+       "е": "e",
+       "о": "o",
+       "ө": "o",
+       "с": "c",
+       "р": "p",
+       "х": "x",
+       "ү": "v",
+       "н": "n",
+       "г": "r",
+       "й": "u",
+       "и": "u",
+       "«": "«",
+       "»": "»",
+       "-": "-",
+       ".": ".",
+       ",": ","
+      }
+     }
+    },
+    "uni04AF": {
+     "mode": "clone",
+     "base": "afii10085",
+     "lookalike": null
+    }
+   },
+   "kern_like": {
+    "uni20AE": {
+     "glyph": "T",
+     "capped": {}
+    }
+   },
+   "anchors": {
+    "uni04E8": "afii10032",
+    "uni04E9": "afii10080",
+    "uni04AE": "Y",
+    "uni04AF": "v"
+   },
+   "statics": [],
+   "legacy_kern": true
+  },
+  {
+   "file": "SensaSansMN-BoldItalic.ttf",
+   "source": "sources/sansation/Sansation-BoldItalic.ttf",
+   "variable": false,
+   "slant": 0.20000000000000004,
+   "masters": [
+    {}
+   ],
+   "added": "Ө ө Ү ү ₮",
+   "glyphs": {
+    "uni04E8": {
+     "kind": "simple",
+     "metrics_base": "afii10032",
+     "components": [],
+     "tracks": [
+      "afii10032",
+      [
+       [
+        4,
+        0
+       ],
+       [
+        5,
+        1
+       ],
+       [
+        6,
+        2
+       ],
+       [
+        7,
+        3
+       ],
+       [
+        8,
+        4
+       ],
+       [
+        9,
+        5
+       ],
+       [
+        10,
+        6
+       ],
+       [
+        11,
+        7
+       ],
+       [
+        12,
+        8
+       ],
+       [
+        13,
+        9
+       ],
+       [
+        14,
+        10
+       ],
+       [
+        15,
+        11
+       ],
+       [
+        16,
+        12
+       ],
+       [
+        17,
+        13
+       ],
+       [
+        18,
+        14
+       ],
+       [
+        19,
+        15
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "bar_thickness": 230.0,
+       "bar_center": 715.0,
+       "bar_x": [
+        245,
+        1383
+       ]
+      }
+     }
+    },
+    "uni04E9": {
+     "kind": "simple",
+     "metrics_base": "afii10080",
+     "components": [],
+     "tracks": [
+      "afii10080",
+      [
+       [
+        4,
+        0
+       ],
+       [
+        5,
+        1
+       ],
+       [
+        6,
+        2
+       ],
+       [
+        7,
+        3
+       ],
+       [
+        8,
+        4
+       ],
+       [
+        9,
+        5
+       ],
+       [
+        10,
+        6
+       ],
+       [
+        11,
+        7
+       ],
+       [
+        12,
+        8
+       ],
+       [
+        13,
+        9
+       ],
+       [
+        14,
+        10
+       ],
+       [
+        15,
+        11
+       ],
+       [
+        16,
+        12
+       ],
+       [
+        17,
+        13
+       ],
+       [
+        18,
+        14
+       ],
+       [
+        19,
+        15
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "bar_thickness": 210.0,
+       "bar_center": 525.5,
+       "bar_x": [
+        178,
+        919
+       ]
+      }
+     }
+    },
+    "uni04AE": {
+     "kind": "composite",
+     "metrics_base": "Y",
+     "components": [
+      "Y"
+     ],
+     "tracks": null,
+     "measurements": {}
+    },
+    "uni04AF": {
+     "kind": "simple",
+     "metrics_base": "v",
+     "components": [],
+     "tracks": [
+      "v",
+      [
+       [
+        6,
+        0
+       ],
+       [
+        7,
+        1
+       ],
+       [
+        8,
+        2
+       ],
+       [
+        9,
+        3
+       ],
+       [
+        10,
+        4
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "mode": "edges",
+       "stem": 265.1,
+       "p_stem": 265.1,
+       "widened": false,
+       "stem_x": [
+        252,
+        518
+       ],
+       "join_y": 16.7,
+       "descender": -380.0,
+       "split_y": -152.0
+      }
+     }
+    },
+    "uni20AE": {
+     "kind": "simple",
+     "metrics_base": "T",
+     "components": [],
+     "tracks": [
+      "T",
+      [
+       [
+        0,
+        0
+       ],
+       [
+        1,
+        1
+       ],
+       [
+        2,
+        2
+       ],
+       [
+        3,
+        3
+       ],
+       [
+        4,
+        4
+       ],
+       [
+        5,
+        5
+       ],
+       [
+        6,
+        6
+       ],
+       [
+        7,
+        7
+       ]
+      ]
+     ],
+     "measurements": {
+      "default": {
+       "mode": "solver",
+       "T_stem": [
+        268,
+        533
+       ],
+       "T_crossbar": [
+        1200,
+        1430
+       ],
+       "stroke_thickness": 179.4,
+       "thickness_ratio": 0.78,
+       "stroke_vertical": 190.9,
+       "rise": 244.8,
+       "angle": 20,
+       "stroke_x": [
+        64,
+        737
+       ],
+       "protrusion": 203.9,
+       "lower_centre_y": 361.2,
+       "upper_centre_y": 781.5,
+       "gaps": [
+        143.3,
+        229.3,
+        200.7
+       ]
+      }
+     }
+    }
+   },
+   "alts": {},
+   "kern": {
+    "uni04E8": {
+     "mode": "clone",
+     "base": "afii10032",
+     "lookalike": null
+    },
+    "uni04E9": {
+     "mode": "clone",
+     "base": "afii10080",
+     "lookalike": null
+    },
+    "uni04AE": {
+     "mode": "lookalike",
+     "base": "afii10037",
+     "lookalike": {
+      "latin_twin": "Y",
+      "mode": "auto",
+      "map": {
+       "А": "A",
+       "О": "O",
+       "Ө": "O",
+       "С": "C",
+       "а": "a",
+       "е": "e",
+       "о": "o",
+       "ө": "o",
+       "с": "c",
+       "р": "p",
+       "х": "x",
+       "ү": "v",
+       "н": "n",
+       "г": "r",
+       "й": "u",
+       "и": "u",
+       "«": "«",
+       "»": "»",
+       "-": "-",
+       ".": ".",
+       ",": ","
+      }
+     }
+    },
+    "uni04AF": {
+     "mode": "clone",
+     "base": "afii10085",
+     "lookalike": null
+    }
+   },
+   "kern_like": {
+    "uni20AE": {
+     "glyph": "T",
+     "capped": {}
+    }
+   },
+   "anchors": {
+    "uni04E8": "afii10032",
+    "uni04E9": "afii10080",
+    "uni04AE": "Y",
+    "uni04AF": "v"
+   },
+   "statics": [],
+   "legacy_kern": true
+  }
+ ]
+}

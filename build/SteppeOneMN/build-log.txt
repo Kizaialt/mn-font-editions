@@ -1,0 +1,35 @@
+source: sources/russoone/RussoOne-Regular.ttf (v1.000, 413 glyphs, static)
+masters (normalized): default
+uni04E8 (U+04E8): 'afii10032' + bar from afii10031 crossbar: thickness 140.0, centre y=350.0, x 130..600 (default)
+    uni04E8 @ default: {'bar_thickness': 140.0, 'bar_center': 350.0, 'bar_x': (130, 600)}
+uni04E9 (U+04E9): 'afii10080' + bar from afii10079 crossbar: thickness 107.7, centre y=265.0, x 128..502 (default)
+    uni04E9 @ default: {'bar_thickness': 107.7, 'bar_center': 265.0, 'bar_x': (128, 502)}
+uni04AE (U+04AE): composite of 'Y' (offset 0,0)
+uni04AF (U+04AF): 'v' outline with a straight stem and 'afii10082''s terminal: stem width 175.0 ('afii10082' 175.0, deslanted), down to y=-170.0; outer arm edges extended to meet a stem of 'afii10082''s width at y=-33.1
+    uni04AF @ default: {'mode': 'edges', 'stem': 175.0, 'p_stem': 175.0, 'widened': False, 'stem_x': (202, 378), 'join_y': -33.1, 'descender': -170.0, 'split_y': -68.0}
+uni20AE (U+20AE): 'T' outline + two parallel strokes (vertical end cuts) centred on the stem: perpendicular thickness 109.2 (= 0.78 x crossbar 140), angle 20 deg, x 124..496 (62% of the crossbar), centre lines cross the stem axis at y=173.8 and y=366.9; white gaps baseline/between/crossbar = (48.0, 76.9, 67.3) (default)
+    uni20AE @ default: {'mode': 'solver', 'T_stem': (220, 400), 'T_crossbar': (560, 700), 'stroke_thickness': 109.2, 'thickness_ratio': 0.78, 'stroke_vertical': 116.2, 'rise': 135.4, 'angle': 20, 'stroke_x': (124, 496), 'protrusion': 96.0, 'lower_centre_y': 173.8, 'upper_centre_y': 366.9, 'gaps': (48.0, 76.9, 67.3)}
+kern: uni04AE: Latin/Cyrillic kerning shared = False (0/15 look-alike pairs kern alike (Y+A -80 vs Y+afii10017 0; A+Y -80 vs afii10017+Y 0; Y+O -20 vs Y+afii10032 0)); mode auto
+kern: uni04E8 as 1st glyph cloned from afii10032 (2 pair records/class rows)
+kern: uni04E9 as 1st glyph cloned from afii10080 (4 pair records/class rows)
+kern: uni04AE as 1st glyph cloned from afii10037 (57 pair records/class rows)
+kern: uni04AF as 1st glyph cloned from afii10085 (16 pair records/class rows)
+kern: uni04E8 as 2nd glyph cloned from afii10032 (1 pair records/classes)
+kern: uni04E9 as 2nd glyph cloned from afii10080 (11 pair records/classes)
+kern: uni04AE as 2nd glyph cloned from afii10037 (16 pair records/classes)
+kern: uni04AF as 2nd glyph cloned from afii10085 (30 pair records/classes)
+kern: uni04AE look-alike pairs from Y: 10 explicit pairs in a new first subtable of lookup 0
+kern: uni20AE digit/punctuation pairs from T: 7 explicit pairs in a new first subtable of lookup 0
+mark: uni04E8 base anchors cloned from afii10032 (0 subtables)
+mark: uni04E9 base anchors cloned from afii10080 (0 subtables)
+mark: uni04AE base anchors cloned from Y (0 subtables)
+mark: uni04AF base anchors cloned from v (0 subtables)
+name 0: 'Copyright (c) 2011-2012, Jovanny Lemonad (jovanny.ru), with Reserved Font Name "Russo"' -> 'Copyright (c) 2011-2012, Jovanny Lemonad (jovanny.ru), with Reserved Font Name "Russo". Mongolian additions (U+04E8 U+04E9 U+04AE U+04AF U+20AE) 2026, Font Shuugch project.'
+name 1: 'Russo One' -> 'Steppe One MN'
+name 3: 'JovannyLemonad: Russo One: 2012' -> 'JovannyLemonad: Russo One: 2012;MN0.1'
+name 4: 'Russo One' -> 'Steppe One MN'
+name 5: 'Version 1.001' -> 'Version 1.001;MN 0.1'
+name 6: 'RussoOne-Regular' -> 'SteppeOneMN-Regular'
+name 7: 'Russo is a trademark of Jovanny Lemonad.' -> 'Steppe One MN is a modified version of a typeface by Jovanny Lemonad; it is released under a different name because the original name is reserved.'
+name 18: 'Russo One' -> 'Steppe One MN'
+saved build/SteppeOneMN/SteppeOneMN-Regular.ttf

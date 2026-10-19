@@ -671,3 +671,98 @@ def default_locl_remap(font, lang, log, script="cyrl"):
     log.append(f"default forms: {script}/{lang} locl lookups applied to the cmap: {len(changed)} codepoints "
                f"({' '.join(chr(cp) for cp in sorted(changed))}) now map to the .locl{lang} glyphs")
     return changed
+
+
+# --------------------------------------------------------------------------
+# legacy 'kern' table (fonts whose GPOS has no kern feature, or no GPOS):
+# HarfBuzz and most apps then kern with the 'kern' table, so the new glyphs
+# get the same treatment there as clone_kerning / lookalike_kerning /
+# selective_kerning give them in GPOS fonts.
+# --------------------------------------------------------------------------
+
+def legacy_kern_active(font):
+    """True when the font's kerning comes from its 'kern' table (no GPOS kern feature)."""
+    if "kern" not in font:
+        return False
+    if "GPOS" not in font:
+        return True
+    fl = font["GPOS"].table.FeatureList
+    return not any(fr.FeatureTag == "kern" for fr in (fl.FeatureRecord if fl else []))
+
+
+def _legacy_tables(font):
+    return [st for st in font["kern"].kernTables if getattr(st, "format", None) == 0 and hasattr(st, "kernTable")]
+
+
+def legacy_clone_kerning(font, pairs, log):
+    """pairs [(new, base)]: every kern-table pair of base, as right member first, then as
+    left member (so new+new pairs follow base+base)."""
+    for st in _legacy_tables(font):
+        kt = st.kernTable
+        for new, base in pairs:
+            add = {(l, new): v for (l, r), v in kt.items() if r == base}
+            kt.update({k: v for k, v in add.items() if k not in kt})
+            log.append(f"kern table: {new} as 2nd glyph cloned from {base} ({len(add)} pairs)")
+        for new, base in pairs:
+            add = {(new, r): v for (l, r), v in kt.items() if l == base}
+            kt.update({k: v for k, v in add.items() if k not in kt})
+            log.append(f"kern table: {new} as 1st glyph cloned from {base} ({len(add)} pairs)")
+
+
+def legacy_lookalike_kerning(font, new, spec, log):
+    """Kern-table version of lookalike_kerning: partners with a Latin look-alike get the Latin
+    twin's value with that look-alike, on both sides; other partners keep the cloned values."""
+    cmap = font.getBestCmap()
+    twin = spec["latin_twin"]
+    keep = spec.get("keep_fallback", {})
+    n = 0
+    for st in _legacy_tables(font):
+        kt = st.kernTable
+        for c, l in spec["map"].items():
+            gc, gl = cmap.get(ord(c)), cmap.get(ord(l))
+            if not gc or not gl:
+                continue
+            for key, srck, side in (((new, gc), (twin, gl), "as_left"), ((gc, new), (gl, twin), "as_right")):
+                if c in keep.get(side, []):
+                    continue
+                v = kt.get(srck, 0)
+                if v:
+                    kt[key] = v
+                    n += 1
+                else:
+                    kt.pop(key, None)
+    log.append(f"kern table: {new} look-alike pairs from {twin}: {n} pairs")
+
+
+def legacy_selective_kerning(font, new, spec, masters, log):
+    """Kern-table version of selective_kerning (static fonts): the source glyph's values against
+    digits and punctuation only, both sides, with ratio caps."""
+    if len(masters) != 1:
+        raise ValueError("legacy kern table kerning is for static fonts only")
+    src = spec["glyph"]
+    partners = digit_punct_glyphs(font)
+    caps = {}
+    for pb, cm in spec.get("caps", {}).items():
+        if pb.startswith("_"):
+            continue
+        if "ratio" not in cm:
+            raise ValueError("legacy kern table kerning supports ratio caps only")
+        for v in _variants(font, pb):
+            caps[v] = float(cm["ratio"])
+    capped, n = {}, 0
+    for st in _legacy_tables(font):
+        kt = st.kernTable
+        for p in partners:
+            for key, srck in (((new, p), (src, p)), ((p, new), (p, src))):
+                v = kt.get(srck, 0)
+                if not v:
+                    continue
+                if key[0] == new and p in caps:
+                    cap = round(caps[p] * v) if v < 0 else v
+                    v = max(v, cap)
+                    capped[p] = [[dict(m), v] for m in masters]
+                    log.append(f"kern table: {new}+{p} capped: {src}+{p} -> {v}")
+                kt[key] = v
+                n += 1
+    log.append(f"kern table: {new} digit/punctuation pairs from {src}: {n} pairs")
+    return capped

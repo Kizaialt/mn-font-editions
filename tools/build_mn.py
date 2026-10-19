@@ -191,7 +191,7 @@ def build_font(cfg, log):
         ",".join(f"{k}={v:+g}" for k, v in m.items()) or "default" for m in masters))
 
     # 1. construct every glyph from the untouched source outlines
-    gs = GlyphSets(font)
+    gs = GlyphSets(font, normalize_direction=cfg.get("normalize_direction", False))
     built = {}
     for gname, g in todo.items():
         b = build_glyph(gs, masters, gname, g["build"])
@@ -201,6 +201,11 @@ def build_font(cfg, log):
         if b.measurements:
             for k, m in b.measurements.items():
                 log.append(f"    {gname} @ {dict(k) or 'default'}: {m}")
+    rev = None
+    if gs.normalize_direction:
+        rev = {n: sorted(gs.reversed_contours(n)) for n in involved if gs.reversed_contours(n)}
+        log.append("normalize_direction: counter-clockwise (PostScript-order) contours read reversed, so the "
+                   "new glyphs are in TrueType direction: " + (", ".join(f"{n} {v}" for n, v in rev.items()) or "none"))
 
     # 2. insert glyphs (+ FeatureVariations alternates of component bases)
     pairs, extra_alts, alt_parent = [], [], {}
@@ -267,6 +272,15 @@ def build_font(cfg, log):
         if g.get("kern_like"):
             capped = otl.selective_kerning(font, gname, g["kern_like"], masters, log)
             info_kern_like[gname] = dict(glyph=g["kern_like"]["glyph"], capped=capped)
+    legacy_kern = otl.legacy_kern_active(font)
+    if legacy_kern:     # kerning lives in the 'kern' table: give the new glyphs the same there
+        log.append("kern: the font kerns with its legacy 'kern' table (GPOS has no kern feature)")
+        otl.legacy_clone_kerning(font, kern_pairs, log)
+        for name, la in lookalike.items():
+            otl.legacy_lookalike_kerning(font, name, la, log)
+        for gname, g in todo.items():
+            if g.get("kern_like"):
+                info_kern_like[gname]["capped"] = otl.legacy_selective_kerning(font, gname, g["kern_like"], masters, log)
     otl.clone_marks(font, anchor_pairs, log)
     otl.clone_context_membership(font, pairs, log)
 
@@ -296,6 +310,12 @@ def build_font(cfg, log):
     if "DSIG" in font and getattr(font["DSIG"], "usNumSigs", 0):
         del font["DSIG"]
         log.append("removed DSIG (a digital signature is invalid after any modification)")
+    dropped = []
+    for tag in ("hdmx", "LTSH"):    # per-glyph device tables: stale once glyphs are added (optional tables)
+        if tag in font:
+            del font[tag]
+            dropped.append(tag)
+            log.append(f"removed {tag} (per-glyph device metrics without entries for the new glyphs; optional table)")
 
     from fontTools.misc.timeTools import timestampFromString
     font["head"].modified = timestampFromString(
@@ -323,6 +343,12 @@ def build_font(cfg, log):
                 statics=[os.path.basename(p) for _, _, p in statics])
     if default_locl:        # key only present for opt-in families: other builds stay byte-identical
         info["default_locl"] = default_locl
+    if legacy_kern:         # likewise only for fonts that kern with a legacy 'kern' table
+        info["legacy_kern"] = True
+    if dropped:             # and for fonts that had per-glyph device tables
+        info["dropped_tables"] = dropped
+    if rev is not None:     # and for families with "normalize_direction"
+        info["normalized_direction"] = rev
     return dict(out_path=out_path, orig_version=orig_version, todo=todo, built=built,
                 statics=statics, extra_alts=extra_alts, info=info, cfg=cfg)
 
@@ -522,6 +548,21 @@ def write_fontlog_multi(cfg, out_dir, results):
         info = r["info"]
         lines += ["", f"#### `{info['file']}` (from `{os.path.basename(info['source'])}`)", ""]
         lines += _locl_lines(info)
+        if info.get("normalized_direction"):
+            lines.append("Contour direction: the original's outlines of " + ", ".join(
+                f"`{g}`" for g in info["normalized_direction"]) + " run counter-clockwise (PostScript order); "
+                "the new glyphs are built in TrueType order (clockwise outer contours), the original glyphs "
+                "are left as they are.")
+            lines.append("")
+        if info.get("dropped_tables"):
+            lines.append("Removed the optional per-glyph device tables " + ", ".join(
+                f"`{t}`" for t in info["dropped_tables"]) + " (they have no entries for the new glyphs; "
+                "renderers compute these values themselves).")
+            lines.append("")
+        if info.get("legacy_kern"):
+            lines.append("Kerning: this font kerns with its legacy `kern` table (its GPOS has no kern feature), "
+                         "so the kerning listed below is written to the `kern` table.")
+            lines.append("")
         if info["slant"]:
             lines.append(f"Italic: new outlines constructed upright and re-slanted by "
                          f"{math.degrees(math.atan(info['slant'])):.1f} deg (the font's own slant).")

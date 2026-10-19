@@ -575,7 +575,13 @@ def build_straight_u_p(gs, locs, name, spec):
     mode "drop" (automatic fallback for curved-arm / cursive italic v's): the
     stem hangs straight down from v's own bottom corners (stem width = v's
     bottom width), p's terminal scaled to that width.
-    Italic fonts are handled in deslanted space (spec['_slant'])."""
+    Italic fonts are handled in deslanted space (spec['_slant']).
+    Opt-in: "terminal": "flat" - for a p whose descender sides are curved
+    (slightly tapered) the stem ends in a plain flat cut at p's depth, its
+    width measured on p at the split height; "mode":
+    "tangent" - for a v with CURVED arms and a flat two-point bottom: like
+    "edges", but the arms are continued along their end tangents (the line
+    from the last off-curve point to the bottom corner)."""
     base, stem_ref = spec["base"], spec["stem_ref"]
     k = spec.get("_slant", 0.0)
     split_frac = spec.get("split", 0.4)       # where the p stem is cut, fraction of its descender
@@ -588,7 +594,14 @@ def build_straight_u_p(gs, locs, name, spec):
     c0 = deslant(d0, k)[0]
     n = len(c0)
     region = None
-    if mode in ("auto", "edges"):
+    if mode == "tangent":
+        ymin = min(p[1] for p in c0 if p[2])
+        low = [i for i, p in enumerate(c0) if p[2] and p[1] <= ymin + 1.0]
+        if len(low) != 2 or (low[1] - low[0]) % n not in (1, n - 1):
+            raise ValueError(f"{name}: '{base}' has no flat two-point bottom for tangent mode")
+        j0, j1 = (low[0], low[1]) if (low[1] - low[0]) % n == 1 else (low[1], low[0])
+        region = [j0, j1]
+    elif mode in ("auto", "edges"):
         j0, j1, bot = _outer_edges(c0, xh)
         region = []
         i = j0
@@ -613,7 +626,9 @@ def build_straight_u_p(gs, locs, name, spec):
     ps0 = deslant(gs.shape(stem_ref, {}), k)
     ci = min(range(len(ps0)), key=lambda q: min(p[1] for p in ps0[q]))
     desc0 = min(p[1] for p in ps0[ci])
-    i_down, i_up, run = _p_terminal(ps0[ci], split_frac * desc0)
+    flat = spec.get("terminal") == "flat"
+    if not flat:
+        i_down, i_up, run = _p_terminal(ps0[ci], split_frac * desc0)
     b = Built(name, "simple", metrics_base=base, overlap=True)
     for loc in locs:
         orig = gs.shape(base, loc)[0]
@@ -622,8 +637,11 @@ def build_straight_u_p(gs, locs, name, spec):
         desc = min(p[1] for p in pc)
         ys = split_frac * desc
         m = len(pc)
-        xr = _x_at(pc[i_down], pc[(i_down + 1) % m], ys)
-        xl = _x_at(pc[i_up], pc[(i_up + 1) % m], ys)
+        if flat:
+            xl, xr = max(ink_intervals([pc], ys, axis=1), key=lambda ab: ab[1] - ab[0])
+        else:
+            xr = _x_at(pc[i_down], pc[(i_down + 1) % m], ys)
+            xl = _x_at(pc[i_up], pc[(i_up + 1) % m], ys)
         if xr < xl:
             raise ValueError(f"{name}: stem sides of '{stem_ref}' are reversed")
         pcx, pw = (xr + xl) / 2, xr - xl
@@ -668,8 +686,11 @@ def build_straight_u_p(gs, locs, name, spec):
             join_y = 0.0
         w = sr - sl
         cx_new, sc = (sr + sl) / 2, w / pw
-        mid = [(sr, ys, True)] + [(cx_new + (pc[q][0] - pcx) * sc, pc[q][1], pc[q][2]) for q in run] + \
-              [(sl, ys, True)]
+        if flat:
+            mid = [(sr, desc, True), (sl, desc, True)]
+        else:
+            mid = [(sr, ys, True)] + [(cx_new + (pc[q][0] - pcx) * sc, pc[q][1], pc[q][2]) for q in run] + \
+                  [(sl, ys, True)]
         new_pts = reslant(head + mid + tail, k)
         if mode_used == "edges":
             contour = new_pts + [orig[q] for q in keep_after]
@@ -685,11 +706,13 @@ def build_straight_u_p(gs, locs, name, spec):
             split_y=round(ys, 1))
     d = b.measurements[()]
     if mode_used == "edges":
-        how = (f"outer arm edges extended to meet a stem of '{stem_ref}''s width at y={d['join_y']}"
+        how = (f"outer arm edges {'(curved: continued along their end tangents)' if mode == 'tangent' else 'extended'} to meet a stem of '{stem_ref}''s width at y={d['join_y']}"
                + ("; stem widened where the join would sit deeper than "
                   f"{max_join:g} x descender" if any(m['widened'] for m in b.measurements.values()) else ""))
     else:
         how = "stem hangs straight down from the v's own bottom corners (curved arms)"
+    if flat:
+        how += f"; flat end cut at '{stem_ref}''s depth (its descender sides are curved, so no terminal is copied)"
     b.notes.append(f"'{base}' outline with a straight stem and '{stem_ref}''s terminal: stem width {d['stem']} "
                    f"('{stem_ref}' {d['p_stem']}, deslanted), down to y={d['descender']}; {how}"
                    + (f"; italic slant {math.degrees(math.atan(k)):.1f} deg" if k else ""))
@@ -712,6 +735,10 @@ BUILDERS = {
 def build_glyph(gs, locs, name, spec):
     method = spec["method"]
     b = BUILDERS[method](gs, locs, name, dict(spec))
+    if b.tracks and getattr(gs, "normalize_direction", False):
+        # tracked point indices refer to the direction-normalized base: map them to the font's own order
+        pm = gs.point_map(b.tracks[0])
+        b.tracks = [b.tracks[0], [[i, pm[j]] for i, j in b.tracks[1]]]
     if b.kind == "simple":
         # sanity: identical structure at every master, outer contours clockwise
         ref = b.shapes[()]
