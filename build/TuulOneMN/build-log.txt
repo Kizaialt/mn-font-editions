@@ -25,11 +25,11 @@ mark: uni04E9 base anchors cloned from afii10080 (0 subtables)
 mark: uni04AE base anchors cloned from Y (0 subtables)
 mark: uni04AF base anchors cloned from v (0 subtables)
 name 0: 'Copyright (c) 2011-2012, Jovanny Lemonad (jovanny.ru), with Reserved Font Name "Russo"' -> 'Copyright (c) 2011-2012, Jovanny Lemonad (jovanny.ru), with Reserved Font Name "Russo". Mongolian additions (U+04E8 U+04E9 U+04AE U+04AF U+20AE) 2026, Font Shuugch project.'
-name 1: 'Russo One' -> 'Steppe One MN'
+name 1: 'Russo One' -> 'Tuul One MN'
 name 3: 'JovannyLemonad: Russo One: 2012' -> 'JovannyLemonad: Russo One: 2012;MN0.1'
-name 4: 'Russo One' -> 'Steppe One MN'
+name 4: 'Russo One' -> 'Tuul One MN'
 name 5: 'Version 1.001' -> 'Version 1.001;MN 0.1'
-name 6: 'RussoOne-Regular' -> 'SteppeOneMN-Regular'
-name 7: 'Russo is a trademark of Jovanny Lemonad.' -> 'Steppe One MN is a modified version of a typeface by Jovanny Lemonad; it is released under a different name because the original name is reserved.'
-name 18: 'Russo One' -> 'Steppe One MN'
-saved build/SteppeOneMN/SteppeOneMN-Regular.ttf
+name 6: 'RussoOne-Regular' -> 'TuulOneMN-Regular'
+name 7: 'Russo is a trademark of Jovanny Lemonad.' -> 'Tuul One MN is a modified version of a typeface by Jovanny Lemonad; it is released under a different name because the original name is reserved.'
+name 18: 'Russo One' -> 'Tuul One MN'
+saved build/TuulOneMN/TuulOneMN-Regular.ttf

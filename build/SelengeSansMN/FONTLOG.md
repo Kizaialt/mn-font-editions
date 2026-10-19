@@ -1,8 +1,8 @@
-# FONTLOG for Sensa Sans MN
+# FONTLOG for Selenge Sans MN
 
-Sensa Sans MN is a modified version of **Sansation** v1.000 (https://github.com/googlefonts/googlefontdirectory-hg), released under the SIL Open Font License 1.1 (see OFL.txt). It is renamed so that it never clashes with the original.
+Selenge Sans MN is a modified version of **Sansation** v1.000 (https://github.com/googlefonts/googlefontdirectory-hg), released under the SIL Open Font License 1.1 (see OFL.txt). It is renamed so that it never clashes with the original.
 
-RESERVED FONT NAME: the original OFL.txt reserves the name 'Sansation' (Copyright (c) 2011 by Bernd Montag, with Reserved Font Name 'Sansation'). A modified version may not use the reserved name, so this edition is released as 'Sensa Sans MN' (files SensaSansMN-*.ttf) and its font names (family, full, PostScript, unique ID) no longer contain the word 'Sansation'; the original author is credited in the copyright notice and below. NameID 0 (the copyright notice) keeps the original line verbatim, including its Reserved-Font-Name declaration, because the OFL requires the copyright notice to be retained; every other name record is renamed. The unique IDs (nameID 3), identical in all six original files, are made distinct per style.
+RESERVED FONT NAME: the original OFL.txt reserves the name 'Sansation' (Copyright (c) 2011 by Bernd Montag, with Reserved Font Name 'Sansation'). A modified version may not use the reserved name, so this edition is released as 'Selenge Sans MN' (files SelengeSansMN-*.ttf) and its font names (family, full, PostScript, unique ID) no longer contain the word 'Sansation'; the original author is credited in the copyright notice and below. NameID 0 (the copyright notice) keeps the original line verbatim, including its Reserved-Font-Name declaration, because the OFL requires the copyright notice to be retained; every other name record is renamed. The unique IDs (nameID 3), identical in all six original files, are made distinct per style.
 
 ## Changelog
 
@@ -11,7 +11,7 @@ RESERVED FONT NAME: the original OFL.txt reserves the name 'Sansation' (Copyrigh
 Added the letters Mongolian Cyrillic needs that the original lacks. No existing glyph was altered.
 
 
-#### `SensaSansMN-Light.ttf` (from `Sansation-Light.ttf`)
+#### `SelengeSansMN-Light.ttf` (from `Sansation-Light.ttf`)
 
 Kerning: this font kerns with its legacy `kern` table (its GPOS has no kern feature), so the kerning listed below is written to the `kern` table.
 
@@ -21,7 +21,7 @@ Kerning: this font kerns with its legacy `kern` table (its GPOS has no kern feat
 - U+04AF ү `uni04AF`: 'v' outline with a straight stem and 'afii10082''s terminal: stem width 105.0 ('afii10082' 105.0, deslanted), down to y=-380.0; outer arm edges extended to meet a stem of 'afii10082''s width at y=-20.1; kerning from `afii10085`; mark anchors from `v`.
 - U+20AE ₮ `uni20AE`: 'T' outline + two parallel strokes (vertical end cuts) centred on the stem: perpendicular thickness 70.2 (= 0.78 x crossbar 90), angle 20 deg, x 209..876 (62% of the crossbar), centre lines cross the stem axis at y=395.6 and y=849.6; white gaps baseline/between/crossbar = (237.0, 379.2, 331.8) (default); kerning: `T`'s values against digits and punctuation only (capped: four).
 
-#### `SensaSansMN-LightItalic.ttf` (from `Sansation-LightItalic.ttf`)
+#### `SelengeSansMN-LightItalic.ttf` (from `Sansation-LightItalic.ttf`)
 
 Kerning: this font kerns with its legacy `kern` table (its GPOS has no kern feature), so the kerning listed below is written to the `kern` table.
 
@@ -33,7 +33,7 @@ Italic: new outlines constructed upright and re-slanted by 11.3 deg (the font's 
 - U+04AF ү `uni04AF`: 'v' outline with a straight stem and 'afii10082''s terminal: stem width 105.2 ('afii10082' 105.2, deslanted), down to y=-380.0; outer arm edges extended to meet a stem of 'afii10082''s width at y=-19.9; italic slant 11.3 deg; kerning from `afii10085`; mark anchors from `v`.
 - U+20AE ₮ `uni20AE`: 'T' outline + two parallel strokes (vertical end cuts) centred on the stem: perpendicular thickness 70.2 (= 0.78 x crossbar 90), angle 20 deg, x 67..734 (62% of the crossbar), centre lines cross the stem axis at y=395.6 and y=849.6; white gaps baseline/between/crossbar = (237.0, 379.2, 331.8) (default); kerning: `T`'s values against digits and punctuation only (capped: four).
 
-#### `SensaSansMN-Regular.ttf` (from `Sansation-Regular.ttf`)
+#### `SelengeSansMN-Regular.ttf` (from `Sansation-Regular.ttf`)
 
 Kerning: this font kerns with its legacy `kern` table (its GPOS has no kern feature), so the kerning listed below is written to the `kern` table.
 
@@ -43,7 +43,7 @@ Kerning: this font kerns with its legacy `kern` table (its GPOS has no kern feat
 - U+04AF ү `uni04AF`: 'v' outline with a straight stem and 'afii10082''s terminal: stem width 185.0 ('afii10082' 185.0, deslanted), down to y=-380.0; outer arm edges extended to meet a stem of 'afii10082''s width at y=16.5; kerning from `afii10085`; mark anchors from `v`.
 - U+20AE ₮ `uni20AE`: 'T' outline + two parallel strokes (vertical end cuts) centred on the stem: perpendicular thickness 117.0 (= 0.78 x crossbar 150), angle 20 deg, x 256..929 (62% of the crossbar), centre lines cross the stem axis at y=381.2 and y=820.2; white gaps baseline/between/crossbar = (196.5, 314.5, 275.1) (default); kerning: `T`'s values against digits and punctuation only (capped: four).
 
-#### `SensaSansMN-Italic.ttf` (from `Sansation-Italic.ttf`)
+#### `SelengeSansMN-Italic.ttf` (from `Sansation-Italic.ttf`)
 
 Kerning: this font kerns with its legacy `kern` table (its GPOS has no kern feature), so the kerning listed below is written to the `kern` table.
 
@@ -55,7 +55,7 @@ Italic: new outlines constructed upright and re-slanted by 11.3 deg (the font's 
 - U+04AF ү `uni04AF`: 'v' outline with a straight stem and 'afii10082''s terminal: stem width 185.1 ('afii10082' 185.1, deslanted), down to y=-380.0; outer arm edges extended to meet a stem of 'afii10082''s width at y=16.7; italic slant 11.3 deg; kerning from `afii10085`; mark anchors from `v`.
 - U+20AE ₮ `uni20AE`: 'T' outline + two parallel strokes (vertical end cuts) centred on the stem: perpendicular thickness 117.0 (= 0.78 x crossbar 150), angle 20 deg, x 114..787 (62% of the crossbar), centre lines cross the stem axis at y=381.2 and y=820.2; white gaps baseline/between/crossbar = (196.5, 314.5, 275.1) (default); kerning: `T`'s values against digits and punctuation only (capped: four).
 
-#### `SensaSansMN-Bold.ttf` (from `Sansation-Bold.ttf`)
+#### `SelengeSansMN-Bold.ttf` (from `Sansation-Bold.ttf`)
 
 Kerning: this font kerns with its legacy `kern` table (its GPOS has no kern feature), so the kerning listed below is written to the `kern` table.
 
@@ -65,7 +65,7 @@ Kerning: this font kerns with its legacy `kern` table (its GPOS has no kern feat
 - U+04AF ү `uni04AF`: 'v' outline with a straight stem and 'afii10082''s terminal: stem width 265.0 ('afii10082' 265.0, deslanted), down to y=-380.0; outer arm edges extended to meet a stem of 'afii10082''s width at y=16.5; kerning from `afii10085`; mark anchors from `v`.
 - U+20AE ₮ `uni20AE`: 'T' outline + two parallel strokes (vertical end cuts) centred on the stem: perpendicular thickness 179.4 (= 0.78 x crossbar 230), angle 20 deg, x 206..879 (62% of the crossbar), centre lines cross the stem axis at y=361.2 and y=781.5; white gaps baseline/between/crossbar = (143.3, 229.3, 200.7) (default); kerning: `T`'s values against digits and punctuation only (capped: four).
 
-#### `SensaSansMN-BoldItalic.ttf` (from `Sansation-BoldItalic.ttf`)
+#### `SelengeSansMN-BoldItalic.ttf` (from `Sansation-BoldItalic.ttf`)
 
 Kerning: this font kerns with its legacy `kern` table (its GPOS has no kern feature), so the kerning listed below is written to the `kern` table.
 
@@ -83,12 +83,12 @@ tools/build_mn.py with tools/families/sansation.json (same pipeline and review r
 
 ## Files
 
-- `SensaSansMN-Light.ttf` - static font
-- `SensaSansMN-LightItalic.ttf` - static font
-- `SensaSansMN-Regular.ttf` - static font
-- `SensaSansMN-Italic.ttf` - static font
-- `SensaSansMN-Bold.ttf` - static font
-- `SensaSansMN-BoldItalic.ttf` - static font
+- `SelengeSansMN-Light.ttf` - static font
+- `SelengeSansMN-LightItalic.ttf` - static font
+- `SelengeSansMN-Regular.ttf` - static font
+- `SelengeSansMN-Italic.ttf` - static font
+- `SelengeSansMN-Bold.ttf` - static font
+- `SelengeSansMN-BoldItalic.ttf` - static font
 
 ## Acknowledgements
 

@@ -3,56 +3,56 @@
   "family_id": "sansation",
   "license": "sources/sansation/OFL.txt",
   "upstream": "https://github.com/googlefonts/googlefontdirectory-hg",
-  "out_dir": "build/SensaSansMN",
+  "out_dir": "build/SelengeSansMN",
   "family_name": "Sansation",
-  "new_family_name": "Sensa Sans MN",
+  "new_family_name": "Selenge Sans MN",
   "version_suffix": "MN 0.1",
   "copyright_append": "Mongolian additions ({added}) 2026, Font Shuugch project.",
   "date": "2026-10-19",
-  "license_note": "RESERVED FONT NAME: the original OFL.txt reserves the name 'Sansation' (Copyright (c) 2011 by Bernd Montag, with Reserved Font Name 'Sansation'). A modified version may not use the reserved name, so this edition is released as 'Sensa Sans MN' (files SensaSansMN-*.ttf) and its font names (family, full, PostScript, unique ID) no longer contain the word 'Sansation'; the original author is credited in the copyright notice and below. NameID 0 (the copyright notice) keeps the original line verbatim, including its Reserved-Font-Name declaration, because the OFL requires the copyright notice to be retained; every other name record is renamed. The unique IDs (nameID 3), identical in all six original files, are made distinct per style.",
+  "license_note": "RESERVED FONT NAME: the original OFL.txt reserves the name 'Sansation' (Copyright (c) 2011 by Bernd Montag, with Reserved Font Name 'Sansation'). A modified version may not use the reserved name, so this edition is released as 'Selenge Sans MN' (files SelengeSansMN-*.ttf) and its font names (family, full, PostScript, unique ID) no longer contain the word 'Sansation'; the original author is credited in the copyright notice and below. NameID 0 (the copyright notice) keeps the original line verbatim, including its Reserved-Font-Name declaration, because the OFL requires the copyright notice to be retained; every other name record is renamed. The unique IDs (nameID 3), identical in all six original files, are made distinct per style.",
   "reserved_font_name": "Sansation",
   "statics": false,
   "fonts": [
     {
       "source": "sources/sansation/Sansation-Light.ttf",
-      "out_file": "SensaSansMN-Light.ttf",
+      "out_file": "SelengeSansMN-Light.ttf",
       "name_overrides": {
-        "3": "BerndMontag: Sensa Sans MN Light: 2011;MN0.1"
+        "3": "BerndMontag: Selenge Sans MN Light: 2011;MN0.1"
       }
     },
     {
       "source": "sources/sansation/Sansation-LightItalic.ttf",
-      "out_file": "SensaSansMN-LightItalic.ttf",
+      "out_file": "SelengeSansMN-LightItalic.ttf",
       "name_overrides": {
-        "3": "BerndMontag: Sensa Sans MN Light Italic: 2011;MN0.1"
+        "3": "BerndMontag: Selenge Sans MN Light Italic: 2011;MN0.1"
       }
     },
     {
       "source": "sources/sansation/Sansation-Regular.ttf",
-      "out_file": "SensaSansMN-Regular.ttf",
+      "out_file": "SelengeSansMN-Regular.ttf",
       "name_overrides": {
-        "3": "BerndMontag: Sensa Sans MN Regular: 2011;MN0.1"
+        "3": "BerndMontag: Selenge Sans MN Regular: 2011;MN0.1"
       }
     },
     {
       "source": "sources/sansation/Sansation-Italic.ttf",
-      "out_file": "SensaSansMN-Italic.ttf",
+      "out_file": "SelengeSansMN-Italic.ttf",
       "name_overrides": {
-        "3": "BerndMontag: Sensa Sans MN Italic: 2011;MN0.1"
+        "3": "BerndMontag: Selenge Sans MN Italic: 2011;MN0.1"
       }
     },
     {
       "source": "sources/sansation/Sansation-Bold.ttf",
-      "out_file": "SensaSansMN-Bold.ttf",
+      "out_file": "SelengeSansMN-Bold.ttf",
       "name_overrides": {
-        "3": "BerndMontag: Sensa Sans MN Bold: 2011;MN0.1"
+        "3": "BerndMontag: Selenge Sans MN Bold: 2011;MN0.1"
       }
     },
     {
       "source": "sources/sansation/Sansation-BoldItalic.ttf",
-      "out_file": "SensaSansMN-BoldItalic.ttf",
+      "out_file": "SelengeSansMN-BoldItalic.ttf",
       "name_overrides": {
-        "3": "BerndMontag: Sensa Sans MN Bold Italic: 2011;MN0.1"
+        "3": "BerndMontag: Selenge Sans MN Bold Italic: 2011;MN0.1"
       }
     }
   ],

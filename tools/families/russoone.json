@@ -3,24 +3,24 @@
   "family_id": "russoone",
   "license": "sources/russoone/OFL.txt",
   "upstream": "https://github.com/googlefonts/russoone",
-  "out_dir": "build/SteppeOneMN",
+  "out_dir": "build/TuulOneMN",
   "family_name": "Russo One",
-  "new_family_name": "Steppe One MN",
+  "new_family_name": "Tuul One MN",
   "version_suffix": "MN 0.1",
   "copyright_append": "Mongolian additions ({added}) 2026, Font Shuugch project.",
   "date": "2026-10-19",
-  "license_note": "RESERVED FONT NAME: the original OFL.txt reserves the name 'Russo' (Copyright (c) 2011-2012, Jovanny Lemonad (jovanny.ru), with Reserved Font Name \"Russo\"). A modified version may not use the reserved name, so this edition is released as 'Steppe One MN' (files SteppeOneMN-*.ttf) and its font names (family, full, PostScript, unique ID, trademark line, compatible full name) no longer contain the word 'Russo'; the original author is credited in the copyright notice and below. NameID 0 (the copyright notice) keeps the original line verbatim, including its Reserved-Font-Name declaration, because the OFL requires the copyright notice to be retained; every other name record is renamed.",
+  "license_note": "RESERVED FONT NAME: the original OFL.txt reserves the name 'Russo' (Copyright (c) 2011-2012, Jovanny Lemonad (jovanny.ru), with Reserved Font Name \"Russo\"). A modified version may not use the reserved name, so this edition is released as 'Tuul One MN' (files TuulOneMN-*.ttf) and its font names (family, full, PostScript, unique ID, trademark line, compatible full name) no longer contain the word 'Russo'; the original author is credited in the copyright notice and below. NameID 0 (the copyright notice) keeps the original line verbatim, including its Reserved-Font-Name declaration, because the OFL requires the copyright notice to be retained; every other name record is renamed.",
   "reserved_font_name": "Russo",
   "name_overrides": {
-    "3": "JovannyLemonad: Steppe One MN: 2012;MN0.1",
-    "7": "Steppe One MN is a modified version of a typeface by Jovanny Lemonad; it is released under a different name because the original name is reserved.",
-    "18": "Steppe One MN"
+    "3": "JovannyLemonad: Tuul One MN: 2012;MN0.1",
+    "7": "Tuul One MN is a modified version of a typeface by Jovanny Lemonad; it is released under a different name because the original name is reserved.",
+    "18": "Tuul One MN"
   },
   "statics": false,
   "fonts": [
     {
       "source": "sources/russoone/RussoOne-Regular.ttf",
-      "out_file": "SteppeOneMN-Regular.ttf"
+      "out_file": "TuulOneMN-Regular.ttf"
     }
   ],
   "glyphs": {

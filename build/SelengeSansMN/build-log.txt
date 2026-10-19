@@ -35,13 +35,13 @@ mark: uni04E9 base anchors cloned from afii10080 (0 subtables)
 mark: uni04AE base anchors cloned from Y (0 subtables)
 mark: uni04AF base anchors cloned from v (0 subtables)
 name 0: "Copyright (c) 2011 by Bernd Montag, with Reserved Font Name 'Sansation'" -> "Copyright (c) 2011 by Bernd Montag, with Reserved Font Name 'Sansation'. Mongolian additions (U+04E8 U+04E9 U+04AE U+04AF U+20AE) 2026, Font Shuugch project."
-name 1: 'Sansation Light' -> 'Sensa Sans MN Light'
-name 3: 'Sansation - © 2011 Bernd Montag' -> 'SensaSansMN - © 2011 Bernd Montag;MN0.1'
-name 4: 'Sansation Light' -> 'Sensa Sans MN Light'
+name 1: 'Sansation Light' -> 'Selenge Sans MN Light'
+name 3: 'Sansation - © 2011 Bernd Montag' -> 'SelengeSansMN - © 2011 Bernd Montag;MN0.1'
+name 4: 'Sansation Light' -> 'Selenge Sans MN Light'
 name 5: 'Version 1.301' -> 'Version 1.301;MN 0.1'
-name 6: 'Sansation-Light' -> 'SensaSansMN-Light'
+name 6: 'Sansation-Light' -> 'SelengeSansMN-Light'
 OS/2 ulUnicodeRange bits added: [9, 33]
-saved build/SensaSansMN/SensaSansMN-Light.ttf
+saved build/SelengeSansMN/SelengeSansMN-Light.ttf
 source: sources/sansation/Sansation-LightItalic.ttf (v1.000, 526 glyphs, static)
 italic: post.italicAngle 0.0 deg -> tan 0.0000; measured on I 0.2; using 0.2000
 masters (normalized): default
@@ -80,13 +80,13 @@ mark: uni04E9 base anchors cloned from afii10080 (0 subtables)
 mark: uni04AE base anchors cloned from Y (0 subtables)
 mark: uni04AF base anchors cloned from v (0 subtables)
 name 0: "Copyright (c) 2011 by Bernd Montag, with Reserved Font Name 'Sansation'" -> "Copyright (c) 2011 by Bernd Montag, with Reserved Font Name 'Sansation'. Mongolian additions (U+04E8 U+04E9 U+04AE U+04AF U+20AE) 2026, Font Shuugch project."
-name 1: 'Sansation Light' -> 'Sensa Sans MN Light'
-name 3: 'Sansation - © 2011 Bernd Montag' -> 'SensaSansMN - © 2011 Bernd Montag;MN0.1'
-name 4: 'Sansation Light Italic' -> 'Sensa Sans MN Light Italic'
+name 1: 'Sansation Light' -> 'Selenge Sans MN Light'
+name 3: 'Sansation - © 2011 Bernd Montag' -> 'SelengeSansMN - © 2011 Bernd Montag;MN0.1'
+name 4: 'Sansation Light Italic' -> 'Selenge Sans MN Light Italic'
 name 5: 'Version 1.301' -> 'Version 1.301;MN 0.1'
-name 6: 'Sansation-LightItalic' -> 'SensaSansMN-LightItalic'
+name 6: 'Sansation-LightItalic' -> 'SelengeSansMN-LightItalic'
 OS/2 ulUnicodeRange bits added: [9, 33]
-saved build/SensaSansMN/SensaSansMN-LightItalic.ttf
+saved build/SelengeSansMN/SelengeSansMN-LightItalic.ttf
 source: sources/sansation/Sansation-Regular.ttf (v1.000, 533 glyphs, static)
 masters (normalized): default
 uni04E8 (U+04E8): candidate Theta rejected: Theta bar does not join both walls at default (ink runs at y=715: [(120, 315), (493, 1168), (1350, 1545)])
@@ -124,13 +124,13 @@ mark: uni04E9 base anchors cloned from afii10080 (0 subtables)
 mark: uni04AE base anchors cloned from Y (0 subtables)
 mark: uni04AF base anchors cloned from v (0 subtables)
 name 0: "Copyright (c) 2011 by Bernd Montag, with Reserved Font Name 'Sansation'" -> "Copyright (c) 2011 by Bernd Montag, with Reserved Font Name 'Sansation'. Mongolian additions (U+04E8 U+04E9 U+04AE U+04AF U+20AE) 2026, Font Shuugch project."
-name 1: 'Sansation' -> 'Sensa Sans MN'
-name 3: 'Sansation - © 2011 Bernd Montag' -> 'SensaSansMN - © 2011 Bernd Montag;MN0.1'
-name 4: 'Sansation Regular' -> 'Sensa Sans MN Regular'
+name 1: 'Sansation' -> 'Selenge Sans MN'
+name 3: 'Sansation - © 2011 Bernd Montag' -> 'SelengeSansMN - © 2011 Bernd Montag;MN0.1'
+name 4: 'Sansation Regular' -> 'Selenge Sans MN Regular'
 name 5: 'Version 1.301' -> 'Version 1.301;MN 0.1'
-name 6: 'Sansation-Regular' -> 'SensaSansMN-Regular'
+name 6: 'Sansation-Regular' -> 'SelengeSansMN-Regular'
 OS/2 ulUnicodeRange bits added: [9, 33]
-saved build/SensaSansMN/SensaSansMN-Regular.ttf
+saved build/SelengeSansMN/SelengeSansMN-Regular.ttf
 source: sources/sansation/Sansation-Italic.ttf (v1.000, 526 glyphs, static)
 italic: post.italicAngle 0.0 deg -> tan 0.0000; measured on I 0.2; using 0.2000
 masters (normalized): default
@@ -169,13 +169,13 @@ mark: uni04E9 base anchors cloned from afii10080 (0 subtables)
 mark: uni04AE base anchors cloned from Y (0 subtables)
 mark: uni04AF base anchors cloned from v (0 subtables)
 name 0: "Copyright (c) 2011 by Bernd Montag, with Reserved Font Name 'Sansation'" -> "Copyright (c) 2011 by Bernd Montag, with Reserved Font Name 'Sansation'. Mongolian additions (U+04E8 U+04E9 U+04AE U+04AF U+20AE) 2026, Font Shuugch project."
-name 1: 'Sansation' -> 'Sensa Sans MN'
-name 3: 'Sansation - © 2011 Bernd Montag' -> 'SensaSansMN - © 2011 Bernd Montag;MN0.1'
-name 4: 'Sansation Italic' -> 'Sensa Sans MN Italic'
+name 1: 'Sansation' -> 'Selenge Sans MN'
+name 3: 'Sansation - © 2011 Bernd Montag' -> 'SelengeSansMN - © 2011 Bernd Montag;MN0.1'
+name 4: 'Sansation Italic' -> 'Selenge Sans MN Italic'
 name 5: 'Version 1.301' -> 'Version 1.301;MN 0.1'
-name 6: 'Sansation-Italic' -> 'SensaSansMN-Italic'
+name 6: 'Sansation-Italic' -> 'SelengeSansMN-Italic'
 OS/2 ulUnicodeRange bits added: [9, 33]
-saved build/SensaSansMN/SensaSansMN-Italic.ttf
+saved build/SelengeSansMN/SelengeSansMN-Italic.ttf
 source: sources/sansation/Sansation-Bold.ttf (v1.000, 533 glyphs, static)
 masters (normalized): default
 uni04E8 (U+04E8): candidate Theta rejected: Theta extent differs from afii10032 at default
@@ -213,13 +213,13 @@ mark: uni04E9 base anchors cloned from afii10080 (0 subtables)
 mark: uni04AE base anchors cloned from Y (0 subtables)
 mark: uni04AF base anchors cloned from v (0 subtables)
 name 0: "Copyright (c) 2011 by Bernd Montag, with Reserved Font Name 'Sansation'" -> "Copyright (c) 2011 by Bernd Montag, with Reserved Font Name 'Sansation'. Mongolian additions (U+04E8 U+04E9 U+04AE U+04AF U+20AE) 2026, Font Shuugch project."
-name 1: 'Sansation' -> 'Sensa Sans MN'
-name 3: 'Sansation - © 2011 Bernd Montag' -> 'SensaSansMN - © 2011 Bernd Montag;MN0.1'
-name 4: 'Sansation Bold' -> 'Sensa Sans MN Bold'
+name 1: 'Sansation' -> 'Selenge Sans MN'
+name 3: 'Sansation - © 2011 Bernd Montag' -> 'SelengeSansMN - © 2011 Bernd Montag;MN0.1'
+name 4: 'Sansation Bold' -> 'Selenge Sans MN Bold'
 name 5: 'Version 1.301' -> 'Version 1.301;MN 0.1'
-name 6: 'Sansation-Bold' -> 'SensaSansMN-Bold'
+name 6: 'Sansation-Bold' -> 'SelengeSansMN-Bold'
 OS/2 ulUnicodeRange bits added: [9, 33]
-saved build/SensaSansMN/SensaSansMN-Bold.ttf
+saved build/SelengeSansMN/SelengeSansMN-Bold.ttf
 source: sources/sansation/Sansation-BoldItalic.ttf (v1.000, 526 glyphs, static)
 italic: post.italicAngle 0.0 deg -> tan 0.0000; measured on I 0.2; using 0.2000
 masters (normalized): default
@@ -258,10 +258,10 @@ mark: uni04E9 base anchors cloned from afii10080 (0 subtables)
 mark: uni04AE base anchors cloned from Y (0 subtables)
 mark: uni04AF base anchors cloned from v (0 subtables)
 name 0: "Copyright (c) 2011 by Bernd Montag, with Reserved Font Name 'Sansation'" -> "Copyright (c) 2011 by Bernd Montag, with Reserved Font Name 'Sansation'. Mongolian additions (U+04E8 U+04E9 U+04AE U+04AF U+20AE) 2026, Font Shuugch project."
-name 1: 'Sansation' -> 'Sensa Sans MN'
-name 3: 'Sansation - © 2011 Bernd Montag' -> 'SensaSansMN - © 2011 Bernd Montag;MN0.1'
-name 4: 'Sansation Bold Italic' -> 'Sensa Sans MN Bold Italic'
+name 1: 'Sansation' -> 'Selenge Sans MN'
+name 3: 'Sansation - © 2011 Bernd Montag' -> 'SelengeSansMN - © 2011 Bernd Montag;MN0.1'
+name 4: 'Sansation Bold Italic' -> 'Selenge Sans MN Bold Italic'
 name 5: 'Version 1.301' -> 'Version 1.301;MN 0.1'
-name 6: 'Sansation-BoldItalic' -> 'SensaSansMN-BoldItalic'
+name 6: 'Sansation-BoldItalic' -> 'SelengeSansMN-BoldItalic'
 OS/2 ulUnicodeRange bits added: [9, 33]
-saved build/SensaSansMN/SensaSansMN-BoldItalic.ttf
+saved build/SelengeSansMN/SelengeSansMN-BoldItalic.ttf

@@ -1,8 +1,8 @@
 {
- "family": "Sensa Sans MN",
+ "family": "Selenge Sans MN",
  "fonts": [
   {
-   "file": "SensaSansMN-Light.ttf",
+   "file": "SelengeSansMN-Light.ttf",
    "source": "sources/sansation/Sansation-Light.ttf",
    "variable": false,
    "slant": 0.0,
@@ -371,7 +371,7 @@
    "legacy_kern": true
   },
   {
-   "file": "SensaSansMN-LightItalic.ttf",
+   "file": "SelengeSansMN-LightItalic.ttf",
    "source": "sources/sansation/Sansation-LightItalic.ttf",
    "variable": false,
    "slant": 0.20000000000000004,
@@ -740,7 +740,7 @@
    "legacy_kern": true
   },
   {
-   "file": "SensaSansMN-Regular.ttf",
+   "file": "SelengeSansMN-Regular.ttf",
    "source": "sources/sansation/Sansation-Regular.ttf",
    "variable": false,
    "slant": 0.0,
@@ -1109,7 +1109,7 @@
    "legacy_kern": true
   },
   {
-   "file": "SensaSansMN-Italic.ttf",
+   "file": "SelengeSansMN-Italic.ttf",
    "source": "sources/sansation/Sansation-Italic.ttf",
    "variable": false,
    "slant": 0.20000000000000004,
@@ -1478,7 +1478,7 @@
    "legacy_kern": true
   },
   {
-   "file": "SensaSansMN-Bold.ttf",
+   "file": "SelengeSansMN-Bold.ttf",
    "source": "sources/sansation/Sansation-Bold.ttf",
    "variable": false,
    "slant": 0.0,
@@ -1847,7 +1847,7 @@
    "legacy_kern": true
   },
   {
-   "file": "SensaSansMN-BoldItalic.ttf",
+   "file": "SelengeSansMN-BoldItalic.ttf",
    "source": "sources/sansation/Sansation-BoldItalic.ttf",
    "variable": false,
    "slant": 0.20000000000000004,

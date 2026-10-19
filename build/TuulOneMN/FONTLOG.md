@@ -1,8 +1,8 @@
-# FONTLOG for Steppe One MN
+# FONTLOG for Tuul One MN
 
-Steppe One MN is a modified version of **Russo One** v1.000 (https://github.com/googlefonts/russoone), released under the SIL Open Font License 1.1 (see OFL.txt). It is renamed so that it never clashes with the original.
+Tuul One MN is a modified version of **Russo One** v1.000 (https://github.com/googlefonts/russoone), released under the SIL Open Font License 1.1 (see OFL.txt). It is renamed so that it never clashes with the original.
 
-RESERVED FONT NAME: the original OFL.txt reserves the name 'Russo' (Copyright (c) 2011-2012, Jovanny Lemonad (jovanny.ru), with Reserved Font Name "Russo"). A modified version may not use the reserved name, so this edition is released as 'Steppe One MN' (files SteppeOneMN-*.ttf) and its font names (family, full, PostScript, unique ID, trademark line, compatible full name) no longer contain the word 'Russo'; the original author is credited in the copyright notice and below. NameID 0 (the copyright notice) keeps the original line verbatim, including its Reserved-Font-Name declaration, because the OFL requires the copyright notice to be retained; every other name record is renamed.
+RESERVED FONT NAME: the original OFL.txt reserves the name 'Russo' (Copyright (c) 2011-2012, Jovanny Lemonad (jovanny.ru), with Reserved Font Name "Russo"). A modified version may not use the reserved name, so this edition is released as 'Tuul One MN' (files TuulOneMN-*.ttf) and its font names (family, full, PostScript, unique ID, trademark line, compatible full name) no longer contain the word 'Russo'; the original author is credited in the copyright notice and below. NameID 0 (the copyright notice) keeps the original line verbatim, including its Reserved-Font-Name declaration, because the OFL requires the copyright notice to be retained; every other name record is renamed.
 
 ## Changelog
 
@@ -11,7 +11,7 @@ RESERVED FONT NAME: the original OFL.txt reserves the name 'Russo' (Copyright (c
 Added the letters Mongolian Cyrillic needs that the original lacks. No existing glyph was altered.
 
 
-#### `SteppeOneMN-Regular.ttf` (from `RussoOne-Regular.ttf`)
+#### `TuulOneMN-Regular.ttf` (from `RussoOne-Regular.ttf`)
 
 - U+04E8 Ө `uni04E8`: 'afii10032' + bar from afii10031 crossbar: thickness 140.0, centre y=350.0, x 130..600 (default); kerning from `afii10032`; mark anchors from `afii10032`.
 - U+04E9 ө `uni04E9`: 'afii10080' + bar from afii10079 crossbar: thickness 107.7, centre y=265.0, x 128..502 (default); kerning from `afii10080`; mark anchors from `afii10080`.
@@ -25,7 +25,7 @@ tools/build_mn.py with tools/families/russoone.json (same pipeline and review ru
 
 ## Files
 
-- `SteppeOneMN-Regular.ttf` - static font
+- `TuulOneMN-Regular.ttf` - static font
 
 ## Acknowledgements
 

@@ -31,18 +31,18 @@ Each family is a zip on the [Releases page](https://github.com/Kizaialt/mn-font-
 | **Murecho MN** | [Murecho](https://github.com/positype/Murecho-Project) by Neil Summerour | variable + 9 static | roman |
 | **Orangerie MN** | [Oranienbaum](https://github.com/googlefonts/googlefontdirectory-hg) by Oleg Pospelov, Jovanny Lemonad | 1 static | roman |
 | **Plain One MN** | [Prosto One](https://github.com/googlefonts/googlefontdirectory-hg) by Jovanny Lemonad, Pavel Emelyanov | 1 static | roman |
-| **Sensa Sans MN** | [Sansation](https://github.com/googlefonts/googlefontdirectory-hg) by Bernd Montag | 6 static | roman + italic |
+| **Selenge Sans MN** | [Sansation](https://github.com/googlefonts/googlefontdirectory-hg) by Bernd Montag | 6 static | roman + italic |
 | **Sofia Sans MN** | [Sofia Sans](https://github.com/lettersoup/Sofia-Sans) by Lettersoup, Botio Nikoltchev, Ani Petrova | variable + 18 static | roman + italic |
 | **Sofia Sans Condensed MN** | [Sofia Sans Condensed](https://github.com/lettersoup/Sofia-Sans) by Lettersoup, Botio Nikoltchev, Ani Petrova | variable + 18 static | roman + italic |
 | **Sofia Sans Extra Condensed MN** | [Sofia Sans Extra Condensed](https://github.com/lettersoup/Sofia-Sans) by Lettersoup, Botio Nikoltchev, Ani Petrova | variable + 18 static | roman + italic |
 | **Sofia Sans Semi Condensed MN** | [Sofia Sans Semi Condensed](https://github.com/lettersoup/Sofia-Sans) by Lettersoup, Botio Nikoltchev, Ani Petrova | variable + 18 static | roman + italic |
-| **Steppe One MN** | [Russo One](https://github.com/googlefonts/russoone) by Jovanny Lemonad | 1 static | roman |
+| **Tuul One MN** | [Russo One](https://github.com/googlefonts/russoone) by Jovanny Lemonad | 1 static | roman |
 | **Unbounded MN** | [Unbounded](https://github.com/googlefonts/unbounded) by NaN | variable + 8 static | roman |
 | **Wix Madefor Display MN** | [Wix Madefor Display](https://github.com/wix/wixmadefor) by Dalton Maag | variable + 5 static | roman |
 | **Wix Madefor Text MN** | [Wix Madefor Text](https://github.com/wix-incubator/wixmadefor) by Dalton Maag | variable + 5 static | roman |
 | **Yanone Kaffeesatz MN** | [Yanone Kaffeesatz](https://github.com/yanone/kaffeesatz) by Yanone, Cyreal | variable + 6 static | roman |
 
-Italics are included where the original has Cyrillic italics that the method can extend. Wix Madefor Text's italic has no Cyrillic, and Bona Nova's italic uses a cursive v, so those are roman only. Yanone Kaffeesatz already had ₮, so it gains Ө ө Ү ү only. Jost and Sansation (Sensa Sans MN) include their italics.
+Italics are included where the original has Cyrillic italics that the method can extend. Wix Madefor Text's italic has no Cyrillic, and Bona Nova's italic uses a cursive v, so those are roman only. Yanone Kaffeesatz already had ₮, so it gains Ө ө Ү ү only. Jost and Sansation (Selenge Sans MN) include their italics.
 
 ## How the letters were made
 
@@ -57,7 +57,7 @@ Where an original's outlines run in PostScript (counter-clockwise) order, the ne
 
 ## License
 
-Each edition keeps the [SIL Open Font License 1.1](https://openfontlicense.org/) of its original; see `OFL.txt` in each folder. The original copyright notices are kept, and the Mongolian additions are credited to the Font Shuugch project. Some originals declare a Reserved Font Name that modified versions may not use, so their editions are renamed: **Orangerie MN** is Oranienbaum, **Steppe One MN** is Russo One (reserved: "Russo"), **Alto Sans MN** is Tenor Sans ("Tenor", "Tenor Sans"), **Plain One MN** is Prosto One ("Prosto", "Prosto One") and **Sensa Sans MN** is Sansation ("Sansation"). Each FONTLOG.md names the original.
+Each edition keeps the [SIL Open Font License 1.1](https://openfontlicense.org/) of its original; see `OFL.txt` in each folder. The original copyright notices are kept, and the Mongolian additions are credited to the Font Shuugch project. Some originals declare a Reserved Font Name that modified versions may not use, so their editions are renamed: **Orangerie MN** is Oranienbaum, **Tuul One MN** is Russo One (reserved: "Russo"), **Alto Sans MN** is Tenor Sans ("Tenor", "Tenor Sans"), **Plain One MN** is Prosto One ("Prosto", "Prosto One") and **Selenge Sans MN** is Sansation ("Sansation"). Each FONTLOG.md names the original.
 
 These editions are not made or endorsed by the original designers. Mongolian support is offered back to each original project, so future official versions may include it.
 

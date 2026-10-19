@@ -1,8 +1,8 @@
 {
- "family": "Steppe One MN",
+ "family": "Tuul One MN",
  "fonts": [
   {
-   "file": "SteppeOneMN-Regular.ttf",
+   "file": "TuulOneMN-Regular.ttf",
    "source": "sources/russoone/RussoOne-Regular.ttf",
    "variable": false,
    "slant": 0.0,
